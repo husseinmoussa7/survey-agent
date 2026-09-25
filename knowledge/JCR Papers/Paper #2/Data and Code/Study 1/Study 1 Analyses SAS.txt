@@ -1,0 +1,185 @@
+*the following code is for SAS;
+
+*prep data;
+
+data study;
+set study;
+if streak1 gt 2 then HaveStreak = 1;
+else HaveStreak = 0;
+if havestreak=1 then havestreakCAT = "streak";
+if havestreak=0 then havestreakCAT = "zno";
+run;
+
+
+data study;
+set study;
+if streak1 = 0 then length2 = 0;
+else length2 = 1;
+if streak1 gt 3 then length4 = 1;
+else length4 = 0;
+if streak1 gt 4 then length5 = 1;
+else length5 = 0;
+if streak1 gt 9 then length10 = 1;
+else length10 = 0;
+if streak1 gt 14 then length15 = 1;
+else length15 = 0;
+if streak1 gt 19 then length20 = 1;
+else length20 = 0;
+run;
+data study;
+set study;
+if streakbeforemiss3 gt 2 then streakbeforemiss3DUMMY = 1;
+if streakbeforemiss3 lt 3 then streakbeforemiss3DUMMY = 0;
+run;
+
+
+data study;
+set study;
+if streakbeforemiss gt 2 then streakbeforemissDUMMY = 1;
+if streakbeforemiss lt 3 then streakbeforemissDUMMY = 0;
+streakbeforemiss2 = input(streakbeforemiss, best5.);
+run;
+
+
+data study;
+set study;
+if streakbeforemiss2 = 1 then brlength2 = 0;
+if streakbeforemiss2 gt 1 then brlength2 = 1;
+if streakbeforemiss2 gt 3 then brlength4 = 1;
+if streakbeforemiss2 lt 4 then brlength4 = 0;
+if streakbeforemiss2 gt 4 then brlength5 = 1;
+if streakbeforemiss2 lt 5 then brlength5 = 0;
+if streakbeforemiss2 gt 9 then brlength10 = 1;
+if streakbeforemiss2 lt 10 then brlength10 = 0;
+if streakbeforemiss2 gt 14 then brlength15 = 1;
+if streakbeforemiss2 lt 15 then brlength15 = 0;
+if streakbeforemiss2 gt 19 then brlength20 = 1;
+if streakbeforemiss2 lt 20 then brlength20 = 0;
+run;
+
+*main analyses reported in paper;
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = HaveStreak ratemeetgoal  /dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id;
+model MeetGoal = streakbeforemissDUMMY ratemeetgoal /dist=bin link=logit ;
+repeated subject=user_ID;
+run;
+
+*continuous analyses;
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = streak1 ratemeetgoal /dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id;
+model MeetGoal = streakbeforemiss2 ratemeetgoal /dist=bin link=logit ;
+repeated subject=user_ID;
+run;
+
+*state dependence;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = streakbeforemissDUMMY ratemeetgoal  weekenddummy day meetgoalstatedep/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = streakbeforemissDUMMY ratemeetgoal   meetgoalstatedep/dist=bin link=logit;
+repeated subject=user_ID;
+run; 
+
+*intact streak - additional lengths and controls;
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = length2 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = havestreak ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = length4 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = length5 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = length10 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = length15 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = length20 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+
+*broken streak - additional lengths and controls;
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = brlength2 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = streakbeforemissDUMMY ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = brlength4 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = brlength5 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = brlength10 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = brlength15 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;
+
+proc genmod data=study descending;
+class user_id ;
+model MeetGoal = brlength20 ratemeetgoal  weekenddummy day/dist=bin link=logit;
+repeated subject=user_ID;
+run;

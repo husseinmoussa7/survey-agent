@@ -1,0 +1,152 @@
+---
+title: "Study 3b - IAT"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r}
+rm(list=ls())
+
+
+library(foreign)
+library(car) # for recode
+library(MASS)
+library(quantreg)
+library(lme4)
+library(ggplot2)
+library(Hmisc)  # for matrix correlation 'rcorr'
+library(dplyr)
+library(tidyr)
+library("mediation")
+library(lfe)
+require(multcomp)
+library(lsr) # for etaSquared
+require(emmeans)
+library(foreign)
+library(data.table)
+library(ez) # for eta-squared in repeated measure
+library(multcomp) # for anova post-hoc test
+library(emmeans)  # for anova post-hoc test
+library("effectsize")
+library("reghelper")
+library("psych")
+library(magrittr)
+
+
+# THIS R SCRIPT INSTALLS THE IATGEN PACKAGE FROM THE GITHUB REPOSITORY AND ACTIVATES IT FOR USE
+
+devtools::install_github("iatgen/iatgen")
+library(iatgen)
+
+```
+
+############################################################################################
+#                           Study 3b - IAT - Mturk                  #
+############################################################################################
+```{r}
+getwd()
+# Read data
+dat  <- read.csv("Study 3b.Data.R.csv", header = TRUE)
+```
+
+#####################################################################
+#           BEGIN: Prepare Dataset                                  #
+#####################################################################
+```{r}
+
+### Collapse  IAT critical blocks  down ####
+dat$compatible.crit <- combineIATfourblocks(dat$Q4.RP4, dat$Q18.LP4, dat$Q14.RN7, dat$Q28.LN7)
+dat$incompatible.crit <- combineIATfourblocks(dat$Q7.RP7, dat$Q21.LP7, dat$Q11.RN4, dat$Q25.LN4)
+
+### Collapse  IAT practice blocks ####
+dat$compatible.prac <- combineIATfourblocks(dat$Q3.RP3, dat$Q17.LP3, dat$Q13.RN6, dat$Q27.LN6)
+dat$incompatible.prac <- combineIATfourblocks(dat$Q6.RP6, dat$Q20.LP6, dat$Q10.RN3, dat$Q24.LN3)
+
+### Clean the IAT ### 
+## D-BUILT.IN: USE THIS IF FORCED ERROR CORRECTION WAS ENABLED PER GREENWALD ET AL 2003
+clean <- cleanIAT(dat$compatible.prac, dat$compatible.crit, dat$incompatible.prac, dat$incompatible.crit, error.penalty = FALSE) #since people were forced to correct their mistakes
+
+```
+
+
+```{r}
+
+### NUMBER OF PARTICIPANTS WHO COMPLETED THE IAT ###
+sum(!clean$skipped)
+
+clean$timeout.rate #the proportion of trials dropped due to exceeding 10,000 ms
+
+### FAST PARTICIPANT 'BUTTON MASHER' DROP COUNT AND RATE (% of SAMPLE) ###
+#the number of participants dropped due to overly fast responses
+clean$fastprt.count
+
+clean$fastprt.rate
+
+
+### ERROR RATE ###
+#How accurate were our retained participants?
+clean$error.rate
+clean$error.rate.prac1
+clean$error.rate.crit1
+clean$error.rate.prac2
+clean$error.rate.crit2
+
+IATreliability(clean)$reliability #from Carpenter et al (2003)
+IATalpha(clean)$alpha.total #cronbach alfa
+
+```
+
+```{r}
+
+### RT DESCRIPTIVES BY BLOCK
+
+mean(clean$clean.means.crit1, na.rm=T) #compatible
+mean(clean$clean.means.crit2, na.rm=T) #incompatible
+mean(clean$clean.means.prac1, na.rm=T) #compatible
+mean(clean$clean.means.prac2, na.rm=T) #incompatible
+
+t.test(clean$clean.means.crit1,clean$clean.means.crit2,paired = TRUE)
+
+sd(clean$clean.means.crit1, na.rm=T) #compatible
+sd(clean$clean.means.crit2, na.rm=T) #incompatible
+sd(clean$clean.means.prac1, na.rm=T) #compatible
+sd(clean$clean.means.prac2, na.rm=T) #incompatible
+
+```
+
+
+```{r}
+# test for IAT effect
+### SCORING: POSITIVE SCORE FAVORS WHICHEVER BLOCKS WERE ENTERED FIRST INTO CLEANER - AKA COMPATIBLE ###
+
+dat$D <- clean$D # place back into dat
+dscore <- clean$D
+mean(clean$D, na.rm=T)
+sd(clean$D, na.rm=T)
+t.test(clean$D)
+t.test(clean$D)$p.value
+t.test(clean$D)$conf.int[1:2]
+#cohen d
+mean(clean$D, na.rm=T) / sd(clean$D, na.rm=T)
+
+```
+
+
+Descritives
+```{r}
+dat = dat[-1,]
+dat$age<- as.numeric(dat$age)
+dat$gender<- as.numeric(dat$gender)
+class(dat$gender)
+#age
+mean(dat$age, na.rm=TRUE)
+sd(dat$age, na.rm=TRUE)
+
+
+#gender
+table(dat$gender)
+prop.table(table(dat$gender))
+
+```

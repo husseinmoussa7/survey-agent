@@ -1,0 +1,52 @@
+{
+  "revised_survey": {
+    "theme": "Hotel Booking Preferences and Surprise",
+    "purpose": "To understand how the desire for surprises affects consumer hotel booking choices.",
+    "questions": [
+      {
+        "question_id": "1",
+        "question_text": "To what degree did the desire for a surprise influence your hotel choice? (1: Not at all to 5: Very much)",
+        "input_type": "multiple_choice",
+        "input_config": {
+          "options": [
+            "1: Not at all",
+            "2: A little",
+            "3: Moderately",
+            "4: Quite a bit",
+            "5: Very much"
+          ]
+        }
+      },
+      {
+        "question_id": "2",
+        "question_text": "How would you rate the possible outcomes you considered while choosing a hotel, from worst-case to best-case?",
+        "input_type": "multiple_choice",
+        "input_config": {
+          "options": [
+            "1: Worst possible outcome",
+            "2: Bad outcome",
+            "3: Neutral outcome",
+            "4: Good outcome",
+            "5: Best possible outcome"
+          ]
+        }
+      },
+      {
+        "question_id": "3",
+        "question_text": "Do you generally prefer being surprised or do you prefer predictability in your hotel choices?",
+        "input_type": "multiple_choice",
+        "input_config": {
+          "options": [
+            "1: I prefer surprises",
+            "2: I prefer predictability"
+          ]
+        }
+      }
+    ]
+  },
+  "explanations": {
+    "q1": "No changes were made to Question 1 as it is already clear and structured properly.",
+    "q2": "Modified to transform the open-ended response into a single-choice question with discrete rating options that represent the range of perceived outcomes associated with hotel choices, making it more quantifiable.",
+    "q3": "Changed from a multiple-choice to a single-choice format with two clear options to enhance clarity and allow for an easy choice between preferences."
+  }
+}

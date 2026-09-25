@@ -1,0 +1,92 @@
+# Report Template Configuration
+template:
+  id: journal_report_template
+  sections:
+    - id: title
+      name: Title
+      description: The title of the research paper
+      required: true
+      max_length: 150
+      
+    - id: abstract
+      name: Abstract
+      description: A concise summary of the research paper
+      required: true
+      max_length: 300
+      
+    - id: introduction
+      name: Introduction
+      description: Background information and research objectives
+      required: true
+      subsections:
+        - id: background
+          name: Background
+          description: Relevant background information on the research topic
+          
+        - id: research_objectives
+          name: Research Objectives
+          description: Clear statement of research questions or hypotheses
+          
+    - id: methodology
+      name: Methodology
+      description: Research design, data collection, and analysis methods
+      required: true
+      subsections:
+        - id: research_design
+          name: Research Design
+          description: Overall research approach and design
+          
+        - id: participants
+          name: Participants
+          description: Information about the participants or sample
+          
+        - id: data_collection
+          name: Data Collection
+          description: Methods used to collect data
+          
+        - id: data_analysis
+          name: Data Analysis
+          description: Analytical techniques used to analyze the data
+          
+    - id: results
+      name: Results
+      description: Findings from the data analysis
+      required: true
+      
+    - id: discussion
+      name: Discussion
+      description: Interpretation of results and implications
+      required: true
+      subsections:
+        - id: interpretation
+          name: Interpretation of Findings
+          description: Analysis and interpretation of the results
+          
+        - id: limitations
+          name: Limitations
+          description: Study limitations and constraints
+          
+        - id: implications
+          name: Implications
+          description: Theoretical and practical implications of the findings
+          
+    - id: conclusion
+      name: Conclusion
+      description: Summary of findings and closing remarks
+      required: true
+      
+    - id: references
+      name: References
+      description: List of sources cited in the paper
+      required: true
+      
+    - id: appendices
+      name: Appendices
+      description: Additional materials, tables, or figures
+      required: false
+
+output:
+  formats:
+    - markdown
+    - pdf
+  citation_style: APA

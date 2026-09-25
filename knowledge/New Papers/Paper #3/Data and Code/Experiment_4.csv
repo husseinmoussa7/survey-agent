@@ -1,0 +1,319 @@
+StartDate,EndDate,Attention_check,Text,Understanding,Intentions,Empowerment1,Empowerment2,Pointers1,Pointers2,Trust1,Trust2,Transparency1,Transparency2,Gender,Age,Condition,Questions_order
+8/15/2023 14:56,8/15/2023 14:57,7,not available,3,3,3,3,3,3,3,3,3,3,1,34,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:56,8/15/2023 14:57,5,anybody,3,3,2,2,3,2,4,4,4,4,1,41,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:57,8/15/2023 14:57,32,,,,,,,,,,,,,,,
+8/15/2023 14:56,8/15/2023 14:57,9,not availabe,1,1,1,1,1,1,4,4,1,4,1,32,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:57,8/15/2023 14:57,8,data science experts,5,4,3,3,4,4,4,3,3,3,1,28,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:56,8/15/2023 14:58,10,nonexistent,1,1,5,5,1,1,2,2,1,2,2,28,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:56,8/15/2023 14:58,6,anybody,4,5,4,3,6,5,5,5,4,5,2,33,Explanation_Prospect_Laypeople,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:57,8/15/2023 14:58,10,anybody,5,5,4,4,4,4,4,4,4,4,2,26,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:56,8/15/2023 14:58,9,data science experts,1,3,1,1,7,7,3,3,3,4,1,42,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:57,8/15/2023 14:58,7,data scientists,2,3,2,2,4,4,4,4,4,4,1,35,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:57,8/15/2023 14:58,7,data science experts,2,2,3,3,6,6,4,4,4,4,1,47,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:57,8/15/2023 14:58,12,not available,2,1,1,1,1,1,1,1,1,1,1,40,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:57,8/15/2023 14:58,14,data science experts,3,6,5,5,3,2,5,5,4,3,1,33,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:57,8/15/2023 14:58,12,not available,1,1,1,1,1,1,1,1,1,1,1,48,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:56,8/15/2023 14:58,15,not available ,1,1,1,1,1,1,1,1,1,1,1,28,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:57,8/15/2023 14:58,10,anybody,5,5,5,5,5,5,5,5,5,5,1,30,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:56,8/15/2023 14:58,5,not available,1,1,1,1,1,1,4,4,1,4,1,36,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:57,8/15/2023 14:58,12,anybody,1,1,7,5,4,4,4,4,6,5,1,32,Explanation_Prospect_Laypeople,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:57,8/15/2023 14:58,11,not available,1,2,2,1,1,1,1,1,1,1,1,43,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:57,8/15/2023 14:58,9,unavailable,1,2,2,2,1,1,4,4,1,2,1,48,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:57,8/15/2023 14:58,5,anybody,4,4,6,6,4,4,5,5,6,6,1,23,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:57,8/15/2023 14:58,14,not available,6,6,4,5,6,6,5,6,5,6,2,32,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:56,8/15/2023 14:58,31,data science experts,1,3,1,1,7,7,4,4,4,4,2,49,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:56,8/15/2023 14:59,5,anybody,4,4,5,5,6,6,5,5,5,5,2,62,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:57,8/15/2023 14:59,19,not available,4,2,4,4,2,2,4,3,2,2,2,42,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:58,8/15/2023 14:59,17,,,,,,,,,,,,,,,
+8/15/2023 14:56,8/15/2023 14:59,7,anybody,6,5,5,5,6,5,5,6,6,6,2,59,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:57,8/15/2023 14:59,16,data scientist experts,1,3,1,1,5,5,4,4,3,4,2,32,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:57,8/15/2023 14:59,6,data science experts,4,5,4,5,5,6,4,5,6,7,2,33,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:56,8/15/2023 14:59,5,only data science experts,1,2,1,1,5,5,2,2,3,3,1,26,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:57,8/15/2023 14:59,8,data science experts,3,4,6,5,6,5,5,4,5,5,2,33,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:57,8/15/2023 14:59,5,anybody,7,6,7,6,6,7,6,7,6,5,2,27,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:57,8/15/2023 14:59,8,anyone,4,7,6,6,7,7,7,7,7,7,2,69,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:58,8/15/2023 14:59,11,not available,1,2,3,2,1,2,4,4,2,2,1,42,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:58,8/15/2023 14:59,12,not available ,1,1,1,1,4,6,2,2,1,1,2,34,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:58,8/15/2023 14:59,8,anybody,5,4,5,5,4,4,5,5,4,4,1,30,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:58,8/15/2023 14:59,9,not available,2,4,2,3,2,2,4,4,1,4,1,36,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:56,8/15/2023 14:59,5,"data science experts, can understand how the Ai.XR works. With this explanation, only data science exerts ",1,2,3,2,3,3,3,3,1,2,2,71,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:57,8/15/2023 14:59,16,anybody,5,6,6,7,6,5,5,6,7,6,1,49,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:58,8/15/2023 14:59,12,anybody,3,3,3,3,2,2,3,3,4,3,1,40,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:58,8/15/2023 14:59,6,unknown,1,1,1,1,1,1,2,1,1,1,1,59,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:57,8/15/2023 14:59,23,data science experts,1,1,1,1,7,7,4,4,3,3,2,28,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:58,8/15/2023 14:59,10,anybody,6,5,6,6,6,6,5,5,6,6,1,45,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:58,8/15/2023 14:59,11,data science experts,3,4,3,4,4,3,3,2,3,3,1,37,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:59,8/15/2023 14:59,0,,,,,,,,,,,,,,,
+8/15/2023 14:58,8/15/2023 15:00,7,not available,1,4,1,1,1,1,4,4,1,4,1,43,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:58,8/15/2023 15:00,15,data science experts,1,2,1,1,5,4,4,4,5,4,1,41,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:58,8/15/2023 15:00,7,date science experts,2,4,3,4,6,6,4,4,3,3,1,45,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:58,8/15/2023 15:00,5,data science experts,1,2,3,3,4,4,3,3,3,3,1,28,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:00,7,only data science experts,1,2,1,1,5,5,1,1,1,1,2,26,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:58,8/15/2023 15:00,9,Anybody,6,4,5,5,4,5,4,4,5,4,1,54,Explanation_Prospect_Laypeople,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:57,8/15/2023 15:00,20,science experts,1,4,2,2,6,6,6,6,4,5,2,53,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:59,8/15/2023 15:00,6, not available,6,7,4,6,5,3,2,5,4,6,1,29,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:59,8/15/2023 15:00,9,not available,1,2,1,1,1,1,3,3,2,3,1,32,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:58,8/15/2023 15:00,10,anybody,1,4,7,7,7,7,5,5,7,7,2,41,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:58,8/15/2023 15:00,7,not available,1,3,2,3,2,3,4,3,2,3,1,29,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:57,8/15/2023 15:00,12,unknown,1,2,3,2,2,1,3,2,2,3,1,45,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:58,8/15/2023 15:00,7,data science experts,1,1,1,1,6,6,4,3,4,4,1,35,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:57,8/15/2023 15:00,7,data science experts,6,6,6,5,6,6,6,4,6,5,1,32,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:59,8/15/2023 15:00,5,anyone,6,6,5,6,7,6,5,6,7,4,1,41,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:57,8/15/2023 15:00,7,not available,1,4,5,5,5,5,4,4,1,4,1,37,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:59,8/15/2023 15:00,26,only data science experts,2,4,5,5,2,5,4,4,3,4,1,35,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:58,8/15/2023 15:01,5,unavailable ,1,1,1,1,1,2,4,3,1,2,2,50,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:59,8/15/2023 15:01,14,data science experts,1,2,1,1,6,4,4,4,3,4,1,56,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:01,8,anybody,7,7,7,7,7,7,7,7,7,7,2,23,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:57,8/15/2023 15:01,6,not available,4,5,4,5,5,6,5,4,3,5,2,39,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:57,8/15/2023 15:01,10,anybody,2,1,1,1,1,1,1,1,4,4,3,33,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:01,17,anybody,7,5,7,6,7,7,6,6,7,7,1,42,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:01,16,,,,,,,,,,,,,,,
+8/15/2023 14:58,8/15/2023 15:01,17,anybody,3,4,5,5,4,4,6,6,7,7,2,46,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:57,8/15/2023 15:01,10,anybody,4,4,6,6,3,3,6,6,6,6,1,68,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:00,8/15/2023 15:01,6,not available,1,1,1,1,1,1,2,2,2,2,1,27,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:01,12,data science experts,2,3,2,3,6,5,4,3,2,2,1,36,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:59,8/15/2023 15:01,6,anybody,2,3,2,3,4,4,3,3,3,3,2,34,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:59,8/15/2023 15:01,25,anybody,6,6,6,6,5,4,6,6,7,7,1,38,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:56,8/15/2023 15:01,23,anybody,5,4,6,4,5,5,5,5,5,5,2,25,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:59,8/15/2023 15:01,14,Data Science,5,6,6,6,5,5,5,6,6,6,2,36,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:58,8/15/2023 15:01,8,anybody,6,6,5,5,6,7,5,6,7,5,2,33,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:57,8/15/2023 15:01,18,data science experts,6,5,7,5,6,6,7,5,6,5,2,34,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:01,10,data science experts,1,1,1,1,4,4,1,1,1,1,2,28,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:01,5,confusing,1,1,1,1,1,1,4,3,3,5,2,69,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:01,10,data science experts,2,4,2,2,5,5,4,3,2,3,1,40,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:59,8/15/2023 15:01,12,anybody,4,5,5,4,5,4,5,4,5,4,2,32,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:00,8/15/2023 15:01,11,anybody,6,7,7,7,7,7,6,6,7,7,1,27,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:59,8/15/2023 15:01,13,not available,1,2,1,1,1,1,4,4,2,4,1,41,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:01,8,data science experts,7,7,5,6,5,5,6,5,5,6,1,40,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:59,8/15/2023 15:01,5,not available,1,4,5,5,6,6,4,4,4,4,2,42,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:01,6,anybody,6,5,6,6,7,6,6,6,7,7,1,38,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:59,8/15/2023 15:01,36,anybody,6,4,7,7,4,4,4,4,4,4,2,59,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:01,9,anybody,4,4,5,5,3,3,4,4,6,4,1,53,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:59,8/15/2023 15:01,5,not available,2,2,5,5,3,3,4,4,3,3,1,66,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:00,8/15/2023 15:02,20,data science experts ,4,4,7,7,5,6,4,5,6,4,1,29,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:02,10,data science experts,1,5,4,4,6,6,4,4,5,5,1,53,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:02,14,not available.,1,1,4,5,4,3,2,4,3,1,1,36,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:00,8/15/2023 15:02,6,"data science experts,",7,1,4,1,7,7,1,1,1,1,1,29,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:01,8/15/2023 15:02,15,not available,1,1,2,2,1,1,3,3,1,1,1,28,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:00,8/15/2023 15:02,9,data science experts,3,4,3,4,3,3,4,4,5,4,1,35,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:00,8/15/2023 15:02,7,anybody,3,4,7,7,6,6,6,6,7,7,1,38,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:58,8/15/2023 15:02,11,data science experts,5,4,5,5,4,5,5,4,5,5,1,32,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:02,7,by being a lobo-advisor on finances.,5,3,5,4,5,4,5,4,5,5,1,45,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:00,8/15/2023 15:02,10,anybody,5,6,6,6,6,6,6,7,6,6,1,29,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:00,8/15/2023 15:02,5,anybody ,1,4,1,1,3,3,4,4,4,4,2,52,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:01,8/15/2023 15:02,18,not available,1,2,1,2,1,1,2,1,1,3,1,41,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:02,12,anybody,5,6,5,6,6,5,6,4,5,6,1,34,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:00,8/15/2023 15:02,15,anybody,1,4,7,7,4,1,7,7,7,7,2,40,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:00,8/15/2023 15:02,11,not available,1,2,1,1,1,3,1,1,1,1,2,44,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:00,8/15/2023 15:02,12,data science experts,1,4,2,1,5,6,5,4,5,5,2,56,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:01,8/15/2023 15:02,8,only data science experts,2,4,3,3,6,6,4,4,3,3,1,26,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:02,14,data science experts,1,4,2,3,5,5,4,4,3,4,3,33,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 14:57,8/15/2023 15:02,7,ai,3,2,2,2,2,2,3,3,3,3,2,35,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:02,12,anybody,6,5,6,5,6,5,6,5,6,5,2,24,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:59,8/15/2023 15:02,109,data science,1,2,2,2,5,4,4,4,5,4,1,31,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:01,8/15/2023 15:02,9,anybody,7,7,7,7,7,7,6,6,6,7,2,46,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:02,7,not available,1,1,1,1,1,1,1,1,1,1,1,45,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:59,8/15/2023 15:02,19,not available,1,1,3,2,1,1,2,2,1,2,1,42,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:01,8/15/2023 15:03,17,Anybody,6,5,7,5,4,6,6,5,4,5,2,25,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:02,8/15/2023 15:03,11,not available,1,1,2,3,3,3,4,4,2,3,1,64,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:03,13,anybody,5,5,3,5,4,5,5,4,4,5,2,27,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:58,8/15/2023 15:03,5,anybody,5,5,5,5,4,4,6,6,5,5,1,42,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:03,5,data science experts,2,4,1,3,5,6,4,3,2,3,2,31,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:58,8/15/2023 15:03,19,anybody,6,7,7,7,7,7,7,7,6,6,1,44,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:01,8/15/2023 15:03,8,anybody,4,3,5,5,5,5,4,4,4,4,1,56,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:01,8/15/2023 15:03,5,not available,3,1,2,2,3,3,3,3,1,4,1,47,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:02,8/15/2023 15:03,5,data science experts,1,1,1,1,1,7,4,3,7,7,2,43,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:02,8/15/2023 15:03,10,not available.,1,2,3,3,3,3,1,1,1,3,1,33,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:02,8/15/2023 15:03,6,not available,2,2,4,4,2,2,4,4,4,4,2,40,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:02,8/15/2023 15:03,17,anybody,3,5,5,5,5,5,5,5,4,4,1,45,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:02,8/15/2023 15:03,7,data scientists,1,1,1,1,1,1,4,4,1,4,1,60,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:02,8/15/2023 15:03,16,anybody,2,4,6,4,2,3,5,5,6,5,2,40,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:03,8/15/2023 15:03,5,,,,,,,,,,,,,,,
+8/15/2023 15:02,8/15/2023 15:03,6,not available,1,4,5,5,4,4,3,3,3,3,1,50,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:03,13,data science experts,1,1,1,1,2,1,2,2,3,3,2,48,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 14:58,8/15/2023 15:03,13,Anybody,5,6,5,6,6,4,6,5,4,5,2,33,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:03,8/15/2023 15:04,8,,,,,,,,,,,,,,,
+8/15/2023 15:02,8/15/2023 15:04,8,not available,5,4,5,6,4,5,5,4,6,4,2,32,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:02,8/15/2023 15:04,9,not available,1,1,1,1,1,1,1,1,1,1,2,44,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:02,8/15/2023 15:04,8,can understand how the Ai.XR works,5,5,5,5,5,5,5,5,5,5,1,33,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:58,8/15/2023 15:04,19,Not available.,1,2,5,5,2,2,4,4,2,3,2,52,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:02,8/15/2023 15:04,29,experts,3,3,1,2,1,6,5,3,2,6,1,41,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:00,8/15/2023 15:04,6,anybody,1,4,5,5,6,6,4,4,4,4,2,66,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:03,8/15/2023 15:04,15,anybody,6,6,6,6,6,6,6,6,6,6,1,27,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:04,18,not available,3,2,1,1,5,4,1,1,1,1,2,37,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 14:57,8/15/2023 15:04,20,experts,1,1,1,1,4,4,1,1,1,1,2,36,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:01,8/15/2023 15:04,8,anybody,3,4,4,4,3,3,4,3,5,4,3,36,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:01,8/15/2023 15:04,12,anybody,5,6,6,5,5,6,5,6,5,4,2,56,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:02,8/15/2023 15:04,10, that it using market data and information about your investment to determine the best portfolio composition.,1,1,2,2,1,1,4,4,2,3,1,32,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:03,8/15/2023 15:04,5,data science experts,3,2,4,3,3,4,5,5,4,3,1,28,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:03,8/15/2023 15:05,5,data science experts,1,4,6,6,2,2,4,4,4,4,2,48,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:01,8/15/2023 15:05,9,not available,6,7,6,5,6,7,6,5,6,5,1,56,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:03,8/15/2023 15:05,7,data science experts,1,4,2,2,3,3,4,4,5,4,1,39,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:03,8/15/2023 15:05,19,not available,1,1,1,1,1,1,1,1,1,1,1,43,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:04,8/15/2023 15:05,6,anybody,3,5,5,5,6,5,6,5,6,5,1,41,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:03,8/15/2023 15:05,8,data science experts ,5,4,3,6,4,5,3,5,4,5,1,27,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:01,8/15/2023 15:05,7,only data science experts,1,4,2,4,5,5,4,4,2,4,2,55,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:03,8/15/2023 15:05,33,not available,1,1,1,1,1,1,4,5,4,4,1,41,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:03,8/15/2023 15:05,24,not available,1,1,1,1,1,1,4,2,1,2,2,37,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:03,8/15/2023 15:05,10,anybody,4,5,5,5,4,4,4,4,5,4,1,38,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:03,8/15/2023 15:05,15,anybody,1,5,7,7,1,1,7,7,7,7,2,47,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:03,8/15/2023 15:05,8,not available,5,6,5,6,5,4,6,5,4,5,2,65,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:03,8/15/2023 15:05,7,not available,1,2,2,1,2,2,2,2,1,2,1,56,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:03,8/15/2023 15:05,30,,,,,,,,,,,,,,,
+8/15/2023 15:03,8/15/2023 15:05,19,anybody,4,4,4,4,7,7,2,1,1,1,3,29,Explanation_Prospect_Laypeople,Trust&Transparency|Pointers|Empowerment
+8/15/2023 14:58,8/15/2023 15:05,9,not available,2,2,2,2,2,2,2,2,2,2,1,40,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:03,8/15/2023 15:05,5,data science experts,1,1,1,1,7,7,7,7,1,7,1,44,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:03,8/15/2023 15:05,27,only data science experts,1,1,2,2,3,4,2,2,1,1,2,78,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:03,8/15/2023 15:05,7,not available,1,1,1,1,2,2,4,4,2,4,2,45,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:03,8/15/2023 15:05,14,data science experts,2,3,3,2,6,7,6,5,7,7,1,33,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:04,8/15/2023 15:05,9,anybody,6,4,6,6,4,4,4,4,6,6,1,28,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:02,8/15/2023 15:05,5,anybody,2,3,4,4,4,5,4,4,5,3,2,27,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:04,8/15/2023 15:05,27,only data science experts ,1,4,1,1,7,7,3,3,1,1,2,33,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:04,8/15/2023 15:06,10,data science experts,1,3,1,1,7,7,4,4,2,4,1,40,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:03,8/15/2023 15:06,24,anybody,2,2,2,2,2,2,4,4,3,3,1,52,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:05,8/15/2023 15:06,5,not available,1,1,1,1,1,1,4,3,1,2,1,52,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:00,8/15/2023 15:06,16,data science experts,6,6,5,5,6,6,6,6,6,6,1,35,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:04,8/15/2023 15:06,14,anybody,6,6,7,7,6,6,7,7,7,7,2,43,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:04,8/15/2023 15:06,9,data science experts,6,7,6,7,6,7,6,7,6,7,1,32,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:05,8/15/2023 15:06,10,data science experts,7,7,7,7,7,7,7,7,7,7,2,36,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:05,8/15/2023 15:07,10,not available. ,1,1,1,1,1,1,1,1,1,1,1,43,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:04,8/15/2023 15:07,11,anybody,7,7,7,7,7,7,7,7,7,6,2,26,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:06,8/15/2023 15:07,5,not available ,1,3,2,2,1,1,4,3,2,3,2,30,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:06,8/15/2023 15:07,10,not,1,1,1,1,1,1,4,4,1,4,1,50,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:06,8/15/2023 15:07,5,anybody,6,4,5,5,6,6,4,4,5,4,2,28,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:06,8/15/2023 15:07,12,Science experts ,2,5,4,4,2,2,4,4,3,3,2,40,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:07,8/15/2023 15:07,6,,,,,,,,,,,,,,,
+8/15/2023 15:04,8/15/2023 15:07,5,data science experts,5,2,1,1,4,4,4,4,3,3,1,70,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:04,8/15/2023 15:08,8,anybody,4,2,6,5,7,7,3,2,4,2,1,30,Explanation_Prospect_Laypeople,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:07,8/15/2023 15:08,5,anybody,3,2,5,4,3,3,3,2,2,3,2,35,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:05,8/15/2023 15:08,29,anybody,4,3,6,6,2,2,5,5,6,6,2,32,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:06,8/15/2023 15:08,17,anybody,6,5,5,7,7,6,6,5,7,6,1,50,Explanation_Prospect_Laypeople,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:07,8/15/2023 15:08,35,,,,,,,,,,,,,,,
+8/15/2023 15:08,8/15/2023 15:08,7,,,,,,,,,,,,,,,
+8/15/2023 15:08,8/15/2023 15:08,31,,,,,,,,,,,,,,,
+8/15/2023 15:07,8/15/2023 15:08,5,data science experts,5,4,5,5,3,5,5,5,3,4,1,31,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:03,8/15/2023 15:09,11,not available,1,1,1,1,1,7,1,1,1,1,2,44,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:07,8/15/2023 15:09,15,anybody,5,4,5,5,6,6,5,5,6,6,1,33,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:08,8/15/2023 15:09,14,not available,2,2,3,2,3,3,3,2,2,3,1,21,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:03,8/15/2023 15:09,13,not,1,1,1,1,1,1,2,2,2,2,2,35,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:07,8/15/2023 15:09,7,AL,7,7,7,7,7,7,7,7,7,7,2,60,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:08,8/15/2023 15:09,8,not available,1,1,1,1,1,1,1,1,1,1,2,34,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:08,8/15/2023 15:09,16,anybody,7,1,7,7,7,7,1,1,4,4,1,43,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:06,8/15/2023 15:09,9,"data science experts,",2,2,3,2,6,6,3,3,3,2,1,53,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:08,8/15/2023 15:09,15,data science experts,2,4,1,2,6,6,5,5,5,5,2,66,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 14:59,8/15/2023 15:09,5,data scientists,4,3,6,6,2,3,4,3,4,4,1,37,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:08,8/15/2023 15:10,11,not available,1,2,1,1,5,5,3,3,2,4,1,22,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:08,8/15/2023 15:10,14,not available,1,1,1,1,3,3,2,2,1,1,2,38,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:04,8/15/2023 15:10,15,data science experts,1,1,1,1,6,6,2,2,1,2,2,63,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:09,8/15/2023 15:10,12,data science experts,4,5,5,5,5,4,4,5,3,3,2,31,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:09,8/15/2023 15:10,14,,,,,,,,,,,,,,,
+8/15/2023 15:08,8/15/2023 15:10,6,data science experts,2,2,3,3,3,3,4,4,4,4,2,39,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:06,8/15/2023 15:10,8,ai.xr,5,6,5,6,5,5,5,6,5,5,2,41,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:07,8/15/2023 15:10,7,anybody,5,4,6,6,7,6,5,6,6,6,2,50,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:09,8/15/2023 15:10,5,anybody,4,4,5,5,4,4,5,5,5,5,2,32,Explanation_Prospect_Laypeople,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:08,8/15/2023 15:10,7,data science experts,2,2,3,3,5,5,3,3,2,3,2,64,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:08,8/15/2023 15:10,8,not available,2,2,2,2,2,2,3,3,2,3,2,37,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:09,8/15/2023 15:10,11,anybody,4,3,2,1,2,2,3,2,2,2,2,22,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:09,8/15/2023 15:11,14,anybody,1,2,6,6,1,1,3,2,4,4,1,58,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:10,8/15/2023 15:11,5,data science experts,2,1,1,1,2,1,3,2,2,1,2,37,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:08,8/15/2023 15:11,5,not available,1,1,1,1,1,1,2,2,2,3,2,30,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:09,8/15/2023 15:11,6,only data science experts,1,1,1,1,4,4,4,1,1,1,2,31,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:09,8/15/2023 15:11,13,anybody,5,4,5,5,5,4,5,4,5,5,1,34,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:10,8/15/2023 15:11,7,not available,2,3,2,3,1,1,3,2,2,3,1,44,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:09,8/15/2023 15:12,8,not available,2,1,1,1,1,1,4,3,1,4,2,30,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:10,8/15/2023 15:12,18,anybody,3,3,4,2,3,3,2,2,1,1,1,41,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:09,8/15/2023 15:12,5,data science experts ,2,4,7,5,6,6,5,6,6,4,2,47,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:11,8/15/2023 15:12,10,not available,1,3,1,1,1,1,3,3,1,2,2,46,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:10,8/15/2023 15:12,16,anybody,1,1,1,1,1,1,2,2,1,6,2,23,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:10,8/15/2023 15:12,17,data science experts,1,1,1,1,3,3,3,2,1,2,1,52,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:09,8/15/2023 15:13,13,i,4,4,4,4,4,4,4,4,4,4,2,56,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:11,8/15/2023 15:13,29,anybody,6,7,5,6,6,7,7,7,6,7,1,34,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:10,8/15/2023 15:13,10,unavailable,1,1,1,1,1,1,1,1,1,1,2,47,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:10,8/15/2023 15:13,9,not available,3,2,4,4,1,1,4,4,4,4,2,55,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:12,8/15/2023 15:13,7,data science,1,1,1,1,1,1,1,1,1,1,1,28,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:09,8/15/2023 15:13,46,anybody,2,2,2,2,2,2,2,2,2,2,1,60,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:13,8/15/2023 15:14,5,anybody,5,4,6,6,5,5,5,5,6,6,2,47,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:13,8/15/2023 15:14,17,not available,1,3,1,1,1,1,4,4,2,4,1,52,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:12,8/15/2023 15:15,16,not available,1,2,1,2,2,1,4,3,1,2,1,38,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:13,8/15/2023 15:15,7,data science experts,2,4,1,2,5,5,4,3,2,4,1,36,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:14,8/15/2023 15:16,11,only data science experts,1,1,1,1,1,5,4,3,6,3,1,51,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:16,8/15/2023 15:16,8,,,,,,,,,,,,,,,
+8/15/2023 15:13,8/15/2023 15:17,6,,,,,,,,,,,,,,,
+8/15/2023 15:15,8/15/2023 15:17,10,science experts,1,1,1,2,1,2,4,4,3,2,2,39,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:16,8/15/2023 15:17,11,anybody,6,6,7,7,7,7,6,6,6,6,2,40,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:16,8/15/2023 15:18,14,not available,1,1,4,1,1,1,1,1,1,1,1,54,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:16,8/15/2023 15:18,7,data science experts,2,2,2,2,6,6,4,4,5,5,1,57,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:16,8/15/2023 15:18,13,anybody,1,3,2,2,5,4,4,4,4,4,1,40,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:17,8/15/2023 15:19,9,not available.,1,1,3,3,1,1,4,4,1,1,1,49,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:14,8/15/2023 15:19,11,Anybody,4,4,5,5,3,5,4,4,5,4,2,53,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:19,8/15/2023 15:20,19,data science experts,1,3,2,1,4,4,2,1,1,1,1,26,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:18,8/15/2023 15:20,9,data science experts,1,4,1,1,7,7,4,4,3,3,2,23,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:19,8/15/2023 15:21,5,anybody,6,5,7,7,7,7,5,5,6,5,2,29,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:19,8/15/2023 15:21,5,not available,1,1,1,1,1,1,3,3,1,1,1,76,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:20,8/15/2023 15:21,6,anybody,6,6,6,7,7,7,6,6,5,6,2,26,Explanation_Prospect_Laypeople,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:19,8/15/2023 15:22,5,not available,1,3,4,4,2,3,4,4,3,2,2,37,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:21,8/15/2023 15:22,12,data science experts,2,4,2,2,2,3,4,5,4,4,1,35,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:21,8/15/2023 15:22,7,not available,1,1,2,2,2,2,2,2,1,2,2,58,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:22,8/15/2023 15:22,12,,,,,,,,,,,,,,,
+8/15/2023 15:21,8/15/2023 15:22,17,experts,5,4,6,6,5,6,2,3,3,4,1,30,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:21,8/15/2023 15:23,16,data science experts,1,1,1,1,1,1,3,2,2,2,2,58,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:21,8/15/2023 15:23,8,anybody,6,4,6,6,5,6,4,4,5,4,1,55,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:22,8/15/2023 15:23,18,,,,,,,,,,,,,,,
+8/15/2023 15:23,8/15/2023 15:23,3,,,,,,,,,,,,,,,
+8/15/2023 15:21,8/15/2023 15:23,6,not available,1,1,1,1,1,1,1,4,1,2,1,41,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:21,8/15/2023 15:23,26,not available ,2,4,5,5,4,4,4,4,4,4,2,45,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:22,8/15/2023 15:24,8,anybody,6,6,6,6,6,6,7,7,7,7,2,46,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:23,8/15/2023 15:24,5,data science experts,3,2,2,3,2,2,3,2,4,4,2,27,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:23,8/15/2023 15:24,7,not available,1,3,2,2,2,2,4,3,2,2,1,71,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:23,8/15/2023 15:25,7,anybody,3,5,3,4,3,3,4,4,4,5,1,25,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:25,8/15/2023 15:26,10,data science experts,2,4,5,5,4,4,4,4,5,4,1,37,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:25,8/15/2023 15:26,15,data science experts,4,5,4,5,6,6,6,5,5,6,1,37,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:26,8/15/2023 15:27,11,Anybody,4,3,2,2,3,4,2,3,3,4,2,32,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:24,8/15/2023 15:27,9,not available.,1,1,1,1,1,1,3,3,1,1,1,40,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:25,8/15/2023 15:27,8,only data science experts,1,4,5,4,7,7,5,5,6,6,2,39,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:25,8/15/2023 15:27,9,anybody,4,5,5,5,4,4,6,6,6,6,2,48,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:24,8/15/2023 15:27,6,not available,2,1,1,1,2,2,4,4,1,1,1,35,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:26,8/15/2023 15:27,5,not available,1,1,4,4,1,1,4,4,1,1,2,44,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:24,8/15/2023 15:27,8,anybody,3,2,2,2,4,2,5,5,6,6,3,33,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:25,8/15/2023 15:27,10,data science experts,2,1,2,2,4,4,3,3,2,2,2,53,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:26,8/15/2023 15:27,10,not available,1,1,2,1,2,2,4,4,4,4,2,37,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:25,8/15/2023 15:27,5,not available,1,2,2,1,1,1,1,1,1,2,1,52,Control,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:25,8/15/2023 15:27,8,anybody,7,5,6,6,7,6,5,5,6,6,2,65,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:26,8/15/2023 15:28,5,not available,1,2,2,3,2,2,3,3,2,4,2,51,Control,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:26,8/15/2023 15:28,12,data science experts,1,4,1,1,7,7,4,3,5,4,1,39,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:26,8/15/2023 15:28,7,data science experts,1,2,1,1,7,7,2,2,1,2,2,44,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:27,8/15/2023 15:28,15,anybody,2,5,6,6,7,6,6,6,7,5,1,34,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:27,8/15/2023 15:29,16,unavailable,1,1,1,1,1,1,4,4,3,4,1,35,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:28,8/15/2023 15:30,5,data science experts,5,5,6,5,5,5,5,6,6,5,2,38,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:29,8/15/2023 15:30,16,anybody,4,4,4,4,4,4,4,4,4,4,1,37,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:29,8/15/2023 15:30,10,not available ,1,3,2,2,1,1,3,3,1,2,2,37,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:30,8/15/2023 15:31,23,not available,3,6,3,6,3,5,3,6,2,4,1,28,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:29,8/15/2023 15:31,7,anybody,3,3,3,4,4,4,4,3,5,4,1,45,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:29,8/15/2023 15:31,7,not available,1,2,4,4,1,1,4,4,1,4,2,64,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:29,8/15/2023 15:32,6,anybody,5,2,3,5,5,3,5,2,3,2,1,24,Explanation_Prospect_Laypeople,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:31,8/15/2023 15:32,10,data science experts,2,5,2,5,6,5,4,3,2,5,1,37,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:31,8/15/2023 15:32,8,anybody,6,7,7,7,7,7,7,7,7,7,1,65,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:29,8/15/2023 15:32,13,data science experts,1,4,4,4,4,4,4,4,4,4,2,29,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:31,8/15/2023 15:32,10,not available,1,2,1,1,3,2,4,4,5,2,1,24,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:29,8/15/2023 15:32,5,data experts,3,4,3,3,4,4,4,3,2,2,2,60,Explanation_Prospect_Expert,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:29,8/15/2023 15:32,11,data science experts,5,6,5,6,5,6,5,6,5,6,1,30,Explanation_Prospect_Expert,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:32,8/15/2023 15:34,7,anybody,4,4,4,4,2,2,5,5,5,4,1,51,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:32,8/15/2023 15:34,10,data science experts,3,2,1,1,1,5,1,1,1,1,1,38,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:32,8/15/2023 15:34,15,not available,2,2,2,1,2,3,1,1,1,1,2,54,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:32,8/15/2023 15:35,11,not available,1,1,1,1,1,1,2,1,1,3,1,68,Control,Empowerment|Pointers|Trust&Transparency
+8/15/2023 15:32,8/15/2023 15:35,13,anybody,5,5,7,6,7,5,6,6,6,6,2,41,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:33,8/15/2023 15:35,5,data science experts,1,1,3,3,7,7,3,3,1,1,1,44,Explanation_Prospect_Expert,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:34,8/15/2023 15:35,7,data science experts,2,3,5,5,6,6,5,5,5,4,1,46,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:33,8/15/2023 15:35,7,anybody,7,6,6,6,7,7,7,7,7,7,2,45,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:30,8/15/2023 15:35,16,anybody,5,5,5,5,6,6,6,6,6,5,2,28,Explanation_Prospect_Laypeople,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:34,8/15/2023 15:35,22,data science experts,1,2,2,2,6,6,2,1,1,2,1,38,Explanation_Prospect_Expert,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:35,8/15/2023 15:36,7,not available,1,1,1,1,1,1,1,1,1,1,1,34,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:34,8/15/2023 15:36,8,not available,3,5,1,1,2,2,2,3,1,2,2,37,Control,Pointers|Empowerment|Trust&Transparency
+8/15/2023 15:34,8/15/2023 15:37,19,not available,1,1,4,4,4,4,2,2,5,2,2,60,Control,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:37,8/15/2023 15:37,5,,,,,,,,,,,,,,,
+8/15/2023 15:35,8/15/2023 15:38,7,anybody,6,5,4,4,4,4,4,4,4,4,2,63,Explanation_Prospect_Laypeople,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:30,8/15/2023 15:38,21,anybody,4,6,7,7,5,5,6,6,7,7,1,43,Explanation_Prospect_Laypeople,Trust&Transparency|Pointers|Empowerment
+8/15/2023 15:35,8/15/2023 15:38,10,data science experts,1,1,1,1,1,1,4,4,4,4,2,45,Explanation_Prospect_Expert,Pointers|Trust&Transparency|Empowerment
+8/15/2023 15:37,8/15/2023 15:39,17,not available,2,3,1,4,2,4,4,3,2,4,1,35,Control,Empowerment|Trust&Transparency|Pointers
+8/15/2023 15:37,8/15/2023 15:39,22,data science experts,1,4,1,1,5,5,4,4,3,4,2,44,Explanation_Prospect_Expert,Trust&Transparency|Empowerment|Pointers
+8/15/2023 15:38,8/15/2023 15:41,17,not available ,1,2,3,2,2,1,3,2,1,2,1,55,Control,Empowerment|Pointers|Trust&Transparency

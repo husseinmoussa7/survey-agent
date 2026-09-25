@@ -1,0 +1,62 @@
+{
+  "theme": "The Theory of Planned Behavior Survey",
+  "purpose": "To assess consumer intentions and beliefs regarding the purchase of organic food.",
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_text": "I intend to purchase organic food in the next month.",
+      "input_type": "multiple_choice",
+      "input_config": {
+        "options": ["1", "2", "3", "4", "5", "6", "7"]
+      }
+    },
+    {
+      "question_id": "q2",
+      "question_text": "Buying organic food is beneficial to my health.",
+      "input_type": "multiple_choice",
+      "input_config": {
+        "options": ["1", "2", "3", "4", "5", "6", "7"]
+      }
+    },
+    {
+      "question_id": "q3",
+      "question_text": "I feel confident in my ability to purchase organic food if I want to.",
+      "input_type": "multiple_choice",
+      "input_config": {
+        "options": ["1", "2", "3", "4", "5", "6", "7"]
+      }
+    },
+    {
+      "question_id": "q4",
+      "question_text": "How do I think of the organic food?",
+      "input_type": "multiple_choice",
+      "input_config": {
+        "options": ["1", "2", "3", "4", "5", "6", "7"]
+      }
+    },
+    {
+      "question_id": "q5",
+      "question_text": "The decision to buy organic food is entirely up to me.",
+      "input_type": "multiple_choice",
+      "input_config": {
+        "options": ["1", "2", "3", "4", "5", "6", "7"]
+      }
+    },
+    {
+      "question_id": "q6",
+      "question_text": "What barriers, if any, prevent you from buying organic food?",
+      "input_type": "multiple_choice",
+      "input_config": {
+        "options": ["1", "2", "3", "4", "5", "6", "7"]
+      }
+    },
+    {
+      "question_id": "q7",
+      "question_text": "How do elders think of organic food?",
+      "input_type": "multiple_choice",
+      "input_config": {
+        "options": ["1", "2", "3", "4", "5", "6", "7"]
+      }
+    }
+  ]
+}

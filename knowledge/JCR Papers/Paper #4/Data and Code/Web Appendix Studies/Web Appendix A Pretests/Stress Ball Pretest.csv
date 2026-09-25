@@ -1,0 +1,1077 @@
+﻿id,ball.text,ball,liking,masfem,desire,age,gender
+12,black football,1,1,7,1,19,0
+107,black football,1,1,7,2,20,0
+261,black football,1,1,7,3,21,0
+29,black football,1,2,6,1,19,0
+48,black football,1,2,5,1,21,0
+66,black football,1,2,7,3,19,0
+71,black football,1,2,6,2,21,0
+143,black football,1,2,5,3,20,0
+167,black football,1,2,7,2,22,0
+240,black football,1,2,6,2,20,1
+259,black football,1,2,7,4,20,0
+44,black football,1,3,6,3,19,0
+144,black football,1,3,4,3,20,1
+147,black football,1,3,5,3,20,0
+190,black football,1,3,7,2,21,0
+193,black football,1,3,7,5,20,0
+205,black football,1,3,7,2,20,1
+232,black football,1,3,7,3,19,0
+258,black football,1,3,6,3,20,0
+8,black football,1,4,4,4,19,0
+77,black football,1,4,5,3,20,0
+79,black football,1,4,5,5,19,0
+85,black football,1,4,6,3,19,0
+105,black football,1,4,6,4,20,0
+128,black football,1,4,4,4,19,1
+189,black football,1,4,7,4,20,0
+204,black football,1,4,5,5,20,0
+216,black football,1,4,5,1,19,1
+224,black football,1,4,4,5,21,0
+244,black football,1,4,5,3,20,0
+255,black football,1,4,6,2,20,0
+10,black football,1,5,6,5,20,0
+19,black football,1,5,5,2,20,1
+41,black football,1,5,6,6,21,1
+46,black football,1,5,6,2,20,1
+68,black football,1,5,7,3,19,0
+89,black football,1,5,6,4,19,1
+101,black football,1,5,5,5,21,1
+106,black football,1,5,4,1,23,0
+137,black football,1,5,5,4,22,1
+145,black football,1,5,6,4,20,0
+179,black football,1,5,5,2,20,0
+218,black football,1,5,5,2,20,0
+254,black football,1,5,4,4,20,0
+13,black football,1,6,7,6,20,1
+54,black football,1,6,7,7,20,0
+100,black football,1,6,7,4,21,1
+154,black football,1,6,5,5,21,0
+186,black football,1,6,7,5,20,1
+200,black football,1,6,6,4,20,1
+72,black football,1,7,7,7,21,1
+117,black football,1,7,4,4,19,0
+159,black football,1,7,6,6,20,1
+249,black football,1,7,7,3,21,0
+106,blue brain,2,1,4,1,23,0
+72,blue brain,2,1,4,1,21,1
+249,blue brain,2,1,4,1,21,0
+70,blue brain,2,1,1,4,20,1
+126,blue brain,2,1,4,2,21,1
+152,blue brain,2,1,5,1,19,0
+185,blue brain,2,1,4,3,22,1
+188,blue brain,2,1,4,2,21,0
+197,blue brain,2,1,4,2,20,0
+198,blue brain,2,1,4,1,20,0
+147,blue brain,2,2,4,2,20,0
+79,blue brain,2,2,4,2,19,0
+19,blue brain,2,2,4,1,20,1
+89,blue brain,2,2,4,3,19,1
+6,blue brain,2,2,4,1,19,0
+28,blue brain,2,2,5,1,20,0
+51,blue brain,2,2,4,2,19,1
+53,blue brain,2,2,4,2,20,1
+151,blue brain,2,2,5,2,19,0
+234,blue brain,2,2,4,2,19,1
+258,blue brain,2,3,5,2,20,0
+5,blue brain,2,3,5,2,20,0
+26,blue brain,2,3,4,3,20,0
+108,blue brain,2,3,4,4,19,0
+139,blue brain,2,3,4,3,20,1
+194,blue brain,2,3,4,3,19,0
+217,blue brain,2,3,4,2,20,1
+229,blue brain,2,3,7,2,20,0
+256,blue brain,2,3,6,3,20,0
+269,blue brain,2,3,4,4,20,1
+66,blue brain,2,4,4,2,19,0
+96,blue brain,2,4,4,4,20,0
+125,blue brain,2,4,4,3,21,1
+168,blue brain,2,4,4,5,19,1
+13,blue brain,2,5,6,5,20,1
+100,blue brain,2,5,6,2,21,1
+20,blue brain,2,5,4,4,20,1
+35,blue brain,2,5,5,4,21,0
+45,blue brain,2,5,4,3,19,0
+82,blue brain,2,5,4,3,19,1
+123,blue brain,2,5,4,4,20,0
+129,blue brain,2,5,4,4,19,1
+149,blue brain,2,5,4,4,19,1
+150,blue brain,2,5,4,5,20,0
+178,blue brain,2,5,4,4,21,0
+181,blue brain,2,5,5,2,19,0
+211,blue brain,2,5,5,4,22,1
+212,blue brain,2,5,4,3,21,0
+231,blue brain,2,5,4,6,19,1
+243,blue brain,2,5,5,2,120,1
+247,blue brain,2,5,4,4,20,1
+16,blue brain,2,6,4,4,20,1
+122,blue brain,2,6,4,7,21,1
+233,blue brain,2,7,4,5,20,1
+107,blue football,3,4,4,2,20,0
+44,blue football,3,3,4,3,19,0
+224,blue football,3,3,4,2,21,0
+254,blue football,3,5,4,5,20,0
+47,blue football,3,4,4,4,20,0
+59,blue football,3,2,4,2,19,0
+81,blue football,3,3,4,3,19,0
+134,blue football,3,5,4,5,20,0
+215,blue football,3,5,4,4,22,0
+228,blue football,3,1,4,1,20,0
+233,blue football,3,7,5,7,20,1
+71,blue football,3,4,5,2,21,0
+193,blue football,3,3,5,4,20,0
+244,blue football,3,4,5,2,20,0
+154,blue football,3,4,5,4,21,0
+159,blue football,3,5,5,6,20,1
+32,blue football,3,5,5,7,21,1
+55,blue football,3,4,5,5,19,0
+67,blue football,3,5,5,4,20,1
+88,blue football,3,5,5,5,19,1
+110,blue football,3,4,5,4,20,0
+112,blue football,3,5,5,5,20,1
+127,blue football,3,2,5,2,20,0
+169,blue football,3,5,5,5,21,1
+173,blue football,3,5,5,4,19,1
+139,blue football,3,3,6,4,20,1
+216,blue football,3,5,6,1,19,1
+10,blue football,3,6,6,6,20,0
+25,blue football,3,2,6,1,20,1
+49,blue football,3,6,6,5,21,1
+60,blue football,3,7,6,4,20,0
+75,blue football,3,4,6,3,21,1
+90,blue football,3,5,6,4,20,0
+92,blue football,3,5,6,5,19,1
+113,blue football,3,5,6,2,21,0
+157,blue football,3,2,6,2,19,0
+165,blue football,3,5,6,6,19,0
+209,blue football,3,4,6,2,19,1
+248,blue football,3,5,6,3,20,1
+262,blue football,3,2,6,4,19,1
+268,blue football,3,4,6,4,21,1
+194,blue football,3,3,7,4,19,0
+129,blue football,3,6,7,5,19,1
+12,blue football,3,2,7,1,19,0
+22,blue football,3,2,7,3,19,0
+23,blue football,3,3,7,1,20,0
+33,blue football,3,5,7,4,20,0
+124,blue football,3,5,7,5,22,0
+176,blue football,3,1,7,4,20,1
+191,blue football,3,5,7,3,21,0
+201,blue football,3,5,7,4,21,1
+213,blue football,3,6,7,6,19,1
+222,blue football,3,7,7,6,19,1
+245,blue football,3,6,7,4,20,1
+112,blue star,4,1,4,1,20,1
+75,blue star,4,2,5,1,21,1
+106,blue star,4,4,4,1,23,0
+70,blue star,4,1,4,4,20,1
+212,blue star,4,2,5,1,21,0
+243,blue star,4,2,3,1,120,1
+9,blue star,4,3,4,1,21,0
+17,blue star,4,2,4,1,21,1
+18,blue star,4,3,4,2,20,1
+42,blue star,4,2,4,2,19,1
+43,blue star,4,3,4,1,18,1
+99,blue star,4,3,4,2,20,0
+118,blue star,4,2,4,2,19,1
+131,blue star,4,1,4,2,20,1
+133,blue star,4,2,3,3,21,1
+135,blue star,4,2,3,2,20,1
+171,blue star,4,1,4,4,21,1
+203,blue star,4,1,4,4,21,1
+237,blue star,4,3,4,4,20,1
+265,blue star,4,3,2,2,21,1
+71,blue star,4,4,4,3,21,0
+100,blue star,4,3,4,2,21,1
+35,blue star,4,1,2,3,21,0
+11,blue star,4,2,4,1,20,0
+158,blue star,4,4,4,3,20,0
+172,blue star,4,4,4,4,20,1
+154,blue star,4,4,4,3,21,0
+169,blue star,4,4,4,4,21,1
+234,blue star,4,3,4,4,19,1
+217,blue star,4,4,3,3,20,1
+178,blue star,4,5,4,5,21,0
+204,blue star,4,4,4,3,20,0
+4,blue star,4,4,4,4,21,1
+119,blue star,4,7,2,5,22,0
+141,blue star,4,5,4,3,20,1
+236,blue star,4,4,4,4,20,0
+260,blue star,4,3,4,4,19,0
+266,blue star,4,3,4,2,20,1
+198,blue star,4,5,4,5,20,0
+28,blue star,4,5,4,5,20,0
+64,blue star,4,4,4,3,21,0
+87,blue star,4,5,4,4,21,0
+160,blue star,4,5,5,4,19,1
+246,blue star,4,4,7,5,20,0
+191,blue star,4,5,4,1,21,0
+247,blue star,4,5,4,4,20,1
+36,blue star,4,6,3,3,20,1
+39,blue star,4,5,4,4,21,0
+192,blue star,4,5,5,6,20,1
+223,blue star,4,5,4,5,19,1
+165,blue star,4,7,2,7,19,0
+85,blue star,4,7,4,6,19,0
+84,blue star,4,6,4,7,20,0
+117,blue star,4,7,2,7,19,0
+12,brown football,5,2,7,2,19,0
+48,brown football,5,3,5,2,21,0
+167,brown football,5,2,7,3,22,0
+52,brown football,5,3,7,1,27,0
+111,brown football,5,5,6,5,22,1
+163,brown football,5,5,6,3,24,1
+257,brown football,5,2,5,1,25,1
+70,brown football,5,2,4,4,20,1
+118,brown football,5,5,4,4,19,1
+35,brown football,5,5,6,2,21,0
+172,brown football,5,5,5,5,20,1
+59,brown football,5,3,6,2,19,0
+25,brown football,5,4,6,4,20,1
+113,brown football,5,4,6,2,21,0
+143,brown football,5,4,4,3,20,0
+205,brown football,5,6,7,3,20,1
+218,brown football,5,5,5,3,20,0
+21,brown football,5,5,7,2,20,1
+27,brown football,5,7,5,3,19,1
+74,brown football,5,5,7,3,20,1
+136,brown football,5,3,6,4,20,0
+140,brown football,5,5,7,2,22,1
+155,brown football,5,3,6,2,21,0
+207,brown football,5,4,7,3,20,0
+263,brown football,5,4,7,5,21,1
+4,brown football,5,5,6,4,21,1
+39,brown football,5,3,6,4,21,0
+81,brown football,5,5,4,5,19,0
+228,brown football,5,3,7,4,20,0
+128,brown football,5,4,4,4,19,1
+187,brown football,5,7,6,7,19,0
+264,brown football,5,4,7,5,20,0
+75,brown football,5,5,7,5,21,1
+87,brown football,5,4,7,4,21,0
+47,brown football,5,4,5,5,20,0
+88,brown football,5,5,6,5,19,1
+173,brown football,5,5,5,4,19,1
+105,brown football,5,5,4,4,20,0
+15,brown football,5,6,5,3,20,1
+235,brown football,5,5,7,5,21,0
+241,brown football,5,5,6,3,20,0
+131,brown football,5,7,7,5,20,1
+192,brown football,5,6,6,5,20,1
+215,brown football,5,6,4,4,22,0
+101,brown football,5,5,5,5,21,1
+63,brown football,5,6,7,6,20,1
+95,brown football,5,5,5,6,21,1
+199,brown football,5,5,6,5,20,1
+223,brown football,5,6,7,6,19,1
+186,brown football,5,6,7,5,20,1
+153,brown football,5,7,7,6,19,1
+251,brown football,5,6,6,5,20,1
+242,brown football,5,7,7,7,20,1
+12,globe,6,3,4,1,19,0
+111,globe,6,4,4,3,22,1
+258,globe,6,4,4,5,20,0
+232,globe,6,3,4,2,19,0
+116,globe,6,3,4,4,20,0
+138,globe,6,5,3,2,21,0
+166,globe,6,4,4,3,21,1
+18,globe,6,5,4,4,20,1
+237,globe,6,5,3,5,20,1
+119,globe,6,5,3,6,22,0
+244,globe,6,3,4,2,20,0
+73,globe,6,3,5,4,20,1
+86,globe,6,4,4,4,21,1
+120,globe,6,3,4,2,20,1
+164,globe,6,3,4,1,19,0
+131,globe,6,7,4,6,20,1
+64,globe,6,4,4,2,21,0
+139,globe,6,5,4,4,20,1
+197,globe,6,5,4,2,20,0
+82,globe,6,5,4,4,19,1
+29,globe,6,4,4,2,19,0
+93,globe,6,6,4,6,20,1
+174,globe,6,3,4,3,25,0
+266,globe,6,7,4,5,20,1
+44,globe,6,6,4,5,19,0
+157,globe,6,4,4,5,19,0
+268,globe,6,5,4,5,21,1
+249,globe,6,4,4,1,21,0
+50,globe,6,5,4,5,19,0
+57,globe,6,5,5,4,19,1
+78,globe,6,5,4,5,20,0
+98,globe,6,6,4,5,20,1
+102,globe,6,4,4,4,19,0
+183,globe,6,6,4,4,19,1
+227,globe,6,4,4,5,20,0
+52,globe,6,5,4,4,27,0
+263,globe,6,5,4,6,21,1
+4,globe,6,7,4,4,21,1
+193,globe,6,5,4,6,20,0
+23,globe,6,5,4,5,20,0
+41,globe,6,7,4,7,21,1
+2,globe,6,5,4,3,20,1
+76,globe,6,5,4,5,19,1
+142,globe,6,5,5,4,21,1
+195,globe,6,5,4,5,20,1
+235,globe,6,7,4,7,21,0
+217,globe,6,6,4,6,20,1
+159,globe,6,7,4,6,20,1
+49,globe,6,6,4,6,21,1
+211,globe,6,6,5,4,22,1
+161,globe,6,7,4,6,20,1
+198,globe,6,7,4,6,20,0
+176,globe,6,7,4,6,20,1
+196,globe,6,7,4,6,19,1
+197,green ball,7,1,4,1,20,0
+255,green ball,7,1,4,2,20,0
+225,green ball,7,1,4,2,20,1
+131,green ball,7,2,4,1,20,1
+158,green ball,7,2,5,1,20,0
+51,green ball,7,2,4,1,19,1
+14,green ball,7,2,4,2,20,0
+38,green ball,7,2,4,2,20,1
+238,green ball,7,2,5,3,20,0
+18,green ball,7,3,4,2,20,1
+227,green ball,7,3,4,3,20,0
+212,green ball,7,3,4,2,21,0
+194,green ball,7,3,4,2,19,0
+261,green ball,7,3,4,1,21,0
+7,green ball,7,3,4,1,19,1
+31,green ball,7,3,5,2,21,1
+40,green ball,7,3,5,1,20,1
+83,green ball,7,3,4,2,20,0
+73,green ball,7,4,6,5,20,1
+86,green ball,7,4,4,3,21,1
+164,green ball,7,4,4,1,19,0
+98,green ball,7,4,4,4,20,1
+143,green ball,7,4,4,3,20,0
+165,green ball,7,4,6,1,19,0
+254,green ball,7,4,4,3,20,0
+124,green ball,7,4,4,1,22,0
+24,green ball,7,4,4,4,21,0
+30,green ball,7,4,7,2,19,0
+208,green ball,7,4,5,4,20,1
+76,green ball,7,5,4,5,19,1
+113,green ball,7,5,4,2,21,0
+136,green ball,7,5,4,4,20,0
+105,green ball,7,5,4,5,20,0
+110,green ball,7,5,4,4,20,0
+126,green ball,7,5,4,5,21,1
+188,green ball,7,5,4,4,21,0
+256,green ball,7,5,4,3,20,0
+181,green ball,7,5,5,3,19,0
+34,green ball,7,5,4,5,19,1
+61,green ball,7,5,3,6,20,0
+80,green ball,7,5,4,2,20,0
+146,green ball,7,5,4,3,20,1
+170,green ball,7,5,4,4,19,1
+180,green ball,7,5,4,2,20,0
+220,green ball,7,5,6,4,20,1
+226,green ball,7,5,3,4,21,0
+267,green ball,7,5,5,2,20,1
+100,green ball,7,6,5,2,21,1
+248,green ball,7,6,4,4,20,1
+148,green ball,7,6,4,5,19,1
+120,green ball,7,7,6,4,20,1
+215,green ball,7,7,4,7,22,0
+68,green ball,7,7,2,7,19,0
+1,green ball,7,7,4,6,19,0
+68,heart,8,1,2,2,19,0
+9,heart,8,1,4,1,21,0
+42,heart,8,1,4,1,19,1
+156,heart,8,1,1,1,20,1
+166,heart,8,2,4,1,21,1
+129,heart,8,2,1,2,19,1
+89,heart,8,2,2,1,19,1
+13,heart,8,2,1,4,20,1
+252,heart,8,2,2,1,19,1
+73,heart,8,3,2,6,20,1
+80,heart,8,3,1,4,20,0
+78,heart,8,3,2,4,20,0
+4,heart,8,3,2,2,21,1
+235,heart,8,3,1,2,21,0
+39,heart,8,3,4,4,21,0
+36,heart,8,3,2,1,20,1
+127,heart,8,3,4,2,20,0
+46,heart,8,3,2,2,20,1
+121,heart,8,3,2,2,21,0
+130,heart,8,3,1,2,20,0
+182,heart,8,3,2,3,20,1
+227,heart,8,4,2,3,20,0
+110,heart,8,4,2,4,20,0
+244,heart,8,4,3,2,20,0
+139,heart,8,4,2,3,20,1
+157,heart,8,4,2,5,19,0
+161,heart,8,4,1,5,20,1
+196,heart,8,4,2,5,19,1
+207,heart,8,4,1,3,20,0
+186,heart,8,4,1,4,20,1
+178,heart,8,4,3,4,21,0
+107,heart,8,4,1,2,20,0
+66,heart,8,4,1,2,19,0
+16,heart,8,4,4,4,20,1
+69,heart,8,4,3,3,21,0
+180,heart,8,5,2,5,20,0
+93,heart,8,5,1,5,20,1
+195,heart,8,5,3,4,20,1
+59,heart,8,5,2,4,19,0
+241,heart,8,5,2,3,20,0
+251,heart,8,5,2,3,20,1
+33,heart,8,5,3,6,20,0
+213,heart,8,5,1,5,19,1
+269,heart,8,5,3,5,20,1
+96,heart,8,5,4,5,20,0
+168,heart,8,5,1,4,19,1
+214,heart,8,5,3,5,19,0
+253,heart,8,5,1,3,19,0
+24,heart,8,6,1,5,21,0
+123,heart,8,6,3,5,20,0
+114,heart,8,6,2,5,19,0
+202,heart,8,6,2,5,19,0
+246,heart,8,7,1,7,20,0
+221,heart,8,7,4,5,19,0
+111,purple,9,1,4,1,22,1
+7,purple,9,2,4,1,19,1
+183,purple,9,2,4,1,19,1
+167,purple,9,2,4,2,22,0
+99,purple,9,2,4,2,20,0
+125,purple,9,2,4,3,21,1
+177,purple,9,2,4,4,20,1
+196,purple,9,3,4,3,19,1
+238,purple,9,3,4,2,20,0
+83,purple,9,3,3,2,20,0
+164,purple,9,3,4,1,19,0
+248,purple,9,3,3,3,20,1
+116,purple,9,3,3,3,20,0
+138,purple,9,3,4,1,21,0
+41,purple,9,3,4,2,21,1
+21,purple,9,3,4,3,20,1
+67,purple,9,3,3,3,20,1
+90,purple,9,3,3,2,20,0
+92,purple,9,3,4,4,19,1
+147,purple,9,3,3,2,20,0
+109,purple,9,3,4,4,20,0
+197,purple,9,4,4,4,20,0
+30,purple,9,4,4,1,19,0
+208,purple,9,4,3,4,20,1
+267,purple,9,4,3,2,20,1
+70,purple,9,4,4,4,20,1
+173,purple,9,4,4,4,19,1
+243,purple,9,4,3,1,120,1
+43,purple,9,4,4,2,18,1
+133,purple,9,4,4,3,21,1
+236,purple,9,4,4,3,20,0
+55,purple,9,4,3,4,19,0
+184,purple,9,4,4,3,20,0
+80,purple,9,5,4,3,20,0
+269,purple,9,5,4,5,20,1
+225,purple,9,5,3,5,20,1
+126,purple,9,5,4,4,21,1
+181,purple,9,5,3,2,19,0
+220,purple,9,5,4,5,20,1
+226,purple,9,5,4,4,21,0
+215,purple,9,5,4,4,22,0
+25,purple,9,5,4,4,20,1
+74,purple,9,5,4,3,20,1
+5,purple,9,5,4,3,20,0
+259,purple,9,5,3,3,20,0
+261,purple,9,6,2,6,21,0
+34,purple,9,6,4,5,19,1
+102,purple,9,6,4,6,19,0
+135,purple,9,6,6,6,20,1
+160,purple,9,6,4,5,19,1
+3,purple,9,6,4,5,19,1
+37,purple,9,6,4,4,19,0
+63,purple,9,7,5,6,20,1
+151,purple,9,7,4,6,19,0
+41,rainbow,10,1,1,1,21,1
+182,rainbow,10,2,3,1,20,1
+163,rainbow,10,5,4,4,24,1
+203,rainbow,10,4,4,7,21,1
+204,rainbow,10,2,4,2,20,0
+72,rainbow,10,1,2,1,21,1
+20,rainbow,10,4,4,4,20,1
+62,rainbow,10,3,4,2,20,0
+65,rainbow,10,2,1,1,19,0
+104,rainbow,10,4,4,1,23,0
+55,rainbow,10,2,1,1,19,0
+5,rainbow,10,7,4,4,20,0
+135,rainbow,10,2,1,2,20,1
+29,rainbow,10,2,4,2,19,0
+174,rainbow,10,2,4,2,25,0
+23,rainbow,10,2,4,2,20,0
+118,rainbow,10,4,4,3,19,1
+209,rainbow,10,4,3,2,19,1
+137,rainbow,10,5,4,5,22,1
+115,rainbow,10,6,3,5,20,1
+239,rainbow,10,2,4,5,22,1
+138,rainbow,10,5,4,5,21,0
+168,rainbow,10,5,4,6,19,1
+1,rainbow,10,4,4,4,19,0
+44,rainbow,10,5,3,4,19,0
+57,rainbow,10,5,3,4,19,1
+234,rainbow,10,6,4,5,19,1
+108,rainbow,10,4,3,3,19,0
+77,rainbow,10,4,4,2,20,0
+189,rainbow,10,5,4,3,20,0
+94,rainbow,10,3,4,2,20,0
+230,rainbow,10,4,3,5,21,0
+78,rainbow,10,3,2,4,20,0
+46,rainbow,10,5,4,2,20,1
+121,rainbow,10,4,4,4,21,0
+253,rainbow,10,5,3,3,19,0
+48,rainbow,10,6,4,4,21,0
+222,rainbow,10,5,3,6,19,1
+6,rainbow,10,5,1,1,19,0
+97,rainbow,10,5,4,4,20,1
+147,rainbow,10,5,3,5,20,0
+151,rainbow,10,6,4,5,19,0
+156,rainbow,10,5,4,2,20,1
+251,rainbow,10,5,4,5,20,1
+123,rainbow,10,6,4,5,20,0
+263,rainbow,10,6,4,6,21,1
+257,rainbow,10,5,4,6,25,1
+187,rainbow,10,7,3,7,19,0
+245,rainbow,10,6,4,3,20,1
+229,rainbow,10,7,3,6,20,0
+200,rainbow,10,5,4,4,20,1
+219,rainbow,10,5,4,5,22,0
+85,rainbow,10,6,4,6,19,0
+191,rainbow,10,7,3,2,21,0
+268,red,11,3,2,4,21,1
+133,red,11,3,3,2,21,1
+142,red,11,5,3,2,21,1
+182,red,11,4,4,4,20,1
+203,red,11,4,4,4,21,1
+20,red,11,4,4,4,20,1
+5,red,11,5,4,4,20,0
+115,red,11,5,4,2,20,1
+6,red,11,5,4,3,19,0
+99,red,11,2,4,2,20,0
+21,red,11,2,4,2,20,1
+67,red,11,4,4,4,20,1
+37,red,11,5,4,2,19,0
+68,red,11,4,4,2,19,0
+16,red,11,5,4,5,20,1
+180,red,11,5,4,2,20,0
+195,red,11,4,4,4,20,1
+241,red,11,3,4,3,20,0
+213,red,11,5,4,3,19,1
+214,red,11,5,4,5,19,0
+114,red,11,3,4,2,19,0
+221,red,11,6,4,6,19,0
+255,red,11,5,4,2,20,0
+146,red,11,3,4,3,20,1
+170,red,11,5,4,4,19,1
+148,red,11,7,4,6,19,1
+52,red,11,4,4,1,27,0
+87,red,11,5,4,4,21,0
+47,red,11,3,4,1,20,0
+88,red,11,4,4,3,19,1
+112,red,11,5,4,4,20,1
+171,red,11,5,4,3,21,1
+265,red,11,2,4,4,21,1
+260,red,11,5,4,3,19,0
+224,red,11,2,4,2,21,0
+134,red,11,4,4,3,20,0
+233,red,11,5,4,5,20,1
+32,red,11,4,4,3,21,1
+262,red,11,6,4,6,19,1
+201,red,11,4,4,4,21,1
+152,red,11,1,4,1,19,0
+79,red,11,1,4,1,19,0
+150,red,11,5,4,3,20,0
+54,red,11,5,4,4,20,0
+56,red,11,5,4,5,20,0
+103,red,11,7,4,6,20,0
+132,red,11,1,4,1,21,0
+206,red,11,3,4,3,20,0
+158,red,11,2,5,2,20,0
+31,red,11,5,5,2,21,1
+91,red,11,5,5,4,21,1
+247,red,11,4,6,4,20,1
+161,red,11,7,7,5,20,1
+66,red,11,2,7,2,19,0
+3,red apple,12,6,1,7,19,1
+201,red apple,12,2,2,4,21,1
+58,red apple,12,2,2,3,21,1
+252,red apple,12,3,3,2,19,1
+130,red apple,12,4,3,3,20,0
+178,red apple,12,7,3,5,21,0
+246,red apple,12,5,3,7,20,0
+14,red apple,12,2,3,4,20,0
+98,red apple,12,5,3,4,20,1
+124,red apple,12,5,3,4,22,0
+120,red apple,12,7,3,5,20,1
+82,red apple,12,4,3,1,19,1
+217,red apple,12,5,3,4,20,1
+122,red apple,12,2,3,2,21,1
+190,red apple,12,6,3,7,21,0
+182,red apple,12,5,4,5,20,1
+67,red apple,12,4,4,4,20,1
+37,red apple,12,4,4,3,19,0
+180,red apple,12,7,4,6,20,0
+241,red apple,12,5,4,3,20,0
+221,red apple,12,5,4,5,19,0
+88,red apple,12,4,4,3,19,1
+32,red apple,12,1,4,1,21,1
+161,red apple,12,5,4,5,20,1
+209,red apple,12,2,4,2,19,1
+1,red apple,12,5,4,5,19,0
+230,red apple,12,3,4,2,21,0
+253,red apple,12,4,4,4,19,0
+48,red apple,12,5,4,2,21,0
+164,red apple,12,4,4,1,19,0
+243,red apple,12,6,4,4,120,1
+236,red apple,12,5,4,4,20,0
+160,red apple,12,3,4,4,19,1
+42,red apple,12,1,4,1,19,1
+166,red apple,12,4,4,2,21,1
+36,red apple,12,5,4,2,20,1
+107,red apple,12,5,4,2,20,0
+86,red apple,12,2,4,2,21,1
+136,red apple,12,1,4,1,20,0
+64,red apple,12,1,4,1,21,0
+50,red apple,12,4,4,4,19,0
+211,red apple,12,6,4,3,22,1
+218,red apple,12,4,4,2,20,0
+192,red apple,12,4,4,2,20,1
+101,red apple,12,3,4,3,21,1
+71,red apple,12,4,4,3,21,0
+141,red apple,12,4,4,1,20,1
+84,red apple,12,5,4,5,20,0
+22,red apple,12,4,4,3,19,0
+149,red apple,12,3,4,4,19,1
+250,red apple,12,5,4,5,19,0
+152,red apple,12,5,5,5,19,0
+60,red apple,12,7,5,4,20,0
+224,red brain,13,1,4,1,21,0
+103,red brain,13,1,4,1,20,0
+65,red brain,13,1,7,1,19,0
+77,red brain,13,1,4,1,20,0
+245,red brain,13,1,4,1,20,1
+220,red brain,13,1,4,1,20,1
+9,red brain,13,1,4,1,21,0
+69,red brain,13,1,4,2,21,0
+165,red brain,13,1,7,1,19,0
+198,red brain,13,1,5,1,20,0
+223,red brain,13,1,4,2,19,1
+185,red brain,13,1,4,2,22,1
+130,red brain,13,2,5,1,20,0
+132,red brain,13,2,4,1,21,0
+51,red brain,13,2,4,1,19,1
+40,red brain,13,2,4,1,20,1
+140,red brain,13,2,4,1,22,1
+21,red brain,13,3,4,2,20,1
+56,red brain,13,3,4,6,20,0
+104,red brain,13,3,4,1,23,0
+251,red brain,13,3,4,4,20,1
+157,red brain,13,3,4,3,19,0
+155,red brain,13,3,4,4,21,0
+264,red brain,13,3,4,3,20,0
+169,red brain,13,3,4,3,21,1
+252,red brain,13,4,4,2,19,1
+190,red brain,13,4,4,3,21,0
+47,red brain,13,4,4,5,20,0
+54,red brain,13,4,4,4,20,0
+97,red brain,13,4,4,2,20,1
+200,red brain,13,4,4,3,20,1
+238,red brain,13,4,4,3,20,0
+208,red brain,13,4,4,4,20,1
+226,red brain,13,4,4,2,21,0
+25,red brain,13,4,6,2,20,1
+49,red brain,13,4,3,2,21,1
+15,red brain,13,4,4,2,20,1
+11,red brain,13,4,5,1,20,0
+179,red brain,13,4,4,2,20,0
+58,red brain,13,5,4,5,21,1
+142,red brain,13,5,4,2,21,1
+114,red brain,13,5,4,5,19,0
+112,red brain,13,5,4,3,20,1
+31,red brain,13,5,5,4,21,1
+46,red brain,13,5,4,2,20,1
+225,red brain,13,5,5,4,20,1
+202,red brain,13,5,4,4,19,0
+153,red brain,13,5,5,4,19,1
+183,red brain,13,6,4,4,19,1
+93,red brain,13,6,4,6,20,1
+119,red brain,13,6,4,5,22,0
+189,red brain,13,7,4,6,20,0
+81,red brain,13,7,4,7,19,0
+77,red football,14,1,4,1,20,0
+104,red football,14,3,7,1,23,0
+190,red football,14,2,7,1,21,0
+179,red football,14,3,4,1,20,0
+60,red football,14,7,7,4,20,0
+29,red football,14,2,6,1,19,0
+34,red football,14,4,5,5,19,1
+127,red football,14,2,5,2,20,0
+59,red football,14,1,4,1,19,0
+232,red football,14,3,4,4,19,0
+249,red football,14,2,4,1,21,0
+240,red football,14,1,5,1,20,1
+206,red football,14,4,4,4,20,0
+94,red football,14,3,5,2,20,0
+229,red football,14,3,7,5,20,0
+74,red football,14,5,4,2,20,1
+207,red football,14,4,7,3,20,0
+38,red football,14,6,7,3,20,1
+27,red football,14,7,4,3,19,1
+53,red football,14,5,7,4,20,1
+175,red football,14,3,4,4,21,1
+149,red football,14,5,7,2,19,1
+6,red football,14,3,7,1,19,0
+146,red football,14,4,4,4,20,1
+265,red football,14,4,6,4,21,1
+260,red football,14,3,5,2,19,0
+156,red football,14,5,6,1,20,1
+109,red football,14,3,5,5,20,0
+267,red football,14,5,6,2,20,1
+256,red football,14,5,7,3,20,0
+128,red football,14,4,4,4,19,1
+17,red football,14,5,4,5,21,1
+231,red football,14,4,5,3,19,1
+144,red football,14,3,4,2,20,1
+210,red football,14,5,6,4,19,0
+103,red football,14,6,6,4,20,0
+169,red football,14,5,5,4,21,1
+97,red football,14,5,7,5,20,1
+183,red football,14,5,7,3,19,1
+84,red football,14,4,4,5,20,0
+91,red football,14,6,6,4,21,1
+7,red football,14,6,5,2,19,1
+63,red football,14,5,7,5,20,1
+266,red football,14,6,6,2,20,1
+201,red football,14,6,6,4,21,1
+115,red football,14,7,7,7,20,1
+262,red football,14,5,7,4,19,1
+219,red football,14,5,7,5,22,0
+184,red football,14,5,6,5,20,0
+154,red football,14,5,5,5,21,0
+117,red football,14,7,5,6,19,0
+49,red football,14,6,5,5,21,1
+24,red football,14,7,7,6,21,0
+2,red football,14,6,7,3,20,1
+177,red football,14,7,4,4,20,1
+175,red star,15,1,2,1,21,1
+133,red star,15,1,2,1,21,1
+20,red star,15,1,4,3,20,1
+135,red star,15,1,1,1,20,1
+125,red star,15,1,3,1,21,1
+83,red star,15,1,4,2,20,0
+61,red star,15,1,5,2,20,0
+216,red star,15,1,2,1,19,1
+38,red star,15,2,4,2,20,1
+253,red star,15,2,3,1,19,0
+212,red star,15,2,3,1,21,0
+28,red star,15,2,5,1,20,0
+99,red star,15,3,4,2,20,0
+170,red star,15,3,4,2,19,1
+239,red star,15,3,4,4,22,1
+92,red star,15,3,5,2,19,1
+35,red star,15,3,4,3,21,0
+74,red star,15,4,4,4,20,1
+91,red star,15,4,4,4,21,1
+250,red star,15,4,4,4,19,0
+16,red star,15,4,3,4,20,1
+163,red star,15,4,4,4,24,1
+62,red star,15,4,4,4,20,0
+138,red star,15,4,4,2,21,0
+259,red star,15,4,4,3,20,0
+110,red star,15,4,4,4,20,0
+76,red star,15,4,4,4,19,1
+26,red star,15,4,4,2,20,0
+45,red star,15,4,4,3,19,0
+162,red star,15,4,4,4,20,0
+206,red star,15,5,4,3,20,0
+229,red star,15,5,4,5,20,0
+210,red star,15,5,3,2,19,0
+219,red star,15,5,4,4,22,0
+177,red star,15,5,4,4,20,1
+9,red star,15,5,4,1,21,0
+98,red star,15,5,4,4,20,1
+230,red star,15,5,4,5,21,0
+171,red star,15,5,4,3,21,1
+23,red star,15,5,4,2,20,0
+108,red star,15,5,4,4,19,0
+121,red star,15,5,4,5,21,0
+123,red star,15,5,4,4,20,0
+176,red star,15,5,3,4,20,1
+10,red star,15,5,4,5,20,0
+145,red star,15,5,4,4,20,0
+27,red star,15,6,4,3,19,1
+122,red star,15,6,4,6,21,1
+160,red star,15,6,4,4,19,1
+257,red star,15,6,4,7,25,1
+184,red star,15,7,3,6,20,0
+222,red star,15,7,4,6,19,1
+242,red star,15,7,4,7,20,1
+116,smiley,16,3,4,3,20,0
+237,smiley,16,2,4,2,20,1
+106,smiley,16,4,4,1,23,0
+175,smiley,16,3,4,2,21,1
+38,smiley,16,3,1,2,20,1
+210,smiley,16,5,4,2,19,0
+231,smiley,16,3,4,2,19,1
+130,smiley,16,3,4,1,20,0
+141,smiley,16,4,4,2,20,1
+150,smiley,16,3,4,1,20,0
+174,smiley,16,2,4,2,25,0
+118,smiley,16,3,4,3,19,1
+33,smiley,16,5,4,3,20,0
+254,smiley,16,3,4,1,20,0
+75,smiley,16,4,4,3,21,1
+10,smiley,16,2,4,3,20,0
+94,smiley,16,4,4,2,20,0
+144,smiley,16,4,4,3,20,1
+262,smiley,16,4,4,3,19,1
+69,smiley,16,5,4,3,21,0
+40,smiley,16,6,4,2,20,1
+93,smiley,16,5,4,4,20,1
+211,smiley,16,5,3,3,22,1
+268,smiley,16,3,4,3,21,1
+111,smiley,16,4,3,2,22,1
+248,smiley,16,3,4,2,20,1
+143,smiley,16,3,4,3,20,0
+159,smiley,16,5,4,4,20,1
+61,smiley,16,5,4,5,20,0
+162,smiley,16,5,4,5,20,0
+177,smiley,16,6,4,4,20,1
+260,smiley,16,5,4,3,19,0
+17,smiley,16,4,4,4,21,1
+7,smiley,16,5,3,4,19,1
+114,smiley,16,7,4,3,19,0
+81,smiley,16,5,4,5,19,0
+1,smiley,16,2,1,4,19,0
+186,smiley,16,4,4,3,20,1
+8,smiley,16,4,4,4,19,0
+206,smiley,16,6,4,4,20,0
+219,smiley,16,5,4,5,22,0
+145,smiley,16,5,4,4,20,0
+185,smiley,16,6,4,6,22,1
+255,smiley,16,6,3,4,20,0
+87,smiley,16,5,4,5,21,0
+233,smiley,16,7,4,5,20,1
+26,smiley,16,6,4,5,20,0
+45,smiley,16,6,4,4,19,0
+85,smiley,16,6,4,6,19,0
+176,smiley,16,7,4,4,20,1
+222,smiley,16,7,4,6,19,1
+58,smiley,16,7,7,6,21,1
+196,smiley,16,7,4,6,19,1
+261,smiley,16,7,4,7,21,0
+73,smiley,16,6,4,6,20,1
+132,white brain,17,1,4,1,21,0
+11,white brain,17,2,4,1,20,0
+61,white brain,17,1,4,2,20,0
+127,white brain,17,2,4,2,20,0
+265,white brain,17,3,3,2,21,1
+109,white brain,17,4,4,5,20,0
+117,white brain,17,3,4,3,19,0
+234,white brain,17,2,4,2,19,1
+95,white brain,17,7,5,7,21,1
+199,white brain,17,6,4,3,20,1
+19,white brain,17,1,4,1,20,1
+83,white brain,17,4,4,2,20,0
+62,white brain,17,4,4,2,20,0
+34,white brain,17,5,4,4,19,1
+223,white brain,17,3,4,4,19,1
+32,white brain,17,3,4,1,21,1
+168,white brain,17,4,4,3,19,1
+80,white brain,17,6,4,2,20,0
+144,white brain,17,5,4,3,20,1
+170,white brain,17,5,4,4,19,1
+92,white brain,17,5,4,5,19,1
+259,white brain,17,3,4,3,20,0
+53,white brain,17,2,4,2,20,1
+65,white brain,17,3,4,3,19,0
+155,white brain,17,3,4,3,21,0
+153,white brain,17,7,5,4,19,1
+14,white brain,17,1,4,2,20,0
+203,white brain,17,5,4,6,21,1
+213,white brain,17,5,5,5,19,1
+214,white brain,17,5,4,5,19,0
+30,white brain,17,4,4,3,19,0
+194,white brain,17,4,4,5,19,0
+172,white brain,17,2,4,1,20,1
+228,white brain,17,4,4,4,20,0
+231,white brain,17,4,4,4,19,1
+150,white brain,17,5,5,5,20,0
+239,white brain,17,3,4,6,22,1
+122,white brain,17,4,4,6,21,1
+184,white brain,17,5,4,3,20,0
+146,white brain,17,4,4,4,20,1
+267,white brain,17,5,5,4,20,1
+266,white brain,17,5,4,4,20,1
+15,white brain,17,6,5,3,20,1
+134,white brain,17,5,4,5,20,0
+96,white brain,17,5,4,5,20,0
+18,white brain,17,4,4,3,20,1
+205,white brain,17,6,4,4,20,1
+69,white brain,17,3,4,3,21,0
+120,white brain,17,5,6,5,20,1
+101,white brain,17,4,4,3,21,1
+187,white brain,17,7,4,7,19,0
+43,white brain,17,5,4,5,18,1
+37,white brain,17,7,4,7,19,0
+65,yellow,18,7,1,6,19,0
+24,yellow,18,5,2,5,21,0
+72,yellow,18,1,2,1,21,1
+121,yellow,18,4,3,4,21,0
+242,yellow,18,1,3,1,20,1
+156,yellow,18,1,3,1,20,1
+220,yellow,18,7,3,7,20,1
+22,yellow,18,4,3,1,19,0
+181,yellow,18,2,3,2,19,0
+95,yellow,18,5,4,1,21,1
+199,yellow,18,2,4,2,20,1
+62,yellow,18,5,4,4,20,0
+155,yellow,18,7,4,6,21,0
+14,yellow,18,4,4,3,20,0
+30,yellow,18,4,4,2,19,0
+134,yellow,18,3,4,5,20,0
+205,yellow,18,5,4,3,20,1
+187,yellow,18,7,4,4,19,0
+43,yellow,18,5,4,5,18,1
+210,yellow,18,6,4,5,19,0
+141,yellow,18,4,4,2,20,1
+94,yellow,18,2,4,1,20,0
+162,yellow,18,5,4,5,20,0
+145,yellow,18,3,4,3,20,0
+91,yellow,18,5,4,2,21,1
+250,yellow,18,3,4,2,19,0
+163,yellow,18,4,4,4,24,1
+230,yellow,18,2,4,2,21,0
+108,yellow,18,4,4,3,19,0
+27,yellow,18,5,4,3,19,1
+257,yellow,18,5,4,6,25,1
+97,yellow,18,4,4,3,20,1
+245,yellow,18,1,4,1,20,1
+140,yellow,18,2,4,1,22,1
+264,yellow,18,5,4,5,20,0
+238,yellow,18,4,4,2,20,0
+208,yellow,18,4,4,5,20,1
+226,yellow,18,4,4,4,21,0
+31,yellow,18,5,4,2,21,1
+225,yellow,18,6,4,6,20,1
+3,yellow,18,3,4,2,19,1
+50,yellow,18,3,4,4,19,0
+192,yellow,18,3,4,2,20,1
+55,yellow,18,1,4,2,19,0
+137,yellow,18,3,4,2,22,1
+57,yellow,18,3,4,3,19,1
+78,yellow,18,2,4,4,20,0
+263,yellow,18,4,4,6,21,1
+191,yellow,18,5,4,3,21,0
+173,yellow,18,4,4,2,19,1
+102,yellow,18,5,4,5,19,0
+13,yellow,18,3,4,3,20,1
+113,yellow,18,5,4,2,21,0
+105,yellow,18,5,4,4,20,0
+124,yellow apple,19,4,4,1,22,0
+82,yellow apple,19,1,4,1,19,1
+216,yellow apple,19,3,4,1,19,1
+42,yellow apple,19,2,4,2,19,1
+137,yellow apple,19,5,4,4,22,1
+199,yellow apple,19,5,4,4,20,1
+162,yellow apple,19,6,3,6,20,0
+11,yellow apple,19,2,4,1,20,0
+19,yellow apple,19,3,4,2,20,1
+209,yellow apple,19,2,4,2,19,1
+86,yellow apple,19,3,2,2,21,1
+158,yellow apple,19,5,4,2,20,0
+188,yellow apple,19,2,4,2,21,0
+240,yellow apple,19,3,4,2,20,1
+242,yellow apple,19,4,2,4,20,1
+140,yellow apple,19,3,4,1,22,1
+53,yellow apple,19,4,4,2,20,1
+239,yellow apple,19,3,4,5,22,1
+96,yellow apple,19,5,4,5,20,0
+8,yellow apple,19,2,4,1,19,0
+104,yellow apple,19,3,4,1,23,0
+60,yellow apple,19,7,5,4,20,0
+2,yellow apple,19,5,4,4,20,1
+202,yellow apple,19,3,2,5,19,0
+36,yellow apple,19,2,4,1,20,1
+64,yellow apple,19,2,4,2,21,0
+126,yellow apple,19,2,4,4,21,1
+50,yellow apple,19,3,4,3,19,0
+250,yellow apple,19,4,3,3,19,0
+153,yellow apple,19,4,3,5,19,1
+172,yellow apple,19,4,4,3,20,1
+174,yellow apple,19,2,4,2,25,0
+84,yellow apple,19,5,4,5,20,0
+63,yellow apple,19,5,4,5,20,1
+115,yellow apple,19,2,5,2,20,1
+189,yellow apple,19,5,3,4,20,0
+167,yellow apple,19,3,2,2,22,0
+129,yellow apple,19,5,4,5,19,1
+227,yellow apple,19,4,3,3,20,0
+193,yellow apple,19,5,4,6,20,0
+264,yellow apple,19,6,3,6,20,0
+228,yellow apple,19,3,4,2,20,0
+15,yellow apple,19,7,4,4,20,1
+256,yellow apple,19,3,4,2,20,0
+56,yellow apple,19,4,3,5,20,0
+148,yellow apple,19,6,4,5,19,1
+103,yellow apple,19,3,4,3,20,0
+252,yellow apple,19,2,3,2,19,1
+119,yellow apple,19,5,3,4,22,0
+90,yellow apple,19,4,4,2,20,0
+39,yellow apple,19,4,3,4,21,0
+33,yellow apple,19,6,4,6,20,0
+214,yellow apple,19,5,4,5,19,0
+240,yellow star,20,1,4,1,20,1
+175,yellow star,20,1,2,3,21,1
+17,yellow star,20,1,4,1,21,1
+185,yellow star,20,3,4,4,22,1
+237,yellow star,20,4,3,5,20,1
+125,yellow star,20,3,4,2,21,1
+218,yellow star,20,4,4,2,20,0
+166,yellow star,20,5,4,4,21,1
+57,yellow star,20,4,3,3,19,1
+116,yellow star,20,5,4,5,20,0
+28,yellow star,20,3,3,3,20,0
+171,yellow star,20,1,4,2,21,1
+207,yellow star,20,5,3,4,20,0
+221,yellow star,20,4,4,5,19,0
+195,yellow star,20,5,5,4,20,1
+89,yellow star,20,3,4,2,19,1
+258,yellow star,20,7,4,2,20,0
+2,yellow star,20,4,4,3,20,1
+202,yellow star,20,3,4,5,19,0
+95,yellow star,20,4,4,3,21,1
+40,yellow star,20,3,3,1,20,1
+45,yellow star,20,2,3,3,19,0
+149,yellow star,20,4,4,4,19,1
+52,yellow star,20,2,1,2,27,0
+151,yellow star,20,3,3,4,19,0
+269,yellow star,20,4,4,3,20,1
+235,yellow star,20,5,4,5,21,0
+188,yellow star,20,5,4,3,21,0
+22,yellow star,20,5,2,3,19,0
+109,yellow star,20,5,4,5,20,0
+76,yellow star,20,3,4,3,19,1
+128,yellow star,20,4,4,4,19,1
+200,yellow star,20,3,3,5,20,1
+142,yellow star,20,5,2,2,21,1
+8,yellow star,20,4,4,4,19,0
+56,yellow star,20,6,3,6,20,0
+102,yellow star,20,1,4,2,19,0
+179,yellow star,20,3,3,1,20,0
+232,yellow star,20,5,4,5,19,0
+246,yellow star,20,6,3,7,20,0
+136,yellow star,20,3,3,4,20,0
+247,yellow star,20,5,3,5,20,1
+90,yellow star,20,5,3,4,20,0
+3,yellow star,20,7,7,7,19,1
+58,yellow star,20,2,4,1,21,1
+51,yellow star,20,3,4,2,19,1
+54,yellow star,20,7,4,7,20,0
+236,yellow star,20,3,4,3,20,0
+79,yellow star,20,5,4,5,19,0
+148,yellow star,20,7,4,6,19,1
+152,yellow star,20,6,4,7,19,0
+204,yellow star,20,4,4,5,20,0
+26,yellow star,20,5,4,4,20,0
+132,yellow star,20,4,2,2,21,0

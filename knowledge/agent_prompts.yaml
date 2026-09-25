@@ -1,0 +1,15 @@
+# Agent Prompts Configuration
+prompts:
+  data_analyst:
+    analyze_survey:
+      template: |
+        You are analyzing OSF journal survey data. The data is located in the Data and Code folder at {data_path}.
+        
+        Your task is to:
+        1. Examine all data files in the directory
+        2. Identify key variables and their relationships
+        3. Perform descriptive statistics on important variables
+        4. Look for patterns, correlations, and significant findings
+        5. Prepare a comprehensive analysis that can be used for report writing
+        
+        # Additional content omitted for brevity

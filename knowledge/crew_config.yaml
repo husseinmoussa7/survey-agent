@@ -1,0 +1,95 @@
+# CrewAI Configuration for Journal Report Generation
+name: Journal-Report-Generation-Crew
+description: A crew that analyzes OSF journal survey data and generates research reports
+agents:
+  - id: data_analyst
+    name: Data Analyst
+    role: Analyze survey data and extract key insights
+    goal: Identify meaningful patterns and statistics from survey data
+    backstory: An experienced data scientist who specializes in research data analysis and statistical methods
+    verbose: true
+    allow_delegation: true
+    tools:
+      - data_analysis_tool
+      - file_reader_tool
+    llm:
+      provider: openai
+      config:
+        model: gpt-4-turbo
+        temperature: 0.2
+  
+  - id: research_writer
+    name: Research Writer
+    role: Craft coherent research reports based on data analysis
+    goal: Create clear, informative, and academically sound research reports
+    backstory: An academic writer with experience in publishing journal articles
+    verbose: true
+    allow_delegation: true
+    tools:
+      - file_reader_tool
+    llm:
+      provider: openai
+      config:
+        model: gpt-4-turbo
+        temperature: 0.7
+  
+  - id: methodology_expert
+    name: Methodology Expert
+    role: Ensure research methodology is sound and properly documented
+    goal: Validate research methodology and suggest improvements
+    backstory: A research methodologist with expertise in survey design and experimental protocols
+    verbose: true
+    allow_delegation: true
+    tools:
+      - file_reader_tool
+    llm:
+      provider: openai
+      config:
+        model: gpt-4-turbo
+        temperature: 0.3
+
+tasks:
+  - id: analyze_survey_data
+    description: Review and analyze the survey data to extract patterns and insights
+    agent: data_analyst
+    expected_output: A comprehensive analysis of survey responses with key statistics
+    context: The data is stored in the Data and Code folder
+    
+  - id: review_methodology
+    description: Examine the survey design and methodology for validity and completeness
+    agent: methodology_expert
+    expected_output: Assessment of research methodology with recommendations
+    context: The survey design is provided in the OSF journal survey design files
+    
+  - id: create_report_outline
+    description: Develop a structured outline for the research report
+    agent: research_writer
+    expected_output: A detailed outline of the research report
+    depends_on:
+      - analyze_survey_data
+      - review_methodology
+    
+  - id: write_report_draft
+    description: Write a complete draft of the research report
+    agent: research_writer
+    expected_output: A draft research report formatted for academic submission
+    depends_on:
+      - create_report_outline
+    
+  - id: review_report
+    description: Review and provide feedback on the report draft
+    agent: methodology_expert
+    expected_output: Feedback and recommendations for improving the report
+    depends_on:
+      - write_report_draft
+      
+  - id: finalize_report
+    description: Incorporate feedback and finalize the research report
+    agent: research_writer
+    expected_output: A finalized research report ready for submission
+    depends_on:
+      - review_report
+
+process:
+  sequential: true
+  verbose: true

@@ -1,0 +1,61 @@
+# File Structure Configuration
+file_structure:
+  base_dir: JCR Papers
+  paper_pattern: Paper #{number}
+  expected_folders:
+    - Data and Code
+    - Stimuli
+  expected_files:
+    - pattern: "*.pdf"
+      description: "Report PDF"
+      required: true
+      
+  data_location:
+    primary: Data and Code
+    alternate: []
+    
+  stimuli_location:
+    primary: Stimuli
+    alternate: []
+    file_types:
+      - pdf
+      
+input_parsing:
+  survey_design:
+    file_types:
+      - pdf
+      - docx
+      - md
+    search_paths:
+      - Data and Code
+      - {paper_root}
+    keywords:
+      - survey
+      - design
+      - methodology
+      - protocol
+      
+  data_files:
+    file_types:
+      - csv
+      - xlsx
+      - json
+    search_paths:
+      - Data and Code
+      - Data and Code/data
+      - Data and Code/raw
+    keywords:
+      - data
+      - responses
+      - survey
+      - results
+      
+output_structure:
+  reports_dir: generated_reports
+  artifacts_dir: analysis_artifacts
+  file_naming: "{paper_number}_report_{timestamp}"
+  
+logging:
+  enabled: true
+  level: INFO
+  file: journal_agent.log

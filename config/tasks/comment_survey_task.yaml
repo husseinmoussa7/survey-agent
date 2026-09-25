@@ -1,0 +1,59 @@
+comment_survey:  # comments are for humans; suggestions are for AI to revise survey design
+
+  description: >
+    You will receive:
+      - original_survey: the survey as a JSON object conforming to the Survey model.
+
+    Your task is to provide structured, expert feedback to improve survey quality in both form and function.
+
+    You must generate:
+
+    1. Comments:
+       - Write a list of comment objects (in JSON format), each linked to a specific question via its question_id.
+       - These comments are for humans (e.g., researchers, survey designers) and should critically assess each question on the following **aspects**:
+
+         - Validity: Does the question capture the intended construct clearly and accurately?
+         - Logical Clarity: Is the question wording precise, unambiguous, and free from double-barreled phrasing?
+         - Measurability: Is the question's content actionable and answerable using a concrete response (e.g., scale, category)?
+         - Relevance: Is the question necessary and aligned with the research goals and hypothesized constructs?
+         - Format/Structure: Is the response scale appropriate and consistent with the construct's measurement type (e.g., reflective vs. formative indicators)?
+         - Response Bias Risks: Does the item risk eliciting social desirability, acquiescence, or other systematic biases?
+
+       - Comments should be constructive and aimed at refining question quality, not merely flagging issues.
+
+    2. Suggestions:
+       - Provide a list of suggestion objects (in JSON format) for the next AI agent that will modify the survey.
+       - These suggestions are high-level design recommendations and should address:
+
+         - Overall quality and completeness of the survey
+         - Potential improvements to item wording, structure, or scale
+         - Identification of redundant or missing constructs
+         - Suggestions for improving alignment between the questionnaire and theoretical constructs (especially for formative constructs)
+         - Recommendations to enhance engagement, reduce respondent fatigue, and limit bias
+         - Additional questions that could strengthen construct coverage or external validity
+
+       - Each suggestion should be written with sufficient detail for an AI editor to apply changes without ambiguity.
+
+    3. Respond with exactly this JSON schema (no extra keys, no markdown fences):
+
+    {
+      "comments": [
+        { "question_id": "<question_id>", "comment": "<comment>" }
+      ],
+      "suggestions": [
+        { "suggestion_id": "<suggestion_id>", "suggestion_text": "<suggestion>" }
+      ]
+    }
+
+  inputs:
+    original_survey:
+      description: "The initial survey JSON object."
+  outputs:
+    comments:
+      description: "List of comment objects, each linked to a specific question and addressing its design."
+    suggestions:
+      description: "List of survey-level suggestions for the next AI agent to implement."
+
+  expected_output: >
+    A JSON object matching the schema shown above, with no additional keys.
+  agent: survey_editor

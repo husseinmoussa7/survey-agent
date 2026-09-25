@@ -1,0 +1,37 @@
+Study 5:
+Imagine that you are planning a trip to Orlando in summer. After some searching, you decide to
+book a 4-star hotel for your stay. The booking website offers two packages.
+[The order of the following two options was counterbalanced]
+Package A: You can stay in the following 4-star hotel with a 4-star customer rating
+[One of 20 hotels was randomly presented]
+Horizontal Condition: Package B: You can stay in a mystery 4-star hotel, all with 4-star customer
+ratings, but you do not know which hotel you will stay in until you complete booking.
+Vertical Condition: Package B: You can stay in a mystery 4-star hotel for which the customer
+ratings vary between 3 and 5 stars (all equally likely), but you do not know which hotel you will
+stay in until you complete booking.
+The possible hotels are:
+[A list of 20 hotels was presented]
+Which of the two hotel packages would you choose?
+o Package A [a picture of one of the 20 hotels presented earlier]
+o Package B [a picture of a question mark]
+To what extent did wanting to be surprised influence your choice?
+Not at all (1) - Very much (9)
+What, and to what extent, influenced your choice?
+The worst possible outcome (-4), neither (0), the best possible outcome (4)
+To what extent does option B represent a surprise?
+Compared to Option A, Option B …
+…elicits imagery
+…is representative of a surprise
+…is affective in nature
+…is cognitive in nature
+…Uncertain
+…Risky
+…Unknown
+…Exciting
+… attention check (do not answer)
+Not at all (1) - Very much (5)
+Expected Value of Option A per night ($ 0-500)
+Expected Value of Option B per night ($ 0-500)
+I like being surprised.
+I can't stand being taken by surprise.
+Strongly Disagree (1) – Strongly Agree (9)

@@ -1,0 +1,25 @@
+get_survey:
+  description: >
+    Retrieve both metadata and all collected responses for a published
+    survey by its ID. Handle any necessary pagination to ensure completeness.
+    Input key: survey_id
+  tool: fetch_survey
+  inputs:
+    survey_id:
+      description: "Survey ID to fetch"
+  outputs:
+    survey:
+      description: "Survey metadata (id, title, status, etc.)"
+    responses:
+      description: "Array of all response objects"
+  expected_output: >
+    A JSON object containing:
+    - survey: an object with survey metadata (id, title, status, etc.)
+    - responses: an array of all response objects submitted to the survey
+
+
+
+
+
+
+    

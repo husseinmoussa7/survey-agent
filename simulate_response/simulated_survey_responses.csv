@@ -1,0 +1,55 @@
+ParticipantID,Age,Gender,Race,Response
+f9e9d992-9c8b-47b2-832a-ba8edb55d810,62,Female,Indigenous,"{
+  ""Q1"": 4,
+  ""Q2"": 5,
+  ""Q3"": 6,
+  ""Q4"": ""I think of organic food as a healthier option with fewer chemicals."",
+  ""Q5"": 5,
+  ""Q6"": ""Cost is a barrier for me when considering buying organic food."",
+  ""Q7"": ""Elders in my community see organic food as a return to traditional ways of eating and living.""
+}"
+b7163744-b2b5-4a45-b333-88c6cd63146c,24,Male,White,"{
+  ""Q1"": 5,
+  ""Q2"": 6,
+  ""Q3"": 4,
+  ""Q4"": ""I think of organic food as a healthier option compared to conventional food."",
+  ""Q5"": 6,
+  ""Q6"": ""The higher cost of organic food compared to non-organic options is a barrier for me."",
+  ""Q7"": ""Elders may think of organic food as a trendy but expensive choice that may not be worth the cost.""
+}"
+ee64c9a6-f560-41f8-b823-275cf3131668,53,Female,Asian,"{
+  ""Q1"": 4,
+  ""Q2"": 6,
+  ""Q3"": 5,
+  ""Q4"": ""I think of organic food as a healthier and more sustainable option compared to conventional food."",
+  ""Q5"": 5,
+  ""Q6"": ""The higher cost of organic food and limited availability in my area are barriers that prevent me from buying organic food."",
+  ""Q7"": ""Elders may view organic food as a trendy or unnecessary expense, but some may also see it as a healthier choice for their well-being.""
+}"
+c4c897b3-7658-4103-b88b-34425ccb8521,28,Female,Asian,"{
+  ""Q1"": 5,
+  ""Q2"": 6,
+  ""Q3"": 4,
+  ""Q4"": ""I think of organic food as a healthier and more environmentally friendly option."",
+  ""Q5"": 6,
+  ""Q6"": ""The higher cost of organic food compared to non-organic options."",
+  ""Q7"": ""Elders may see organic food as a trendy but unnecessary expense.""
+}"
+21b3f469-22a2-445e-bdb6-fc576f3e9232,31,Male,Asian,"{
+  ""Q1"": 5,
+  ""Q2"": 6,
+  ""Q3"": 4,
+  ""Q4"": ""I think of organic food as healthier and more environmentally friendly."",
+  ""Q5"": 5,
+  ""Q6"": ""The higher cost of organic food compared to non-organic options."",
+  ""Q7"": ""Elders may view organic food as a trend or unnecessary expense.""
+}"
+02ab1090-e43e-4502-b6f0-4c47bab2a13e,42,Male,Indigenous,"{
+  ""Q1"": 4,
+  ""Q2"": 5,
+  ""Q3"": 6,
+  ""Q4"": ""I view organic food as a healthier and more environmentally friendly option compared to conventional food."",
+  ""Q5"": 5,
+  ""Q6"": ""The cost of organic food is a barrier for me, as well as limited availability in my area."",
+  ""Q7"": ""Elders in my community view organic food as a return to traditional and sustainable practices that align with our cultural values.""
+}"

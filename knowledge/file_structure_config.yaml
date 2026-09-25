@@ -1,0 +1,13 @@
+# File Structure Configuration
+file_structure:
+  base_dir: JCR Papers
+  paper_pattern: Paper #{number}
+  expected_folders:
+    - Data and Code
+    - Stimuli
+  expected_files:
+    - pattern: "*.pdf"
+      description: "Report PDF"
+      required: true
+      
+  # Additional content omitted for brevity

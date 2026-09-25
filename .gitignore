@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.py[cod]
+*.bak
+
+# os / sync artifacts
+.DS_Store
+Icon?
+
+# Regenerable panel outputs, deliberately not tracked (hundreds of MB).
+# Recreate with: python debias/panel/code/simulate_response/step2_twin_debias_models.py
+debias/panel/outputs/step2/**/*_all_seeds_predictions.csv
+debias/panel/outputs/step2/**/*_RAW_TRAIN_DATA.csv
+debias/panel/outputs/step2/**/*_RAW_VALID_DATA.csv
+debias/panel/outputs/step2/**/*_FACTORS_TRAIN.csv
+debias/panel/outputs/step2/**/*_FACTORS_VALID.csv
+
+# Regenerable by step1 and redundant with combined_waves_1_to_4_master.pkl
+debias/panel/outputs/combined_waves_1_to_4_master.csv

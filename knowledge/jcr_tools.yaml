@@ -1,0 +1,32 @@
+# Tool Configurations 
+tools:
+  - id: data_analysis_tool
+    name: Data Analyzer
+    description: A tool to parse and analyze survey data files
+    class: DataAnalysisTool
+    config:
+      supported_formats:
+        - csv
+        - xlsx
+        - json
+      analysis_techniques:
+        - descriptive_statistics
+        - correlation_analysis
+        - thematic_analysis
+        - sentiment_analysis
+        
+  - id: file_reader_tool
+    name: File Reader
+    description: A tool to read and extract content from various file formats
+    class: FileReaderTool
+    config:
+      supported_formats:
+        - pdf
+        - docx
+        - txt
+        - md
+      extract_features:
+        - text_content
+        - metadata
+        - images
+        - tables

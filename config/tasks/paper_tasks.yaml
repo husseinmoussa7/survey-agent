@@ -1,0 +1,32 @@
+analysis_task:
+  description: >
+    Conduct a comprehensive data analysis of the provided dataset.
+    Your final report must be in markdown and include:
+    1. Descriptive statistics for key variables.
+    2. Statistical tests (or exploratory analyses) directly aligned with the study focus.
+    3. Key findings and supporting evidence.
+
+    Study focus:
+    {analysis_focus}
+
+    Data summary:
+    {data_summary}
+  expected_output: >
+    A markdown report detailing the analysis, with tables, statistical results, and a summary of key findings.
+
+methodology_task:
+  description: >
+    Based on the analysis and study focus, write a credible 'Methodology' section in markdown.
+    Include: Participants, Materials/Procedure (or Measures), and Data Analysis Plan.
+    Ensure plausibility and reproducibility.
+  expected_output: >
+    A complete, well-written 'Methodology' section in markdown.
+
+writing_task:
+  description: >
+    Write a full academic paper in markdown by synthesizing the analysis and methodology.
+    Include: Title, Abstract, Introduction, Methodology, Results, Discussion, and Conclusion.
+    Ensure clear exposition, journal-appropriate structure, and coherence.
+  expected_output: >
+    A single markdown document containing the full paper.
+

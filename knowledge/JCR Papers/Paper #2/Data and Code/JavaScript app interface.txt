@@ -1,0 +1,54 @@
+//Code created by Shawn Zamechek at the University of Pennsylvania
+//Please thank the Wharton Behavioral Lab at the University of Pennsylvania 
+//and cite Silverman and Barasch 2022 if using in your research
+
+//JavaScript for the “app interface” embedded within a Qualtrics question
+//must be added to each question that you want shown as if in an app
+
+Qualtrics.SurveyEngine.addOnReady(function()
+{
+var skin_img ="image_from_web_for_background.jpg"; //IMAGE FOR APP BACKGROUND
+var auto_advance_time = 100; //SECONDS UNTIL AUTO ADVANCE
+var auto_advance_type = 'onLoad' //can be "onLoad" or "onType"
+var show_puzzle = true;
+var show_win_totals = false; 
+var show_timer = false; //CAN SHOW A TIMER ON THE PAGE OR NOT
+var timer_time = 100; //TIMER AMOUNT IN SECONDS
+var hint_text = "Hint text here."; //TEXT TO SHOW IF PARTICIPANTS CLICK THE HINT BUTTON
+var show_hint = true; //HINT BUTTON VISIBLE OR NOT (FALSE)
+
+//DO NOT TOUCH BELOW
+var win_totals = "${e://Field/correct}" + "";
+['https://mktg-it-app-scripts.s3.amazonaws.com/jackie/puzzle/bundle.js'].forEach(function(src) {
+var script = document.createElement('script');
+script.src = src;
+async = false;
+document.head.appendChild(script);
+});
+window.qualtrics = this;
+console.log("setting up qualtrics context");
+jQuery('.JFE').after("<div id='myroot' skin_img='" + skin_img +
+"' win_totals='" + win_totals +
+"' debug=" + false +
+" show_puzzle=" + show_puzzle +
+" show_win_totals=" + show_win_totals +
+" auto_advance_time=" + auto_advance_time +
+" auto_advance_type= '" + auto_advance_type +
+"' show_timer= " + show_timer +
+" timer_time= "+ timer_time +
+" hint_text='" + hint_text +
+"' show_hint=" + show_hint +
+">&nbsp;</div>");
+});
+
+//Code to repeat app background image on a new page without other features of the app interface
+
+var skin_url ="image_from_web_for_background.jpg"
+
+//DO NOT MODIFY BELOW
+Qualtrics.SurveyEngine.addOnReady(function()
+{
+jQuery(".Skin").css("background-image", 'url("'+ skin_url +'")')
+jQuery(".Skin").css("height", "100%")
+jQuery(".Skin").css("width", "100%")
+});

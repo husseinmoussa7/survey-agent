@@ -1,0 +1,76 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is {current_year}.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic}
+  agent: researcher
+  
+improve_survey:
+  description: >
+    You will receive:
+      - original_survey: the survey as a JSON object conforming to the Survey model  
+      - comments: an array of feedback comments for each question  
+      - suggestions: an array of proposed improvements for each question and for the survey as a whole
+
+    Your tasks:
+      1. Produce `original_with_comments`: annotate the original_survey with comments only (do not include suggestions in this part).  
+      2. Produce revised_survey: apply the suggestions to generate an updated survey JSON, ensuring that each question is rephrased to align with professional academic standards.
+      3. Respond with exactly this JSON schema (no extra keys, no markdown fences):
+
+      {
+        "original_with_comments": {
+          "survey": {
+            "theme": "<survey theme>",
+            "purpose": "<survey purpose>",
+            "questions": [
+              {
+                "question_id": "<question_id>",
+                "question_text": "<question text>",
+                "input_type": "<multiple_choice|single_choice|text_input>",
+                "input_config": { … }
+              }
+            ]
+          },
+          "question_comments": [
+            { "question_id": "<question_id>", "comment": "<comment>" }
+          ],
+          "overall_comment": "<overall comment>"
+        },
+        "revised_survey": {
+          "theme": "<survey theme>",
+          "purpose": "<survey purpose>",
+          "questions": [
+            {
+              "question_id": "<question_id>",
+              "question_text": "<question text>",
+              "input_type": "<multiple_choice|single_choice|text_input>",
+              "input_config": { … }
+            }
+          ]
+        }
+      }
+
+  inputs:
+    original_survey:
+      description: "The initial survey JSON object."
+    comments:
+      description: "List of comment objects for each question."
+    suggestions:
+      description: "List of suggestion objects for improving the survey."
+  outputs:
+    original_with_comments:
+      description: "The original survey annotated with feedback comments."
+    revised_survey:
+      description: "The revised survey JSON incorporating all suggestions."
+  expected_output: >
+    A JSON object matching the schema shown above, with no additional keys.
+  agent: survey_editor
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+post_survey:
+  description: >
+    Given a fully-designed survey definition JSON, deploy that survey to the
+    configured survey platform via its API. Do not alter the survey content
+    or structure—only handle the publication step.
+    Input key: survey_definition
+  tool: publish_survey
+  inputs:
+    survey_definition:
+      description: "Survey definition JSON (e.g., Qualtrics/Typeform)"
+  outputs:
+    id:
+      description: "Unique identifier of the newly published survey"
+    title:
+      description: "Survey title"
+    status:
+      description: "Publication status (e.g., 'live')"
+    created_at:
+      description: "Publication timestamp"
+  expected_output: >
+    A JSON object confirming successful deployment, including at minimum:
+    - id: the unique identifier of the newly published survey
+    - title: the survey's title
+    - status: publication status (e.g. “live”)
+    - created_at: timestamp of publication
+
+
+
+
+
+
+
+
+
+
+

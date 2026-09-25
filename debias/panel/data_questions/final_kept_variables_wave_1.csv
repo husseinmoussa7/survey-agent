@@ -1,0 +1,720 @@
+Variable_Name,Average_Human_Response,Question,Codes,Keep_Status,Reason
+Big Five _1,2.947521865889213,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is talkative {""ImportId"":""QID25_1""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _2,2.5344995140913507,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Tends to find fault with others {""ImportId"":""QID25_2""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _3,4.381924198250728,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Does a thorough job {""ImportId"":""QID25_3""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _4,2.3960155490767736,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is depressed, blue {""ImportId"":""QID25_4""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _5,3.8464528668610303,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is original, comes up with new ideas {""ImportId"":""QID25_5""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _6,3.620991253644315,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is reserved {""ImportId"":""QID25_6""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _7,4.167152575315841,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is helpful and unselfish with others {""ImportId"":""QID25_7""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _8,2.358600583090379,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Can be somewhat careless {""ImportId"":""QID25_8""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _9,3.445092322643343,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is relaxed, handles stress well {""ImportId"":""QID25_9""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _10,4.388726919339164,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is curious about many different things {""ImportId"":""QID25_10""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _11,3.204567541302235,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is full of energy {""ImportId"":""QID25_11""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _12,1.572886297376093,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Starts quarrels with others {""ImportId"":""QID25_12""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _13,4.495626822157434,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is a reliable worker {""ImportId"":""QID25_13""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _14,3.093780369290573,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Can be tense {""ImportId"":""QID25_14""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _15,3.801749271137026,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is ingenious, a deep thinker {""ImportId"":""QID25_15""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _16,3.2964042759961125,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Generates a lot of enthusiasm {""ImportId"":""QID25_16""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _17,3.881438289601555,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Has a forgiving nature {""ImportId"":""QID25_17""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _18,2.3858114674441206,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Tends to be disorganized {""ImportId"":""QID25_18""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _19,3.1895043731778427,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Worries a lot {""ImportId"":""QID25_19""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _20,4.075315840621963,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Has an active imagination {""ImportId"":""QID25_20""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _21,3.5286686103012634,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Tends to be quiet {""ImportId"":""QID25_21""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _22,3.619047619047619,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is generally trusting {""ImportId"":""QID25_22""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _23,2.287657920310981,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Tends to be lazy {""ImportId"":""QID25_23""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _24,3.6049562682215743,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is emotionally stable, not easily upset {""ImportId"":""QID25_24""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _25,3.642371234207969,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is inventive {""ImportId"":""QID25_25""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _26,3.066083576287658,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Has an assertive personality {""ImportId"":""QID25_26""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _27,2.6137026239067054,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Can be cold and aloof {""ImportId"":""QID25_27""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _28,4.114674441205054,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Perseveres until the task is finished {""ImportId"":""QID25_28""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _29,2.9659863945578238,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Can be moody {""ImportId"":""QID25_29""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _30,4.0830903790087465,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Values artistic, aesthetic experiences {""ImportId"":""QID25_30""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _31,3.461127308066084,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is sometimes shy, inhibited {""ImportId"":""QID25_31""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _32,4.303206997084548,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is considerate and kind to almost everyone {""ImportId"":""QID25_32""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _33,4.229834791059281,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Does things efficiently {""ImportId"":""QID25_33""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _34,3.801749271137026,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Remains calm in tense situations {""ImportId"":""QID25_34""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _35,3.3969873663751216,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Prefers work that is routine {""ImportId"":""QID25_35""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _36,3.0835762876579205,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is outgoing, sociable {""ImportId"":""QID25_36""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _37,2.13508260447036,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is sometimes rude to others {""ImportId"":""QID25_37""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _38,3.993197278911565,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Makes plans and follows through with them {""ImportId"":""QID25_38""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _39,2.923712342079689,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Gets nervous easily {""ImportId"":""QID25_39""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _40,4.011175898931001,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Likes to reflect, play with ideas {""ImportId"":""QID25_40""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _41,2.3503401360544216,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Has few artistic interests {""ImportId"":""QID25_41""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _42,4.003401360544218,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Likes to cooperate with others {""ImportId"":""QID25_42""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _43,2.7691933916423714,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is easily distracted {""ImportId"":""QID25_43""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Big Five _44,3.3999028182701654,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement.
+
+I see myself as someone who... - Is sophisticated in art, music, or literature {""ImportId"":""QID25_44""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_1,3.261904761904762,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I would prefer complex to simple problems {""ImportId"":""QID26_1""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_2,3.4742468415937804,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I like to have the responsibility of handling a situation that requires a lot of thinking {""ImportId"":""QID26_2""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_3,2.30709426627794,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - Thinking is not my idea of fun {""ImportId"":""QID26_3""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_4,2.5374149659863945,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I would rather do something that requires little thought than something that is sure to challenge my thinking abilities {""ImportId"":""QID26_4""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_5,2.311953352769679,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I try to anticipate and avoid situations where there is likely chance I will have to think in depth about something {""ImportId"":""QID26_5""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_6,3.184159378036929,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I find satisfaction in deliberating hard and for long hours {""ImportId"":""QID26_6""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_7,2.628765792031098,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I only think as hard as I have to {""ImportId"":""QID26_7""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_8,3.043245869776482,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I prefer to think about small, daily projects to long-term ones {""ImportId"":""QID26_8""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_9,3.074829931972789,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I like tasks that require little thought once I've learned them {""ImportId"":""QID26_9""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_10,3.612244897959184,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - The idea of relying on thought to make my way to the top appeals to me {""ImportId"":""QID26_10""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_11,3.7818270165208943,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I really enjoy a task that involves coming up with new solutions to problems {""ImportId"":""QID26_11""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_12,2.228377065111759,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - Learning new ways to think doesn't excite me very much {""ImportId"":""QID26_12""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_13,3.0835762876579205,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I prefer my life to be filled with puzzles that I must solve {""ImportId"":""QID26_13""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_14,3.612244897959184,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - The notion of thinking abstractly appeals to me {""ImportId"":""QID26_14""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_15,3.4397473275024297,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I would prefer a task that is intellectual, difficult, and important to one that is somewhat important but does not require too much thought {""ImportId"":""QID26_15""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_16,3.070456754130224,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I feel relief rather than satisfaction after completing a task that requires a lot of mental effort {""ImportId"":""QID26_16""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_17,2.543245869776482,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - It's enough for me that something gets the job done; I don't care how or why it works {""ImportId"":""QID26_17""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+need for cognition_18,3.442662779397473,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I usually end up deliberating about issues even when they do not affect me personally {""ImportId"":""QID26_18""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Agentic Communal _1,5.330727894479726,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - WEALTH (financially successful, prosperous) {""ImportId"":""QID29_1""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _2,6.742550073277968,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - PLEASURE (having one’s fill of life’s pleasures and enjoyments) {""ImportId"":""QID29_2""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _3,6.06640625,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - FORGIVENESS (pardoning others’ faults, being merciful) {""ImportId"":""QID29_3""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _4,4.017123287671233,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - INFLUENCE (having impact, influencing people and events) {""ImportId"":""QID29_4""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _5,7.563263312164143,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - TRUST (being true to one’s word, assuming good in others) {""ImportId"":""QID29_5""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _6,7.352711284807035,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - COMPETENCE (displaying mastery, being capable, effective) {""ImportId"":""QID29_6""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _7,6.816634241245136,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - HUMILITY (appreciating others, being modest about oneself) {""ImportId"":""QID29_7""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _8,5.888510223953262,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - ACHIEVEMENT (reaching lofty goals) {""ImportId"":""QID29_8""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _9,6.6726829268292684,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - ALTRUISM (helping others in need) {""ImportId"":""QID29_9""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _10,5.3107647345348274,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - AMBITION (high aspirations, seizing opportunities) {""ImportId"":""QID29_10""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _11,7.498538011695906,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - LOYALTY (being faithful to friends, family, and group) {""ImportId"":""QID29_11""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _12,6.971721111652852,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - POLITENESS (courtesy, good manners) {""ImportId"":""QID29_12""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _13,2.7318734793187347,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - POWER (control over others, dominance) {""ImportId"":""QID29_13""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _14,7.016050583657588,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - HARMONY (good relations, balance, wholeness) {""ImportId"":""QID29_14""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _15,5.368318756073858,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - EXCITEMENT (seeking adventure, risk, an exciting lifestyle) {""ImportId"":""QID29_15""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _16,7.925998052580331,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - HONESTY (being genuine, sincere) {""ImportId"":""QID29_16""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _17,7.562530413625304,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - COMPASSION (caring for others, displaying kindness) {""ImportId"":""QID29_17""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _18,3.4072089624939115,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - STATUS (high rank, wide respect) {""ImportId"":""QID29_18""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _19,7.155490767735666,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - CIVILITY (being considerate and respectful toward others) {""ImportId"":""QID29_19""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _20,7.275425790754258,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - AUTONOMY (independent, free of others' control) {""ImportId"":""QID29_20""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _21,7.071498054474708,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - EQUALITY (human rights and equal opportunity for all) {""ImportId"":""QID29_21""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _22,3.4623237724842,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - RECOGNITION (becoming notable, famous, or admired) {""ImportId"":""QID29_22""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _23,5.0097228974234325,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - TRADITION (showing respect for family and cultural values) {""ImportId"":""QID29_23""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Agentic Communal _24,3.0403500243072434,"Below are 24 different values that people rate of different
+importance in their lives. FIRST READ THROUGH THE LIST
+to familiarize yourself with all the values. While reading over
+the list, consider which ones tend to be most important to you
+and which tend to be least important to you. After familiarizing
+yourself with the list, rate the relative importance of each value
+to you as “A GUIDING PRINCIPLE IN MY LIFE.”
+
+It is important to spread your ratings out as best you can—be
+sure to use some numbers in the lower range, some in the middle
+range, and some in the higher range. Avoid using too many
+similar numbers. Work fairly quickly. - SUPERIORITY (defeating the competition, standing on top) {""ImportId"":""QID29_24""}","{1.0: 'Not Important to me\n1', 2.0: '2', 3.0: '3', 4.0: '4', 5.0: 'Quite Important to me\n5', 6.0: '6', 7.0: '7', 8.0: '8', 9.0: 'Highly Important to me\n9'}",KEEP,
+Minimalism_1,3.3440233236151604,"Please indicate your agreement with each of the following
+statements about yourself. - I avoid accumulating lots of stuff {""ImportId"":""QID35_1""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_2,3.012147716229349,"Please indicate your agreement with each of the following
+statements about yourself. - I restrict the number of things I own {""ImportId"":""QID35_2""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_3,3.471331389698737,"Please indicate your agreement with each of the following
+statements about yourself. - “Less is more” when it comes to owning things {""ImportId"":""QID35_3""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_4,3.3401360544217686,"Please indicate your agreement with each of the following
+statements about yourself. - I actively avoid acquiring excess possessions {""ImportId"":""QID35_4""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_5,3.052478134110787,"Please indicate your agreement with each of the following
+statements about yourself. - I am drawn to visually sparse environments {""ImportId"":""QID35_5""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_6,3.740524781341108,"Please indicate your agreement with each of the following
+statements about yourself. - I prefer simplicity in design {""ImportId"":""QID35_6""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_7,2.93731778425656,"Please indicate your agreement with each of the following
+statements about yourself. - I keep the aesthetic in my home very sparse {""ImportId"":""QID35_7""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_8,3.0374149659863945,"Please indicate your agreement with each of the following
+statements about yourself. - I prefer leaving spaces visually empty over filling them {""ImportId"":""QID35_8""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_9,4.035957240038873,"Please indicate your agreement with each of the following
+statements about yourself. - I am mindful of what I own {""ImportId"":""QID35_9""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_10,3.4829931972789114,"Please indicate your agreement with each of the following
+statements about yourself. - The selection of things I own has been carefully curated {""ImportId"":""QID35_10""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_11,3.982993197278912,"Please indicate your agreement with each of the following
+statements about yourself. - It is important to me to be thoughtful about what I choose to own {""ImportId"":""QID35_11""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Minimalism_12,3.892128279883382,"Please indicate your agreement with each of the following
+statements about yourself. - My belongings are mindfully selected {""ImportId"":""QID35_12""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_1,1.992225461613217,"Please indicate your agreement with each of the following
+statements about yourself. - My friends’ emotions don’t affect me much. {""ImportId"":""QID232_1""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_2,3.695821185617104,"Please indicate your agreement with each of the following
+statements about yourself. - After being with a friend who is sad about something, I usually feel sad. {""ImportId"":""QID232_2""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_3,4.477162293488824,"Please indicate your agreement with each of the following
+statements about yourself. - I can understand my friend’s happiness when she/he does well at something. {""ImportId"":""QID232_3""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_4,3.187074829931973,"Please indicate your agreement with each of the following
+statements about yourself. - I get frightened when I watch characters in a good scary movie. {""ImportId"":""QID232_4""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_5,3.368804664723032,"Please indicate your agreement with each of the following
+statements about yourself. - I get caught up in other people’s feelings easily. {""ImportId"":""QID232_5""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_6,1.9625850340136053,"Please indicate your agreement with each of the following
+statements about yourself. - I find it hard to know when my friends are frightened. {""ImportId"":""QID232_6""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_7,2.131195335276968,"Please indicate your agreement with each of the following
+statements about yourself. - I don’t become sad when I see other people crying. {""ImportId"":""QID232_7""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_8,1.8313896987366376,"Please indicate your agreement with each of the following
+statements about yourself. - Other people’s feelings don’t bother me at all. {""ImportId"":""QID232_8""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_9,4.182215743440233,"Please indicate your agreement with each of the following
+statements about yourself. - When someone is feeling down I can usually understand how they feel. {""ImportId"":""QID232_9""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_10,3.86734693877551,"Please indicate your agreement with each of the following
+statements about yourself. - I can usually work out when my friends are scared. {""ImportId"":""QID232_10""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_11,3.7001943634596697,"Please indicate your agreement with each of the following
+statements about yourself. - I often become sad when watching sad things on TV or in films. {""ImportId"":""QID232_11""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_12,3.7084548104956263,"Please indicate your agreement with each of the following
+statements about yourself. - I can often understand how people are feeling even before they tell me. {""ImportId"":""QID232_12""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_13,2.128279883381924,"Please indicate your agreement with each of the following
+statements about yourself. - Seeing a person who has been angered has no effect on my feelings. {""ImportId"":""QID232_13""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_14,4.27648202137998,"Please indicate your agreement with each of the following
+statements about yourself. - I can usually work out when people are cheerful. {""ImportId"":""QID232_14""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_15,2.851311953352769,"Please indicate your agreement with each of the following
+statements about yourself. - I tend to feel scared when I am with friends who are afraid. {""ImportId"":""QID232_15""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_16,4.347424684159378,"Please indicate your agreement with each of the following
+statements about yourself. - I can usually realize quickly when a friend is angry. {""ImportId"":""QID232_16""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_17,3.185617103984451,"Please indicate your agreement with each of the following
+statements about yourself. - I often get swept up in my friends’ feelings. {""ImportId"":""QID232_17""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_18,1.7667638483965014,"Please indicate your agreement with each of the following
+statements about yourself. - My friend’s unhappiness doesn’t make me feel anything. {""ImportId"":""QID232_18""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_19,1.871234207968902,"Please indicate your agreement with each of the following
+statements about yourself. - I am not usually aware of my friends’ feelings. {""ImportId"":""QID232_19""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+Empathy_20,1.6598639455782314,"Please indicate your agreement with each of the following
+statements about yourself. - I have trouble figuring out when my friends are happy. {""ImportId"":""QID232_20""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+GREEN_1,3.705053449951409,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - It is important to me that the products I use do not harm the environment. {""ImportId"":""QID235_1""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+GREEN_2,3.4115646258503403,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I consider the potential environmental impact of my actions when making many of my decisions. {""ImportId"":""QID235_2""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+GREEN_3,3.1671525753158405,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - My purchase habits are affected by my concern for our environment. {""ImportId"":""QID235_3""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+GREEN_4,3.9101068999028175,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I am concerned about wasting the resources of our planet. {""ImportId"":""QID235_4""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+GREEN_5,3.434402332361516,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I would describe myself as environmentally responsible. {""ImportId"":""QID235_5""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+GREEN_6,3.436345966958212,"Here are a number of characteristics that may or may not apply to you. Please indicate next to each statement the extent to which you agree or disagree with that statement. - I am willing to be inconvenienced in order to take actions that are more environmentally friendly. {""ImportId"":""QID235_6""}","{1.0: 'Disagree strongly', 2.0: 'Disagree a little', 3.0: 'Neither agree nor disagree', 4.0: 'Agree a little', 5.0: 'Agree strongly'}",KEEP,
+CRT 2,19.440151239067056,"How many cubic feet of dirt are there in a hole that is 3’ deep x 3’ wide x 3’ long? Enter a number of cubic feet. {""ImportId"":""QID53_TEXT""}","{0.0: 0.0, 0.015625: 0.015625, 1.0: 1.0, 1.3: 1.3, 2.0: 2.0, 2.7: 2.7, 3.0: 3.0, 5.0: 5.0, 6.0: 6.0, 9.0: 9.0, 10.0: 10.0, 12.0: 12.0, 15.0: 15.0, 16.0: 16.0, 18.0: 18.0, 21.0: 21.0, 21.2: 21.2, 24.0: 24.0, 27.0: 27.0, 31.0: 31.0, 36.0: 36.0, 64.0: 64.0, 81.0: 81.0, 90.0: 90.0, 92.0: 92.0, 103.0: 103.0, 250.0: 250.0, 272.0: 272.0, 729.0: 729.0, 1500.0: 1500.0}",KEEP,
+CRT 3,1.719144800777454,"If you’re running a race and you pass the person in second place, what place are you in? Enter a number. {""ImportId"":""QID54_TEXT""}","{1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 10.0: 10.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 20.0: 20.0}",KEEP,
+CRT4,7.850826044703596,"A farmer had 15 sheep and all but 8 died. How many are left? Enter a number {""ImportId"":""QID55_TEXT""}","{0.0: 0.0, 2.0: 2.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 12.0: 12.0, 15.0: 15.0}",KEEP,
+Matrix 3,2.977648202137998,"Please indicate which is the best answer to complete the figure below.
+	
+
+
+	
+<img src=""https://columbia.az1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_4VIbUjkyJcoHuZg"" style=""width: 551px; height: 395px;"" {""ImportId"":""QID58""}","{1.0: 'A', 2.0: 'B', 3.0: 'C', 4.0: 'D', 5.0: 'E', 6.0: 'F'}",KEEP,
+Synonym 1,1.465986394557823,"Synonym: Select the word that is most nearly the same in meaning as
+
+CONCUR {""ImportId"":""QID63""}","{1.0: 'acquiesce', 2.0: 'extricate', 3.0: 'divulge', 4.0: 'concoct', 5.0: 'ransack'}",KEEP,
+Synonym 3,4.496598639455782,"Synonym: Select the word that is most nearly the same in meaning as
+SOLICIT {""ImportId"":""QID65""}","{1.0: 'purge', 2.0: 'spurn', 3.0: 'entrance', 4.0: 'exert', 5.0: 'beseech'}",KEEP,
+Synonym 10,3.0364431486880465,"Synonym: Select the word that is most nearly the same in meaning as
+INDIGENT {""ImportId"":""QID72""}","{1.0: 'refractory', 2.0: 'fiscal', 3.0: 'destitute', 4.0: 'tolerable', 5.0: 'diligent'}",KEEP,
+Antonym 1,1.6005830903790088,"Antonym: Select the word that is most nearly the opposite in meaning to
+
+SATED {""ImportId"":""QID74""}","{1.0: 'famished', 2.0: 'finished', 3.0: 'finicky', 4.0: 'fulfilled', 5.0: 'fortunate'}",KEEP,
+Antonym 2,3.5796890184645287,"Antonym: Select the word that is most nearly the opposite in meaning to
+COMPLAISANT {""ImportId"":""QID75""}","{1.0: 'distasteful', 2.0: 'egoistical', 3.0: 'alone', 4.0: 'ugly', 5.0: 'recalcitrant'}",KEEP,
+Antonym 3,2.4839650145772594,"Antonym: Select the word that is most nearly the opposite in meaning to
+ALOOF {""ImportId"":""QID76""}","{1.0: 'happy', 2.0: 'deadly', 3.0: 'gregarious', 4.0: 'manly', 5.0: 'varied'}",KEEP,
+Antonym 4,1.683673469387755,"Antonym: Select the word that is most nearly the opposite in meaning to
+ABOMINATE {""ImportId"":""QID77""}","{1.0: 'adore', 2.0: 'despair', 3.0: 'abate', 4.0: 'deplore', 5.0: 'attach'}",KEEP,
+Antonym 5,3.5150631681243927,"Antonym: Select the word that is most nearly the opposite in meaning to
+VERBOSE {""ImportId"":""QID78""}","{1.0: 'garrulous', 2.0: 'magnificent', 3.0: 'grandiloquent', 4.0: 'taciturn', 5.0: 'calculating'}",KEEP,
+Antonym 6,2.9290573372206024,"Antonym: Select the word that is most nearly the opposite in meaning to
+DEARTH {""ImportId"":""QID79""}","{1.0: 'birth', 2.0: 'brevity', 3.0: 'abundance', 4.0: 'splendor', 5.0: 'renaissance'}",KEEP,
+Syllogism,1.1098153547133138,"Suppose that it is true that:
+
+All the XAR's are YOF's.
+
+With this in mind, answer the following questions.
+
+If a glock is a XAR, you can say: {""ImportId"":""QID278""}","{1.0: 'that it is certain that the glock is a YOF', 2.0: 'that it is certain that the glock is not a YOF', 3.0: 'that it is not certain whether the glock is a YOF or not'}",KEEP,
+Q206,2.437803692905734,"If a glock is not a XAR, you can say: {""ImportId"":""QID268""}","{1.0: 'that it is certain that the glock is a YOF', 2.0: 'that it is certain that the glock is not a YOF', 3.0: 'that it is not certain whether the glock is a YOF or not'}",KEEP,
+Q205,2.2162293488824103,"If a koy is a YOF, you can say: {""ImportId"":""QID269""}","{1.0: 'that it is certain that the koy is a XAR', 2.0: 'that it is certain that the koy is not a XAR', 3.0: 'that it is not certain whether the koy is a XAR or not'}",KEEP,
+Q207,2.314382896015549,"If a koy is not a YOF, you can say: {""ImportId"":""QID270""}","{1.0: 'that it is certain that the koy is a XAR', 2.0: 'that it is certain that the koy is not a XAR', 3.0: 'that it is not certain whether the koy is a XAR or not'}",KEEP,
+Q214,1.2463556851311954,"Premise 1: All animals love water.
+
+Premise 2: Plants do not love water.
+
+Conclusion: Plants are not animals.
+
+
+
+
+Does the conclusion follow logically from the premises? {""ImportId"":""QID271""}","{1.0: 'Yes', 2.0: 'No'}",KEEP,
+Q211,1.4052478134110786,"Premise 1: All animals with four legs are dangerous.
+Premise 2: Poodles are not dangerous.
+Conclusion: Poodles do not have four legs.
+
+
+
+
+Does the conclusion follow logically from the premises? {""ImportId"":""QID272""}","{1.0: 'Yes', 2.0: 'No'}",KEEP,
+Q213,1.6010689990281828,"Premise 1: All eastern countries are communist.
+
+Premise 2: China is not an eastern country.
+
+Conclusion: China is not communist.
+
+
+
+
+Does the conclusion follow logically from the premises? {""ImportId"":""QID273""}","{1.0: 'Yes', 2.0: 'No'}",KEEP,
+Q210,1.2857142857142858,"Premise 1: All flowers have petals.
+
+Premise 2: Roses have petals.
+Conclusion: Roses are flowers.
+
+
+
+
+Does the conclusion follow logically from the premises? {""ImportId"":""QID274""}","{1.0: 'Yes', 2.0: 'No'}",KEEP,
+Q212,1.034013605442177,"Premise 1: All mammals swim.
+
+Premise 2: Whales are mammals.
+Conclusion: Whales swim.
+
+
+
+
+Does the conclusion follow logically from the premises? {""ImportId"":""QID275""}","{1.0: 'Yes', 2.0: 'No'}",KEEP,
+Q209,1.5583090379008746,"Premise 1: All unemployed people are poor.
+
+Premise 2: Rockefeller is not unemployed.
+
+Conclusion: Rockefeller is not poor.
+
+
+
+
+Does the conclusion follow logically from the premises? {""ImportId"":""QID276""}","{1.0: 'Yes', 2.0: 'No'}",KEEP,
+Q215,1.6875607385811466,"Premise I: All things that have a motor need oil.
+
+Premise 2: Bicycles need oil.
+
+Conclusion: Bicycles have motors.
+
+
+
+
+Does the conclusion follow logically from the premises? {""ImportId"":""QID277""}","{1.0: 'Yes', 2.0: 'No'}",KEEP,
+Overconfidence,28.878036929057338,"You just answered 42 questions that measured your performance on various cognitive tests. How many of these questions do you think you answered correctly? 
+
+Enter a whole number between 0 and 42. {""ImportId"":""QID123_TEXT""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0}",KEEP,
+Overplacement,26.88338192419825,"How many of these questions do you think you people from a representative sample of the US adult population would answer correctly, on average? 
+
+Enter a number between 0 and 42. {""ImportId"":""QID124_TEXT""}","{2.0: 2.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0}",KEEP,
+False Cons. self _1,3.500971817298348,"Would you support or oppose... - Placing a tax on carbon emissions? {""ImportId"":""QID222_1""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+False Cons. self _2,3.5855199222546164,"Would you support or oppose... - Ensuring 40% of all new clean energy infrastructure development spending goes to low-income communities? {""ImportId"":""QID222_2""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+False Cons. self _3,3.6899902818270167,"Would you support or oppose... - Federal investments to ensure a carbon-pollution free electricity sector by 2035? {""ImportId"":""QID222_3""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+False Cons. self _4,3.986880466472303,"Would you support or oppose... - A ‘Medicare for All’ system in which all Americans would get healthcare from a government-run plan? {""ImportId"":""QID222_4""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+False Cons. self _5,3.9839650145772594,"Would you support or oppose... - A ‘public option’, which would allow Americans to buy into a government-run healthcare plan if they choose to do so? {""ImportId"":""QID222_5""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+False Cons. self _6,3.714771622934888,"Would you support or oppose... - Immigration reforms that would provide a path to U.S. citizenship for undocumented immigrants currently in the United States? {""ImportId"":""QID222_6""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+False Cons. self _7,4.190962099125365,"Would you support or oppose... - A law that requires companies to provide paid family leave for parents? {""ImportId"":""QID222_7""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+False Cons. self _8,4.025267249757046,"Would you support or oppose... - A 2% tax on the assets of individuals with a net worth of more than $50 million? {""ImportId"":""QID222_10""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+False Cons. self _9,3.178814382896016,"Would you support or oppose... - Increasing deportations for those in the US illegally? {""ImportId"":""QID222_11""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+False Cons. self _10,3.426141885325559,"Would you support or oppose... - Offering seniors healthcare vouchers to purchase private healthcare plans in place of traditional medicare coverage? {""ImportId"":""QID222_12""}","{1.0: 'Strongly oppose', 2.0: 'Somewhat oppose', 3.0: 'Neither oppose nor support', 4.0: 'Somewhat support', 5.0: 'Strongly support'}",KEEP,
+Q225,1.0928085519922257,"Suppose now that you are playing this game as the other person, i.e., the receiver. 
+
+For each offer made by the sender, would you accept or reject the offer?  
+
+If the person offers to keep $0 for themselves and send me $5: {""ImportId"":""QID225""}","{1.0: 'I would accept the offer: $0 for other, $5 for me', 2.0: 'I would reject the offer: $0 for both'}",KEEP,
+Q226,1.065597667638484,"If the person offers to keep $1 for themselves and send me $4: {""ImportId"":""QID226""}","{1.0: 'I would accept the offer: $1 for other, $4 for me', 2.0: 'I would reject the offer: $0 for both'}",KEEP,
+Q227,1.0257531584062196,"If the person offers to keep $2 for themselves and send me $3: {""ImportId"":""QID227""}","{1.0: 'I would accept the offer: $2 for other, $3 for me', 2.0: 'I would reject the offer: $0 for both'}",KEEP,
+Q228,1.0427599611273082,"If the person offers to keep $3 for themselves and send me $2: {""ImportId"":""QID228""}","{1.0: 'I would accept the offer: $3 for other, $2 for me', 2.0: 'I would reject the offer: $0 for both'}",KEEP,
+Ut,1.2959183673469388,"If the person offers to keep $4 for themselves and send me $1: {""ImportId"":""QID229""}","{1.0: 'I would accept the offer: $4 for other, $1 for me', 2.0: 'I would reject the offer: $0 for both'}",KEEP,
+Form B - 70 eng _1,52.17353787152445,"A panel of psychologist have interviewed and administered personality tests to 30 engineers and 70 lawyers, all successful in their respective fields. On the basis of this information, thumbnail descriptions of the 30 engineers and 70 lawyers have been written. Below is one description, chosen at random from the 100 available descriptions. 
+
+Jack is a 45-year-old man. He is married and has four children. He is generally conservative, careful, and ambitious. He shows no interest in political and social issues and spends most of his free time on his many hobbies which include home carpentry, sailing, and mathematical puzzles.
+
+The probability that Jack is one of the 30 engineers in the sample of 100 is ___%. Please indicate the probability on a scale from 0 to 100. {""ImportId"":""QID243_1""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 15.0: 15.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 22.0: 22.0, 23.0: 23.0, 25.0: 25.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+Q156_1,68.0128078817734,"A panel of psychologist have interviewed and administered personality tests to 70 engineers and 30 lawyers, all successful in their respective fields. On the basis of this information, thumbnail descriptions of the 70 engineers and 30 lawyers have been written. Below is one description, chosen at random from the 100 available descriptions. 
+
+Jack is a 45-year-old man. He is married and has four children. He is generally conservative, careful, and ambitious. He shows no interest in political and social issues and spends most of his free time on his many hobbies which include home carpentry, sailing, and mathematical puzzles.
+
+The probability that Jack is one of the 70 engineers in the sample of 100 is ___%. Please indicate the probability on a scale from 0 to 100. {""ImportId"":""QID244_1""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 10.0: 10.0, 13.0: 13.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 19.0: 19.0, 20.0: 20.0, 22.0: 22.0, 25.0: 25.0, 27.0: 27.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 40.0: 40.0, 41.0: 41.0, 45.0: 45.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+Q161,5.657794676806084,"A 55-year-old man had a heart condition. He had to stop working because of chest pain. He enjoyed his work and did not want to stop. His pain also interfered with other things, such as travel and recreation. A type of bypass operation would relieve his pain and increase his life expectancy from age 65 to age 70. However, 8% of
+the people who have this operation die from the operation itself. His physician decided to go ahead with the operation. 
+
+The operation succeeded. 
+
+Evaluate the physician's decision to go ahead with the operation. {""ImportId"":""QID246""}","{1.0: 'Incorrect, a very bad decision', 2.0: 'Incorrect, all things considered', 3.0: 'Incorrect, but not unreasonable', 4.0: 'The decision and its opposite are equally good', 5.0: 'Correct, but the opposite would be reasonable too', 6.0: 'Correct, all things considered', 7.0: 'Clearly correct, an excellent decision'}",KEEP,
+Q162,4.876739562624255,"A 55-year-old man had a heart condition. He had to stop working because of chest pain. He enjoyed his work and did not want to stop. His pain also interfered with other things, such as travel and recreation. A type of bypass operation would relieve his pain and increase his life expectancy from age 65 to age 75. However, 2% of
+the people who have this operation die from the operation itself. His physician decided to go ahead with the operation. 
+
+The operation did not succeed and the patient died. 
+
+Evaluate the physician's decision to go ahead with the operation. {""ImportId"":""QID245""}","{1.0: 'Incorrect, a very bad decision', 2.0: 'Incorrect, all things considered', 3.0: 'Incorrect, but not unreasonable', 4.0: 'The decision and its opposite are equally good', 5.0: 'Correct, but the opposite would be reasonable too', 6.0: 'Correct, all things considered', 7.0: 'Clearly correct, an excellent decision'}",KEEP,
+Q181,14.884057971014492,"Imagine that Coffee Connection sells coffee for $1.50 per cup. 
+
+Java Coffee, a competitor, sells coffee for just $2.00 per cup. 
+
+Although the
+Coffee Connection store is ten minutes away by car, Java Coffee is only about 1/2 block from your apartment. 
+
+Assuming that
+you only buy coffee from these two places and that you like the coffee sold in both places the same, how many of your next 20 coffee purchases
+would be from Java Coffee?
+
+
+Enter a number between 0 and 20. {""ImportId"":""QID181_TEXT""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0}",KEEP,
+Q182,10.636363636363637,"Imagine that you just paid $50 for a Coffee Connection discount card that allows you to buy coffee for 50% off the regular price of $3.00 (i.e., you pay $1.50).
+
+
+Soon after you purchased the Coffee Connection discount card, Java Coffee, a competitor, opened a new store that  sells coffee for just $2.00 per cup. 
+
+
+
+Although the Coffee Connection store is ten minutes away by car, Java Coffee is only about 1/2 block from your apartment. 
+
+
+
+Assuming that you only buy coffee from these two places and that you like the coffee sold in both places the same, how many of your next 20 coffee purchases would be from Java Coffee? 
+
+
+
+Enter a number between 0 and 20. {""ImportId"":""QID182_TEXT""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0}",KEEP,
+Q192,1.308277830637488,"Choose between: {""ImportId"":""QID192""}","{1.0: 'One million dollars for sure', 2.0: '89% probability of one million dollars\n10% probablity of five miillion dollars\n1% probability of nothing'}",KEEP,
+Q193,1.5719960278053624,"Choose between: {""ImportId"":""QID193""}","{1.0: '11% probability of one million dollars\n89% probability of nothing', 2.0: '10% probablity of five miillion dollars\n90% probability of nothing'}",KEEP,
+nonseparabilty bene _1,6.007774538386784,"Please rate the following technology or products from ""not at all beneficial"" to ""extremely beneficial"" - bicycles {""ImportId"":""QID185_1""}","{1.0: 'not at all beneficial', 2.0: 'low benefit', 3.0: 'slightly beneficial', 4.0: 'neutral', 5.0: 'moderately beneficial', 6.0: 'very beneficial', 7.0: 'extremely beneficial'}",KEEP,
+nonseparabilty bene _2,2.5515063168124392,"Please rate the following technology or products from ""not at all beneficial"" to ""extremely beneficial"" - alcoholic beverages {""ImportId"":""QID185_2""}","{1.0: 'not at all beneficial', 2.0: 'low benefit', 3.0: 'slightly beneficial', 4.0: 'neutral', 5.0: 'moderately beneficial', 6.0: 'very beneficial', 7.0: 'extremely beneficial'}",KEEP,
+nonseparabilty bene _3,3.87463556851312,"Please rate the following technology or products from ""not at all beneficial"" to ""extremely beneficial"" - chemical plants {""ImportId"":""QID185_3""}","{1.0: 'not at all beneficial', 2.0: 'low benefit', 3.0: 'slightly beneficial', 4.0: 'neutral', 5.0: 'moderately beneficial', 6.0: 'very beneficial', 7.0: 'extremely beneficial'}",KEEP,
+nonseparabilty bene _4,3.9057337220602526,"Please rate the following technology or products from ""not at all beneficial"" to ""extremely beneficial"" - pesticides {""ImportId"":""QID185_4""}","{1.0: 'not at all beneficial', 2.0: 'low benefit', 3.0: 'slightly beneficial', 4.0: 'neutral', 5.0: 'moderately beneficial', 6.0: 'very beneficial', 7.0: 'extremely beneficial'}",KEEP,
+nonseparability ris _1,2.93488824101069,"Please rate the following technology or products from ""not at all risky"" to ""extremely risky"" - bicycles {""ImportId"":""QID187_1""}","{1.0: 'not at all risky', 2.0: 'low risk', 3.0: 'slightly risky', 4.0: 'neutral', 5.0: 'moderately risky', 6.0: 'very risky', 7.0: 'extremely risky'}",KEEP,
+nonseparability ris _2,5.395043731778426,"Please rate the following technology or products from ""not at all risky"" to ""extremely risky"" - alcoholic beverages {""ImportId"":""QID187_2""}","{1.0: 'not at all risky', 2.0: 'low risk', 3.0: 'slightly risky', 4.0: 'neutral', 5.0: 'moderately risky', 6.0: 'very risky', 7.0: 'extremely risky'}",KEEP,
+nonseparability ris _3,5.58843537414966,"Please rate the following technology or products from ""not at all risky"" to ""extremely risky"" - chemical plants {""ImportId"":""QID187_3""}","{1.0: 'not at all risky', 2.0: 'low risk', 3.0: 'slightly risky', 4.0: 'neutral', 5.0: 'moderately risky', 6.0: 'very risky', 7.0: 'extremely risky'}",KEEP,
+nonseparability ris _4,5.575315840621963,"Please rate the following technology or products from ""not at all risky"" to ""extremely risky"" - pesticides {""ImportId"":""QID187_4""}","{1.0: 'not at all risky', 2.0: 'low risk', 3.0: 'slightly risky', 4.0: 'neutral', 5.0: 'moderately risky', 6.0: 'very risky', 7.0: 'extremely risky'}",KEEP,
+False cons. others _1,47.17978620019437,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - Placing a tax on carbon emissions {""ImportId"":""QID223_1""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+False cons. others _2,41.55053449951409,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - Ensuring 40% of all new clean energy infrastructure development spending goes to low-income communities {""ImportId"":""QID223_2""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+False cons. others _3,45.70602526724976,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - Federal investments to ensure a carbon-pollution free electricity sector by 2035 {""ImportId"":""QID223_3""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+False cons. others _4,54.988824101069,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - A ‘Medicare for All’ system in which all Americans would get healthcare from a government-run plan {""ImportId"":""QID223_4""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+False cons. others _5,56.482021379980566,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - A ‘public option’, which would allow Americans to buy into a government-run healthcare plan if they choose to do so {""ImportId"":""QID223_5""}","{0.0: 0.0, 1.0: 1.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+False cons. others _6,45.62196307094266,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - Immigration reforms that would provide a path to U.S. citizenship for undocumented immigrants currently in the United States {""ImportId"":""QID223_6""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+False cons. others _7,66.13702623906705,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - A law that requires companies to provide paid family leave for parents {""ImportId"":""QID223_7""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 5.0: 5.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+False cons. others _10,61.94169096209912,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - A 2% tax on the assets of individuals with a net worth of more than $50 million {""ImportId"":""QID223_10""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+False cons. others _11,56.3620019436346,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - Increasing deportations for those in the US illegally {""ImportId"":""QID223_11""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,
+False cons. others _12,53.97862001943635,"What percentage of the public do you think supports the following policies?
+For each policy, choose a number from 0% to 100%. - Offering seniors healthcare vouchers to purchase private healthcare plans in place of traditional medicare coverage {""ImportId"":""QID223_12""}","{0.0: 0.0, 1.0: 1.0, 2.0: 2.0, 3.0: 3.0, 4.0: 4.0, 5.0: 5.0, 6.0: 6.0, 7.0: 7.0, 8.0: 8.0, 9.0: 9.0, 10.0: 10.0, 11.0: 11.0, 12.0: 12.0, 13.0: 13.0, 14.0: 14.0, 15.0: 15.0, 16.0: 16.0, 17.0: 17.0, 18.0: 18.0, 19.0: 19.0, 20.0: 20.0, 21.0: 21.0, 22.0: 22.0, 23.0: 23.0, 24.0: 24.0, 25.0: 25.0, 26.0: 26.0, 27.0: 27.0, 28.0: 28.0, 29.0: 29.0, 30.0: 30.0, 31.0: 31.0, 32.0: 32.0, 33.0: 33.0, 34.0: 34.0, 35.0: 35.0, 36.0: 36.0, 37.0: 37.0, 38.0: 38.0, 39.0: 39.0, 40.0: 40.0, 41.0: 41.0, 42.0: 42.0, 43.0: 43.0, 44.0: 44.0, 45.0: 45.0, 46.0: 46.0, 47.0: 47.0, 48.0: 48.0, 49.0: 49.0, 50.0: 50.0, 51.0: 51.0, 52.0: 52.0, 53.0: 53.0, 54.0: 54.0, 55.0: 55.0, 56.0: 56.0, 57.0: 57.0, 58.0: 58.0, 59.0: 59.0, 60.0: 60.0, 61.0: 61.0, 62.0: 62.0, 63.0: 63.0, 64.0: 64.0, 65.0: 65.0, 66.0: 66.0, 67.0: 67.0, 68.0: 68.0, 69.0: 69.0, 70.0: 70.0, 71.0: 71.0, 72.0: 72.0, 73.0: 73.0, 74.0: 74.0, 75.0: 75.0, 76.0: 76.0, 77.0: 77.0, 78.0: 78.0, 79.0: 79.0, 80.0: 80.0, 81.0: 81.0, 82.0: 82.0, 83.0: 83.0, 84.0: 84.0, 85.0: 85.0, 86.0: 86.0, 87.0: 87.0, 88.0: 88.0, 89.0: 89.0, 90.0: 90.0, 91.0: 91.0, 92.0: 92.0, 93.0: 93.0, 94.0: 94.0, 95.0: 95.0, 96.0: 96.0, 97.0: 97.0, 98.0: 98.0, 99.0: 99.0, 100.0: 100.0}",KEEP,

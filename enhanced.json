@@ -1,0 +1,206 @@
+{
+  "original_with_comments": {
+    "survey": {
+      "theme": "The Theory of Planned Behavior Survey",
+      "purpose": "To assess intentions and attitudes toward purchasing organic food based on the Theory of Planned Behavior.",
+      "questions": [
+        {
+          "question_id": "Q1",
+          "question_text": "I intend to purchase organic food in the next month.",
+          "input_type": "multiple_choice",
+          "input_config": {
+            "options": [
+              "1=Strongly disagree",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7=Strongly agree"
+            ]
+          }
+        },
+        {
+          "question_id": "Q2",
+          "question_text": "Buying organic food is beneficial to my health.",
+          "input_type": "multiple_choice",
+          "input_config": {
+            "options": [
+              "1=Strongly disagree",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7=Strongly agree"
+            ]
+          }
+        },
+        {
+          "question_id": "Q3",
+          "question_text": "I feel confident in my ability to purchase organic food if I want to.",
+          "input_type": "multiple_choice",
+          "input_config": {
+            "options": [
+              "1=Strongly disagree",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7=Strongly agree"
+            ]
+          }
+        },
+        {
+          "question_id": "Q4",
+          "question_text": "People who are important to me think I should purchase organic food.",
+          "input_type": "multiple_choice",
+          "input_config": {
+            "options": [
+              "1=Strongly disagree",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7=Strongly agree"
+            ]
+          }
+        },
+        {
+          "question_id": "Q5",
+          "question_text": "The decision to buy organic food is entirely up to me.",
+          "input_type": "multiple_choice",
+          "input_config": {
+            "options": [
+              "1=Strongly disagree",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7=Strongly agree"
+            ]
+          }
+        }
+      ]
+    },
+    "question_comments": [
+      {
+        "question_id": "Q1",
+        "comment": "Clear question, aligns well with the intent measure."
+      },
+      {
+        "question_id": "Q2",
+        "comment": "Good framing, connects health benefits to consumer attitudes."
+      },
+      {
+        "question_id": "Q3",
+        "comment": "Effectively addresses perceived behavioral control."
+      },
+      {
+        "question_id": "Q4",
+        "comment": "Highlights subjective norms well."
+      },
+      {
+        "question_id": "Q5",
+        "comment": "Strong emphasis on perceived autonomy in decision-making."
+      }
+    ],
+    "overall_comment": "The survey effectively captures key constructs of the Theory of Planned Behavior but could benefit from minor refinements in clarity and specificity."
+  },
+  "revised_survey": {
+    "theme": "The Theory of Planned Behavior Survey",
+    "purpose": "To assess intentions and attitudes toward purchasing organic food using the Theory of Planned Behavior framework.",
+    "questions": [
+      {
+        "question_id": "Q1",
+        "question_text": "I plan to purchase organic food within the next week.",
+        "input_type": "multiple_choice",
+        "input_config": {
+          "options": [
+            "1=Strongly disagree",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7=Strongly agree"
+          ]
+        }
+      },
+      {
+        "question_id": "Q2",
+        "question_text": "I believe that purchasing organic food is beneficial for my health.",
+        "input_type": "multiple_choice",
+        "input_config": {
+          "options": [
+            "1=Strongly disagree",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7=Strongly agree"
+          ]
+        }
+      },
+      {
+        "question_id": "Q3",
+        "question_text": "I am confident in my ability to purchase organic food when I choose to.",
+        "input_type": "multiple_choice",
+        "input_config": {
+          "options": [
+            "1=Strongly disagree",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7=Strongly agree"
+          ]
+        }
+      },
+      {
+        "question_id": "Q4",
+        "question_text": "I think that people who are important to me believe I should purchase organic food.",
+        "input_type": "multiple_choice",
+        "input_config": {
+          "options": [
+            "1=Strongly disagree",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7=Strongly agree"
+          ]
+        }
+      },
+      {
+        "question_id": "Q5",
+        "question_text": "I feel that the choice to buy organic food is completely up to me.",
+        "input_type": "multiple_choice",
+        "input_config": {
+          "options": [
+            "1=Strongly disagree",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7=Strongly agree"
+          ]
+        }
+      }
+    ]
+  },
+  "explanations": {
+    "1": "The satisfaction question is now framed to use a five-point Likert scale, which is a standard approach that allows for greater nuance in responses compared to a simpler yes/no format.",
+    "2": "The feature usage question now allows for multiple selections, reflecting that customers often utilize more than one feature. An 'Other' option is included to capture additional features not listed, improving data richness.",
+    "3": "The open-ended question invites detailed feedback and assumes various improvement areas, promoting comprehensive responses and avoiding leading language.",
+    "4": "The likelihood to recommend question also uses a five-point Likert scale. This metric, often referred to as Net Promoter Score (NPS), effectively gauges customer loyalty and satisfaction.",
+    "5": "An additional comments section is provided to enable respondents to share anything else on their minds, ensuring that all feedback avenues are open."
+  }
+}
