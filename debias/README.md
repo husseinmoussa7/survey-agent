@@ -16,6 +16,51 @@ paper.
 | Bias target | raw difference | Cohen's d and range-normalized |
 | Backs | the headline result: MSE 0.639 to 0.444 (30.5%), correct direction 9 of 11 | the robustness result and the replication tolerances |
 
+## Reproducing the reported GSS result
+
+Run this:
+
+```bash
+python debias/reproduce_gss_result.py
+```
+
+It prints every published figure beside its reproduced value: baseline MSE 0.639, debiased MSE
+0.444, 30.5% improvement, 9 of 11 items moved toward the human mean, training MSE 0.903. The
+baseline and the holdout check need only numpy, pandas and scikit-learn; fitting the correction
+additionally needs torch.
+
+Two things to know about why this script exists rather than `factor-based-debias.py` being the
+entry point.
+
+**The holdout is pinned by item identity, not by a seed.** `factor-based-debias.py` selects its
+holdout with `train_test_split(df, train_size=100, random_state=8566)`. Over the 112-row anchor set
+that returns a different 12-item holdout whose uncorrected baseline MSE is 0.173, so it cannot
+reproduce the published numbers, and no seed can: a search over 100,000 seed and split-size
+combinations found none that selects the reported 11 items. Those 11 items are recorded in appendix
+table `tab:full_results`, and `reproduce_gss_result.py` pins them explicitly.
+
+**Three of the four published figures were not computed anywhere.** `factor-based-debias.py` prints
+only the debiased MSE. The baseline MSE, the percentage improvement, and the directional accuracy
+are now computed in the reproduction script.
+
+`factor-based-debias.py` is retained as the original exploratory script, including the
+cumulative-explained-variance plot behind the choice of 50 factors. For reproducing the reported
+result, use `reproduce_gss_result.py`.
+
+### Three counts to be aware of
+
+The anchor set is described as 111 items, ships as **112 rows**, and covers **105 unique
+questions**. Seven questions (`abnomore`, `aged`, `conbus`, `fehire`, `helpblk`, `libhomo`,
+`natsci`) appear twice, each with the same human average and a different LLM draw. Two
+consequences:
+
+- Holding out 11 items leaves 101 training rows, while the paper reports 100, so one row of the 112
+  was not used. Which one is not recorded.
+- A random split can place one copy of a question in training and its twin in the holdout, which
+  leaks that question's human average across the split. `natsci` appears twice in the reported
+  holdout. Pinning the holdout makes this visible and stable, but it does not remove it; whether to
+  deduplicate is a methodological decision for the authors.
+
 ## `debias/` — the GSS path (primary result)
 
 - `debias.py` is the reusable tool. Every hyperparameter is a flag:
