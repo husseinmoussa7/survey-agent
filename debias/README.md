@@ -92,9 +92,11 @@ them.
 
 ## Files
 
-- `debias.py` is the reusable tool; every hyperparameter is a flag:
+- `debias.py` is the reusable tool; every hyperparameter is a flag. Run it from the repository
+  root (it locates its own embedding cache, but `--input_json` is resolved against the working
+  directory):
   ```bash
-  python debias.py --input_json test_new_questions.json --output_json out.json --lambda_ 20 --alpha 0.90
+  python debias/debias.py --input_json debias/test_new_questions.json --output_json out.json --lambda_ 20 --alpha 0.90
   ```
   It is imported by the application (`from debias.debias import run_debias_pipeline`), so it must
   stay at this path.

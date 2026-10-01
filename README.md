@@ -1,77 +1,60 @@
 # Field-Experiment-AI-Agent
 
-AI Agent framework for conducting consumer behavior experiments.
+AI Agent framework for conducting consumer behavior experiments, and the
+replication package for the accompanying manuscript on debiasing LLM-simulated
+survey responses.
 
-# Survey Enhancement & Deployment System
+Two things live here, and they are useful independently:
 
-## Overview
-
-This project provides an interactive, AI-powered survey enhancement and deployment system. First-time users can:
-
-* Convert raw text surveys into structured JSON
-* Iteratively enhance surveys with AI feedback
-* Deploy surveys to Qualtrics and optionally create MTurk HITs
-* Collect both human and simulated survey responses
-* Generate research papers from CSV data
-
-The system uses Pydantic models, CrewAI agents, OpenAI, Qualtrics API, and MTurk API, offering a seamless end-to-end workflow for academic and market research.
-
-## Quick Start (Recommended Entry & Flow)
-
-- Terminal entry: `python survey.py`
-  - Interactive menu to create/enhance surveys, deploy to Qualtrics/MTurk, collect simulated/human data, and generate papers. See “Terminal Usage” below.
-  - API keys via `.env` (see “API Keys”). For simulation only, set `OPENAI_API_KEY`.
-
-- Web UI: `python server.py`
-  - Starts a local web app (URL shown in terminal) to process/enhance surveys, deploy, simulate responses, and debias via browser.
-
-- Simulation only (quick demo): `python simulate_response/run_simulation.py`
-  - Uses `simulate_response/participant_pool.csv`, `simulate_response/test_survey.json`, and `simulate_response/survey_response_template.txt` to produce `simulate_response/simulated_survey_responses.csv`.
+| | What it is | Start at |
+|---|---|---|
+| **Replication** | The code, data and committed artifacts behind every reported figure | [Reproducing the paper's results](#reproducing-the-papers-results) |
+| **Application** | The interactive survey agent: convert, enhance, deploy, simulate, analyse | [The survey agent application](#the-survey-agent-application) |
 
 ---
 
-## Prerequisites
+## Reproducing the paper's results
 
-* **Python 3.12+**
-* A Qualtrics account with API token & data center information
-* AWS credentials (if using MTurk) 
-* Claude and OpenAI API accounts
+You do **not** need the full application stack for this. Install the minimal set:
+
+```bash
+conda create -n debias python=3.12 -y && conda activate debias
+pip install -r debias/panel/requirements-panel.txt
+
+# Only if you want to FIT the model rather than evaluate committed coefficients.
+# Not available on every platform - see debias/README.md "Environment" first.
+pip install 'torch>=2.2,<2.3'
+```
+
+Then, from the repository root:
+
+```bash
+# Primary result: the GSS anchor set (prints every published figure beside
+# the value this repository produces, and writes the per-item table)
+python debias/reproduce_gss_result.py
+
+# Robustness: the four-wave panel, 200 resampled splits
+python debias/panel/code/simulate_response/step3_make_averages.py   # averages, from committed per-seed summaries
+python debias/panel/code/simulate_response/step2_twin_debias_models.py  # optional: refit from scratch (needs torch, ~10 min)
+```
+
+What each backs:
+
+- `debias/reproduce_gss_result.py` → held-out MSE 0.639 → 0.422 (34.0%), correct bias
+  direction in 9 of 11 items, and appendix table `tab:full_results`.
+- `step3_make_averages.py` → the robustness table: 68.2% mean error reduction at
+  `lambda=20` against 56.0% for OLS and 56.9% for Lasso, with directional accuracy
+  77.0% against 70.9%.
+
+`step2` and `step3` run from committed artifacts and need **no API key**. Only `step1`
+and `run_waves_simulations_original.py` call the OpenAI API. Fitting the penalty model
+needs `torch`, whose installability is platform-dependent — read the "Environment"
+section of [`debias/README.md`](debias/README.md) first.
+
+Full detail, including what is and is not committed and which configurations do *not*
+reproduce, is in [`debias/README.md`](debias/README.md).
 
 ---
-
-## Key Directories & Files
-
-```plaintext
-config/                        # YAML configs for agents and tasks
-  agents/
-    survey_convert_agent.yaml  # Convert raw text → minimal JSON (cost-efficient agent)
-    survey_editor.yaml         # Research enrichment + survey enhancement/editor
-    econometrician_agent.yaml  # End-to-end paper agent (analysis/methodology/writing)
-  tasks/
-    convert_survey_to_json.yaml        # Conversion task template
-    apply_survey_enhancements.yaml     # Research + improve survey task templates
-    enhance_survey_iteratively.yaml    # Iterative enhancement task template (with placeholders)
-    paper_tasks.yaml                   # Paper tasks (analysis, methodology, writing)
-debias/                        # Debiasing: GSS path (primary result) - see debias/README.md
-  debias.py                    #   reusable CLI tool, also imported by survey.py
-  reproduce_gss_result.py      #   reproduces the reported GSS numbers (start here)
-  factor-based-debias.py       #   original exploratory script; does NOT reproduce them
-  panel/                       #   four-wave panel path (robustness, 200 resamples)
-knowledge/                     # Reference materials
-simulate_response/             # Survey simulation scripts and templates
-test_survey/                   # Sample survey JSON files
-```
-
-**Key files:**
-
-```plaintext
-survey.py                      # Final production code entry point
-survey.html                    # Final HTML product
-server.py                      # Backend server to run API calls
-survey_logic.py                # Necessary logic from survey.py used for backend calls
-requirements.txt               # Python dependencies list
-README.md                      # Project overview and instructions
-```
 
 ## Debiasing LLM responses
 
@@ -110,7 +93,31 @@ Tasks
 
 ---
 
-## Installation
+## The survey agent application
+
+### Overview
+
+This project provides an interactive, AI-powered survey enhancement and deployment system. First-time users can:
+
+* Convert raw text surveys into structured JSON
+* Iteratively enhance surveys with AI feedback
+* Deploy surveys to Qualtrics and optionally create MTurk HITs
+* Collect both human and simulated survey responses
+* Generate research papers from CSV data
+
+The system uses Pydantic models, CrewAI agents, OpenAI, Qualtrics API, and MTurk API, offering a seamless end-to-end workflow for academic and market research.
+
+### Prerequisites
+
+* **Python 3.12** — not 3.13 if you need `torch` on an Intel Mac: the last x86_64
+  macOS torch wheels are 2.2.2 (cp38-cp312). See `debias/README.md` "Environment".
+* A Qualtrics account with API token & data center information
+* AWS credentials (if using MTurk) 
+* Claude and OpenAI API accounts
+
+---
+
+### Installation
 
 1. **Clone the repository**
 
@@ -134,9 +141,23 @@ Tasks
 
 ---
 
-# Terminal Usage
+### Quick Start (Recommended Entry & Flow)
 
-## API Keys
+- Terminal entry: `python survey.py`
+  - Interactive menu to create/enhance surveys, deploy to Qualtrics/MTurk, collect simulated/human data, and generate papers. See “Terminal Usage” below.
+  - API keys via `.env` (see “API Keys”). For simulation only, set `OPENAI_API_KEY`.
+
+- Web UI: `python server.py`
+  - Starts a local web app (URL shown in terminal) to process/enhance surveys, deploy, simulate responses, and debias via browser.
+
+- Simulation only (quick demo): `python simulate_response/run_simulation.py`
+  - Uses `simulate_response/participant_pool.csv`, `simulate_response/test_survey.json`, and `simulate_response/survey_response_template.txt` to produce `simulate_response/simulated_survey_responses.csv`.
+
+---
+
+### Terminal Usage
+
+#### API Keys
 
    Create a `.env` file in the root folder:
 
@@ -157,7 +178,7 @@ Tasks
    ANTHROPIC_API_KEY=your_claude_key
    ```
 
-## Running the Code
+#### Running the Code
 
 Run the following command in your terminal:
 
@@ -165,7 +186,7 @@ Run the following command in your terminal:
 python survey.py
 ```
 
-### Input File Formats
+##### Input File Formats
 
 * **Copy and Pasting Your Original Survey Text**: Must include:
 
@@ -186,7 +207,7 @@ python survey.py
 
 * **CSV for paper generation**: Any tabular data as long as it is in `.csv` file format; first row is the header.
 
-### Menu Options
+##### Menu Options
 
 1. **Create and enhance a new survey**
 
@@ -217,16 +238,16 @@ python survey.py
 
 ---
 
-## Research Paper Agent
+#### Research Paper Agent
 
 - An econometrician agent executes the full paper workflow end-to-end: analysis, methodology, and writing.
 - Focuses on econometric rigor, clear exposition, appropriate visualization, and journal-ready structure aligned with top Economics (Top 5) and Management (UTD 24) venues.
 - Tasks remain modular (analysis → methodology → writing) but are handled by a single, specialized agent for coherence and consistency.
 
 
-# HTML Usage
+### HTML Usage
 
-## Running the Website
+#### Running the Website
 
 1. Run the following command in your terminal:
 
@@ -246,7 +267,7 @@ Please click the last link that says "Running on ..."
 
 3. Now, the website will have opened up on your default browser for your usage.
 
-### API Keys
+##### API Keys
 
    Enter the following information onto the website when prompted:
 
@@ -267,7 +288,7 @@ Please click the last link that says "Running on ..."
    ANTHROPIC_API_KEY=your_claude_key
    ```
 
-### Input File Formats
+##### Input File Formats
 
 * **Copy and Pasting Your Original Survey Text**: Must include:
 
@@ -288,7 +309,7 @@ Please click the last link that says "Running on ..."
 
 * **CSV for paper generation**: Any tabular data as long as it is in `.csv` file format; first row is the header.
 
-### Menu Options
+##### Menu Options
 
 1. **Create and enhance a new survey**
 
@@ -314,3 +335,39 @@ Please click the last link that says "Running on ..."
    * Input: Path to CSV file.
    * Optional: Provide a research hypothesis.
    * Output: Markdown-formatted paper saved as `.md` file.
+
+---
+
+## Key Directories & Files
+
+```plaintext
+config/                        # YAML configs for agents and tasks
+  agents/
+    survey_convert_agent.yaml  # Convert raw text → minimal JSON (cost-efficient agent)
+    survey_editor.yaml         # Research enrichment + survey enhancement/editor
+    econometrician_agent.yaml  # End-to-end paper agent (analysis/methodology/writing)
+  tasks/
+    convert_survey_to_json.yaml        # Conversion task template
+    apply_survey_enhancements.yaml     # Research + improve survey task templates
+    enhance_survey_iteratively.yaml    # Iterative enhancement task template (with placeholders)
+    paper_tasks.yaml                   # Paper tasks (analysis, methodology, writing)
+debias/                        # Debiasing: GSS path (primary result) - see debias/README.md
+  debias.py                    #   reusable CLI tool, also imported by survey.py
+  reproduce_gss_result.py      #   reproduces the reported GSS numbers (start here)
+  factor-based-debias.py       #   original exploratory script; does NOT reproduce them
+  panel/                       #   four-wave panel path (robustness, 200 resamples)
+knowledge/                     # Reference materials
+simulate_response/             # Survey simulation scripts and templates
+test_survey/                   # Sample survey JSON files
+```
+
+**Key files:**
+
+```plaintext
+survey.py                      # Final production code entry point
+survey.html                    # Final HTML product
+server.py                      # Backend server to run API calls
+survey_logic.py                # Necessary logic from survey.py used for backend calls
+requirements.txt               # Python dependencies list
+README.md                      # Project overview and instructions
+```

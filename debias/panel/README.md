@@ -9,7 +9,7 @@
   - step1_twin_build_master.py
   - step2_twin_debias_models.py
   - step3_make_averages.py
-  - run_waves_simulations.py (LLM simulation)
+  - run_waves_simulations_original.py (LLM simulation)
   - llm_openai.py
   - simulate_response.py
 - data_raw/waves/                  (raw wave files used by Step 1)
@@ -24,17 +24,28 @@
 
 ### Option A: Conda + pip (most reliable)
 ```bash
-conda create -n debias python=3.11 -y
+conda create -n debias python=3.12 -y
 conda activate debias
-pip install -r requirements.txt
+pip install -r requirements-panel.txt
+```
 
+Fitting the directional-penalty model additionally needs `torch`, which is not in
+`requirements-panel.txt` because its installability is platform-dependent. See the
+"Environment" section of `../README.md` before installing it. Steps 1 and 3 do not need it.
 
 ## API setup (only needed for LLM simulation)
-1) Create `.env` in project root:
-   OPENAI_API_KEY=YOUR_KEY_HERE
+
+Create `.env` with your key. `load_dotenv()` searches upward from the working
+directory, so it can live here or in any parent directory:
+
+```
+OPENAI_API_KEY=YOUR_KEY_HERE
+```
+
+A template is in `.env.example`.
 
 ## Step 1: Build master dataset
-From project root:
+From this `panel/` directory:
   python code/simulate_response/step1_twin_build_master.py
 
 Expected output:
@@ -54,8 +65,8 @@ Expected outputs:
   outputs/step3/waves_1_to_4_combined_AVG_METRICS_pen_*.csv
 
 ## LLM Simulation (optional)
-Edit `waves_to_process` and file naming inside `run_waves_simulations.py`, then run:
-  python code/simulate_response/run_waves_simulations.py
+Edit `waves_to_process` and file naming inside `run_waves_simulations_original.py`, then run:
+  python code/simulate_response/run_waves_simulations_original.py
 
 Expected output:
   data_llm/llm_pooled_responses_wave_<wave>_v7_FINAL.csv
@@ -64,7 +75,7 @@ Expected output:
 - ModuleNotFoundError: sklearn
   -> activate conda env (`conda activate debias`) or install scikit-learn
 - OPENAI_API_KEY not found
-  -> create .env in project root and add OPENAI_API_KEY
+  -> create .env here or in a parent directory and add OPENAI_API_KEY
 - Files not found
   -> confirm you ran Step 1 and the outputs/ paths match the scripts
 
