@@ -54,9 +54,17 @@ EPOCHS = 200
 PUBLISHED = {"baseline_mse": 0.639, "debiased_mse": 0.444,
              "improvement_pct": 30.5, "direction": "9/11", "train_mse": 0.903}
 
+# Two rows in the shipped anchor set repeat a question with IDENTICAL text (`aged`,
+# `libhomo`), i.e. a second LLM draw of the same stimulus. Those are collapsed, which is
+# what makes the result reproducible. Five further pairs share a GSS variable name but ask
+# it with DIFFERENT wording (`abnomore`, `conbus`, `fehire`, `helpblk`, `natsci`); those are
+# distinct stimuli and are deliberately kept, since collapsing them would discard a
+# prompt-wording comparison and degrades the correction (see README.md).
+COLLAPSE_IDENTICAL_TEXT_DUPLICATES = True
+
 # The reported holdout, read off appendix table tab:full_results. Each item is identified by
-# (Variable_Name, Average_LLM_Response) because seven questions appear twice in the anchor set with
-# the same human average and a different LLM draw, so the name alone is not unique.
+# (Variable_Name, Average_LLM_Response) because five GSS variables are asked twice with different
+# wording, sharing a human average but not an LLM response, so the name alone is not unique.
 HOLDOUT = [
     ("letinasn", 3.000), ("natsci",   2.000), ("discaffm", 3.333), ("natsci",  1.333),
     ("rotapple", 1.167), ("libhomo",  2.000), ("helppoor", 1.000), ("abnomore", 1.167),
@@ -65,7 +73,13 @@ HOLDOUT = [
 
 
 def load_anchor_set() -> pd.DataFrame:
-    return pd.read_pickle(PICKLE).reset_index(drop=True)
+    df = pd.read_pickle(PICKLE).reset_index(drop=True)
+    if COLLAPSE_IDENTICAL_TEXT_DUPLICATES:
+        before = len(df)
+        df = df[~df.duplicated(subset=["Variable_Name", "Question"], keep="first")]
+        df = df.reset_index(drop=True)
+        print(f"collapsed {before - len(df)} repeat draw(s) of an identical question text")
+    return df
 
 
 def resolve_holdout(df: pd.DataFrame) -> list[int]:
@@ -128,13 +142,14 @@ def main() -> None:
     print("GSS debiasing result: reproduction")
     print("=" * 72)
     print(f"anchor set rows            : {len(df)}")
-    print(f"unique questions           : {df['Variable_Name'].nunique()}"
-          f"  (7 questions appear twice with different LLM draws)")
+    print(f"unique GSS variables       : {df['Variable_Name'].nunique()}"
+          f"  (5 are asked twice with different wording, kept as distinct stimuli)")
     print(f"holdout items (pinned)     : {len(valid_df)}")
     print(f"training items             : {len(train_df)}")
     if len(train_df) != 100:
-        print(f"  NOTE: the paper reports 100 training items, implying 111 rows were used rather")
-        print(f"        than the {len(df)} shipped. One row is unaccounted for; see README.md.")
+        print(f"  NOTE: the paper reports 100 training items against {len(train_df)} here. The "
+              f"published\n        run therefore used one row more than this set; which one is not "
+              f"recorded.\n        See README.md.")
 
     llm = valid_df["Average_LLM_Response"].to_numpy()
     human = valid_df["Average_Human_Response"].to_numpy()

@@ -159,3 +159,23 @@ re-identification vector.
 
 Both paths read `OPENAI_API_KEY` from the environment. Copy `panel/.env.example` to `.env` and fill it
 in. No key is stored in this repository.
+
+## What the seven repeated variable names actually are
+
+Earlier notes in this file described them as the same question simulated twice. That is only true
+for two of them. Of the seven GSS variables that appear twice in the anchor set:
+
+- **`aged` and `libhomo`** repeat with **identical question text**, so they are second LLM draws of
+  the same stimulus. `reproduce_gss_result.py` collapses these two rows, leaving 110.
+- **`abnomore`, `conbus`, `fehire`, `helpblk`, `natsci`** share a GSS variable name but are asked
+  with **different wording**, so they are distinct stimuli that happen to share a published human
+  average. `natsci`, for instance, appears once with the full survey preamble and once as a short
+  direct question, producing LLM averages of 2.000 and 1.333 against the same human value of 1.688.
+
+These five pairs are deliberately retained. Collapsing them would discard a prompt-wording
+comparison, and it also degrades the correction: averaging every repeated name reduces the held-out
+improvement from 34.0% to 18.2% and directional accuracy from 9/11 to 8/10.
+
+Being explicit about the consequence: the five retained pairs mean the same human average appears
+once in training and once in the holdout for those variables. Their embeddings differ, so this is
+not a direct label leak, but it is a dependency between the splits and should be disclosed.
