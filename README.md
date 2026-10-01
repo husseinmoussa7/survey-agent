@@ -2,10 +2,6 @@
 
 AI Agent framework for conducting consumer behavior experiments.
 
-**Authors:**
-
-XXX
-
 # Survey Enhancement & Deployment System
 
 ## Overview
