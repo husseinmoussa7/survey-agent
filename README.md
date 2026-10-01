@@ -58,7 +58,8 @@ config/                        # YAML configs for agents and tasks
     paper_tasks.yaml                   # Paper tasks (analysis, methodology, writing)
 debias/                        # Debiasing: GSS path (primary result) - see debias/README.md
   debias.py                    #   reusable CLI tool, also imported by survey.py
-  factor-based-debias.py       #   the script that produced the reported GSS numbers
+  reproduce_gss_result.py      #   reproduces the reported GSS numbers (start here)
+  factor-based-debias.py       #   original exploratory script; does NOT reproduce them
   panel/                       #   four-wave panel path (robustness, 200 resamples)
 knowledge/                     # Reference materials
 simulate_response/             # Survey simulation scripts and templates
@@ -81,8 +82,11 @@ README.md                      # Project overview and instructions
 Two implementations of the same correction, kept separate because they back different numbers:
 
 - **`debias/`** is the GSS path and the primary reported result: 112 General Social Survey anchor
-  items, one seeded 100/12 split, held-out MSE improving from 0.639 to 0.444 (30.5%) with the correct
-  bias direction recovered in 9 of 11 items.
+  items over 105 variables, collapsed to 110 after removing two identical-text repeat draws, split
+  99 training / 11 held out. Held-out MSE improves from 0.639 to 0.422 (34.0%), with the correct
+  bias direction recovered in 9 of 11 items. Reproduce it with
+  `python debias/reproduce_gss_result.py`; the holdout is pinned by item identity, not by a seed,
+  so `factor-based-debias.py` does not reproduce these figures.
 - **`debias/panel/`** is the robustness path: a four-wave survey panel of 330 questions with 2,059
   human respondents per item, evaluated across 200 resampled splits and three estimators. It supplies
   the expected-variation figures (SD 4.2 and 3.9 percentage points on the two bias targets) that a

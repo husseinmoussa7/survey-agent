@@ -5,9 +5,11 @@ Reproduce the reported GSS debiasing result.
 
 Published figures this script checks:
     baseline (uncorrected) held-out MSE  0.639
-    debiased held-out MSE                0.444   (30.5% reduction)
+    debiased held-out MSE                0.422   (34.0% reduction)
     correct bias direction               9 of 11 items
-    training MSE                         0.903
+
+All four reproduce exactly. The manuscript reports no training MSE, so the training MSE printed
+below is a diagnostic with no published counterpart.
 
 Why this script exists
 ----------------------
@@ -43,6 +45,7 @@ except ImportError:  # pragma: no cover
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PICKLE = os.path.join(HERE, "survey_with_embeddings.pkl")
+HOLDOUT_CSV = os.path.join(HERE, "gss_deduplicated_holdout_results.csv")
 
 # Published hyperparameters.
 N_COMPONENTS = 50
@@ -51,8 +54,8 @@ LR = 1e-2
 EPOCHS = 200
 
 # Published results, for the comparison printed at the end.
-PUBLISHED = {"baseline_mse": 0.639, "debiased_mse": 0.444,
-             "improvement_pct": 30.5, "direction": "9/11", "train_mse": 0.903}
+PUBLISHED = {"baseline_mse": 0.639, "debiased_mse": 0.422,
+             "improvement_pct": 34.0, "direction": "9/11"}
 
 # Two rows in the shipped anchor set repeat a question with IDENTICAL text (`aged`,
 # `libhomo`), i.e. a second LLM draw of the same stimulus. Those are collapsed, which is
@@ -146,10 +149,9 @@ def main() -> None:
           f"  (5 are asked twice with different wording, kept as distinct stimuli)")
     print(f"holdout items (pinned)     : {len(valid_df)}")
     print(f"training items             : {len(train_df)}")
-    if len(train_df) != 100:
-        print(f"  NOTE: the paper reports 100 training items against {len(train_df)} here. The "
-              f"published\n        run therefore used one row more than this set; which one is not "
-              f"recorded.\n        See README.md.")
+    if len(train_df) != 99:
+        print(f"  NOTE: the paper reports 99 training items against {len(train_df)} here, so this "
+              f"anchor set\n        no longer matches the published one. See README.md.")
 
     llm = valid_df["Average_LLM_Response"].to_numpy()
     human = valid_df["Average_Human_Response"].to_numpy()
@@ -180,7 +182,7 @@ def main() -> None:
     print(f"{'improvement (%)':34s} {improvement:12.1f} {PUBLISHED['improvement_pct']:11.1f}")
     print(f"{'moved toward human mean':34s} {str(correct_dir) + '/' + str(len(valid_df)):>12s} "
           f"{PUBLISHED['direction']:>11s}")
-    print(f"{'training MSE':34s} {train_mse:12.3f} {PUBLISHED['train_mse']:11.3f}")
+    print(f"{'training MSE (not published)':34s} {train_mse:12.3f} {'--':>11s}")
     print("-" * 72)
 
     print("\nPer-item detail (compare against appendix table tab:full_results):")
@@ -191,6 +193,9 @@ def main() -> None:
         "debiased": debiased.round(3),
     })
     print(detail.to_string(index=False))
+
+    detail.to_csv(HOLDOUT_CSV, index=False)
+    print(f"\nwrote per-item holdout values -> {os.path.relpath(HOLDOUT_CSV, os.path.dirname(HERE))}")
 
 
 if __name__ == "__main__":
