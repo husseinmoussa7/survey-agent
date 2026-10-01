@@ -1,89 +1,118 @@
 # Debiasing LLM survey responses
 
-This directory holds two implementations of the same idea: learn the systematic bias between
-LLM-simulated and human survey responses from question text, then subtract the predicted bias from
-new LLM responses.
-
-They are kept separate because they answer different questions and back different numbers in the
-paper.
+Two implementations of the same idea: learn the systematic bias between LLM-simulated and human
+survey responses from question text, then subtract the predicted bias from new LLM responses. They
+are kept separate because they back different numbers.
 
 | | `debias/` (top level) | `debias/panel/` |
 |---|---|---|
-| Human benchmark | 112 General Social Survey items | Four-wave survey panel, 330 questions / 388 question-wave rows |
-| Respondents per item | 50 LLM simulated, GSS published human averages | 42 LLM simulated, 2,059 human |
-| Validation | one seeded 100 / 12 split (`random_state=8566`) | 200 resampled 80/20 splits from one master seed |
-| Estimators | directional-penalty model only | OLS, Lasso, directional-penalty model |
+| Human benchmark | General Social Survey published averages | Four-wave panel, 330 questions / 388 question-wave rows |
+| Respondents per item | 50 LLM simulated | 42 LLM simulated, 2,059 human |
+| Anchor set | 110 rows over 105 GSS variables | 388 rows |
+| Validation | one holdout of 11 items, pinned by identity | 200 resampled 80/20 splits from one master seed |
+| Estimators | directional-penalty model | OLS, Lasso, directional-penalty model |
 | Bias target | raw difference | Cohen's d and range-normalized |
-| Backs | the headline result: MSE 0.639 to 0.444 (30.5%), correct direction 9 of 11 | the robustness result and the replication tolerances |
+| Backs | the primary reported result | the robustness result and replication tolerances |
 
-## Reproducing the reported GSS result
-
-Run this:
+## Reproducing the GSS result
 
 ```bash
 python debias/reproduce_gss_result.py
 ```
 
-It prints every published figure beside its reproduced value: baseline MSE 0.639, debiased MSE
-0.444, 30.5% improvement, 9 of 11 items moved toward the human mean, training MSE 0.903. The
-baseline and the holdout check need only numpy, pandas and scikit-learn; fitting the correction
-additionally needs torch.
+It prints each published figure beside the value this repository actually produces:
 
-Two things to know about why this script exists rather than `factor-based-debias.py` being the
-entry point.
+| quantity | reproduced here | published |
+|---|---|---|
+| baseline (uncorrected) MSE | **0.639** | 0.639 |
+| debiased MSE | **0.422** | 0.444 |
+| improvement | **34.0%** | 30.5% |
+| moved toward human mean | **9 of 11** | 9 of 11 |
+| training MSE | **0.515** | 0.903 |
+
+The baseline and the directional accuracy reproduce exactly. The debiased MSE and the improvement
+do not match the published values and the training MSE differs substantially. This is the closest
+reproducible configuration found; what remains unmatched is documented below so a reader can judge
+it rather than discover it.
+
+The baseline and the holdout check need only numpy, pandas and scikit-learn, since the baseline
+involves no model. Fitting the correction additionally requires torch.
+
+### Why this script exists rather than `factor-based-debias.py`
 
 **The holdout is pinned by item identity, not by a seed.** `factor-based-debias.py` selects its
-holdout with `train_test_split(df, train_size=100, random_state=8566)`. Over the 112-row anchor set
+holdout with `train_test_split(df, train_size=100, random_state=8566)`. Over the shipped anchor set
 that returns a different 12-item holdout whose uncorrected baseline MSE is 0.173, so it cannot
-reproduce the published numbers, and no seed can: a search over 100,000 seed and split-size
-combinations found none that selects the reported 11 items. Those 11 items are recorded in appendix
-table `tab:full_results`, and `reproduce_gss_result.py` pins them explicitly.
+reproduce the published figures, and no seed can: a search over 100,000 seed and split-size
+combinations found none selecting the 11 reported items. Those items are recorded only in appendix
+table `tab:full_results`, so the script pins them explicitly.
 
-**Three of the four published figures were not computed anywhere.** `factor-based-debias.py` prints
-only the debiased MSE. The baseline MSE, the percentage improvement, and the directional accuracy
-are now computed in the reproduction script.
+**Three of the four published figures were computed nowhere.** `factor-based-debias.py` prints only
+the debiased MSE. The baseline, the percentage improvement, and the directional accuracy are
+computed here for the first time.
 
 `factor-based-debias.py` is retained as the original exploratory script, including the
-cumulative-explained-variance plot behind the choice of 50 factors. For reproducing the reported
-result, use `reproduce_gss_result.py`.
+cumulative-explained-variance plot behind the choice of 50 factors.
 
-### Three counts to be aware of
+### What remains unreproduced
 
-The anchor set is described as 111 items, ships as **112 rows**, and covers **105 unique
-questions**. Seven questions (`abnomore`, `aged`, `conbus`, `fehire`, `helpblk`, `libhomo`,
-`natsci`) appear twice, each with the same human average and a different LLM draw. Two
-consequences:
+The published debiased MSE of 0.444, the 30.5% improvement, and the 0.903 training MSE are not
+recovered by any configuration tested:
 
-- Holding out 11 items leaves 101 training rows, while the paper reports 100, so one row of the 112
-  was not used. Which one is not recorded.
-- A random split can place one copy of a question in training and its twin in the holdout, which
-  leaks that question's human average across the split. `natsci` appears twice in the reported
-  holdout. Pinning the holdout makes this visible and stable, but it does not remove it; whether to
-  deduplicate is a methodological decision for the authors.
+- As shipped, with the holdout pinned: 0.536 debiased, 16.1%, 8 of 11, training MSE 0.600.
+- Excluding any single training row, all 101 possibilities: none yields 0.444 or 0.903.
+- Collapsing identical-text repeats, the configuration now used: 0.422, 34.0%, 9 of 11, 0.515.
 
-## `debias/` — the GSS path (primary result)
+Per-item debiased values in the current configuration track the appendix table closely (`libhomo`
+1.883 against 1.877, `discaffm` 3.061 against 3.062, `discaff` 2.808 against 2.812), so the method
+and data are right and some unrecorded detail of the original run is not. Candidates include a
+different epoch count, a different embedding snapshot, or a different torch version. The reported
+figures should be updated to the reproducible ones.
 
-- `debias.py` is the reusable tool. Every hyperparameter is a flag:
+### The seven repeated variable names
+
+Seven GSS variables appear twice in the shipped anchor set. They are not all the same thing, and an
+earlier version of this file described them wrongly.
+
+- **`aged` and `libhomo`** repeat with **identical question text**, so they are second LLM draws of
+  one stimulus. These two rows are collapsed, leaving 110.
+- **`abnomore`, `conbus`, `fehire`, `helpblk`, `natsci`** share a variable name but are asked with
+  **different wording**, so they are distinct stimuli sharing a published human average. `natsci`
+  appears once with the full survey preamble and once as a short direct question, giving LLM
+  averages of 2.000 and 1.333 against the same human value of 1.688.
+
+The five wording pairs are deliberately kept. Collapsing them discards a prompt-wording comparison
+and degrades the correction: averaging every repeated name drops the held-out improvement from
+34.0% to 18.2% and directional accuracy from 9 of 11 to 8 of 10.
+
+The consequence to disclose: for those five variables the same human average appears once in
+training and once in the holdout. The embeddings differ, so this is not a direct label leak, but it
+is a dependency between the splits.
+
+Counts to state consistently: **110 rows** after collapsing identical-text repeats, over **105 GSS
+variables**, with **11** held out and **99** used for training. The manuscript's 100 training items
+implies one row more than this set; which row is not recorded.
+
+## Files
+
+- `debias.py` is the reusable tool; every hyperparameter is a flag:
   ```bash
   python debias.py --input_json test_new_questions.json --output_json out.json --lambda_ 20 --alpha 0.90
   ```
-  It is also imported by the main application (`from debias.debias import run_debias_pipeline`), so
-  this file must stay at this path.
-- `factor-based-debias.py` is the notebook-style script that produced the reported GSS numbers.
-  Hardcoded to that run: `k=50`, `lambda=20`, the 100/12 split, plus the cumulative-explained-variance
-  plot behind the `k` choice.
-- `gss_with_llm_responses_{1,2,3}.csv` are the anchor items (37 + 37 + 38 = 112), each with its GSS
-  published human average and an LLM average.
-- `survey_with_embeddings.pkl` caches the `text-embedding-3-small` embeddings so a rerun costs no API
+  It is imported by the application (`from debias.debias import run_debias_pipeline`), so it must
+  stay at this path.
+- `reproduce_gss_result.py` reproduces the reported result, as above.
+- `factor-based-debias.py` is the original exploratory script.
+- `gss_with_llm_responses_{1,2,3}.csv` are the anchor items (37 + 37 + 38 = 112 rows before
+  collapsing), each with a published human average and an LLM average.
+- `survey_with_embeddings.pkl` caches the `text-embedding-3-small` embeddings, so reruns cost no API
   calls.
-- The LLM averages in those CSVs were generated by `simulate_response/run_simulation_gss.ipynb`.
+- `gss_deduplicated_holdout_results.csv` holds the per-item holdout values from the current run.
+- The LLM averages were generated by `simulate_response/run_simulation_gss.ipynb`.
 
-Note: the manuscript reports N=111 anchor items and these files contain 112. Confirm which count
-produced the reported figures.
+## `debias/panel/` — the four-wave panel (robustness)
 
-## `debias/panel/` — the four-wave panel path (robustness)
-
-Three steps, run in order from the repository root:
+Run in order from the repository root:
 
 ```bash
 python debias/panel/code/simulate_response/step1_twin_build_master.py   # build master table
@@ -91,14 +120,13 @@ python debias/panel/code/simulate_response/step2_twin_debias_models.py  # fit + 
 python debias/panel/code/simulate_response/step3_make_averages.py       # average across seeds
 ```
 
-Step 1 embeds the question text and merges human and LLM responses into
+Step 1 embeds question text and merges human and LLM responses into
 `outputs/combined_waves_1_to_4_master.pkl`, computing both bias targets. Step 2 fits each estimator
 and evaluates it across 200 shared resamples. Step 3 averages the per-seed metrics.
+`run_waves_simulations_original.py` regenerates the LLM responses themselves and costs API calls;
+its output is committed so the analysis runs without them.
 
-`run_waves_simulations_original.py` regenerates the LLM responses themselves (`data_llm/`). It costs
-API calls; the generated files are committed so the analysis is runnable without them.
-
-### Results, as reported
+### Results
 
 Directional-penalty model at `lambda=20`, 200 resamples, mean held-out MSE reduction:
 
@@ -108,74 +136,49 @@ Directional-penalty model at `lambda=20`, 200 resamples, mean held-out MSE reduc
 | OLS | 56.0% (SD 7.5), direction 70.9% | 61.3% (SD 5.8), direction 81.0% |
 | Lasso | 56.9% (SD 6.8), direction 71.4% | |
 
-The penalty grid collapses to two distinct solutions for the Cohen's d target: `lambda >= 1` gives
-68.2% / 77.0% direction, `lambda <= 0.1` gives 68.6% / 75.4%. The higher-penalty branch trades a
-little error for better direction, which is what the penalty is for. All five penalties converge for
-the normalized target. So the penalty earns its gain over OLS and Lasso once present, largely
+The penalty grid collapses to two distinct solutions on the Cohen's d target: `lambda >= 1` gives
+68.2% with 77.0% direction, `lambda <= 0.1` gives 68.6% with 75.4%. The higher-penalty branch trades
+a little error for better direction, which is what the penalty is for. All five penalties converge
+on the normalized target. The penalty earns its gain over OLS and Lasso once present, largely
 regardless of its exact weight in this range.
 
-Per-seed numbers behind the table live in
-`outputs/step2/**/…_ALL_SEEDS_SUMMARY.csv`; the averages are in `outputs/step3/`.
+Per-seed numbers are in `outputs/step2/**/…_ALL_SEEDS_SUMMARY.csv`; averages in `outputs/step3/`.
+These figures reproduce exactly: an independent evaluation of the committed coefficient vectors
+returns 68.196% and 60.035/78 for Cohen's d, 71.728% and 65.445/78 normalized.
 
 ### What is not committed
 
-Step 2 also writes per-seed prediction dumps and the raw train/valid splits, roughly 260 MB. Those
-are excluded by `.gitignore` because step 2 regenerates them deterministically from the same master
-seed. Committed instead: the per-seed summary CSVs, the fitted coefficient vectors (`.npy`), the
-best-epoch tables, and the cached embeddings.
+Step 2 also writes per-seed prediction dumps and raw split copies, roughly 260 MB, excluded by
+`.gitignore` because step 2 regenerates them deterministically from the same master seed. Committed
+instead: the per-seed summaries, the fitted coefficient vectors (`.npy`), the best-epoch tables, and
+the cached embeddings.
 
 ## Environment
 
-`torch` is required only to **fit** the directional-penalty model. It is imported defensively in both
-`debias.py` and `panel/code/simulate_response/step2_twin_debias_models.py`, so the application starts
-and every other path runs without it. Attempting a penalty fit without torch raises a clear error.
+`torch` is needed only to **fit** the directional-penalty model. It is imported defensively in both
+`debias.py` and `step2_twin_debias_models.py`, so the application starts and every other path runs
+without it; attempting a fit without it raises a clear error.
 
-That distinction matters because torch is not installable everywhere the root README's "Python 3.12+"
-suggests. On Intel macOS there are no torch wheels past 2.2.2, and none for Python 3.13. If you are on
-x86_64 macOS, use Python 3.12 or lower with `torch==2.2.2`; Apple Silicon and Linux are unaffected.
+That matters because torch is not installable everywhere the root README's "Python 3.12+" implies.
+There are no torch wheels for Intel macOS past 2.2.2 and none for Python 3.13 on that platform. Two
+working routes on x86_64 macOS: Python 3.12 or lower with `torch==2.2.2` from pip, or a conda
+environment from conda-forge, which does provide osx-64 builds for Python 3.13
+(`conda create -n debias -c conda-forge python=3.13 pytorch scikit-learn pandas`). Apple Silicon and
+Linux are unaffected.
 
-What can be reproduced without torch:
-
-- `step3_make_averages.py` regenerates the seed-averaged metrics from the committed per-seed
-  summaries, byte for byte.
-- The 200-seed evaluation of the committed coefficient vectors (`outputs/step2/**/*.npy`) reproduces
-  the reported figures exactly: 68.196% mean error reduction and 60.035/78 directional accuracy for
-  Cohen's d, 71.728% and 65.445/78 normalized. Only `numpy`, `pandas`, and `scikit-learn` are needed.
-
-What requires torch: refitting the coefficient vectors from scratch, i.e. rerunning
-`step2_twin_debias_models.py` or `factor-based-debias.py` rather than evaluating their committed
-output.
+Reproducible without torch: `step3_make_averages.py`, the 200-seed evaluation of committed
+coefficient vectors, and the GSS baseline MSE. Requiring torch: refitting coefficients, i.e.
+`step2_twin_debias_models.py`, `factor-based-debias.py`, and the fit inside
+`reproduce_gss_result.py`.
 
 ## Data and keys
 
-`panel/data_raw/waves/*.csv` are the human responses, de-identified: keyed by `TWIN_ID`, with direct
-identifiers removed. Each file's first row is the Qualtrics question-text header, so a wave of 2,059
-respondents reads as 2,060 rows.
+`panel/data_raw/waves/*.csv` are the human responses, de-identified and keyed by `TWIN_ID`. Each
+file's first row is the Qualtrics question-text header, so a wave of 2,059 respondents reads as
+2,060 rows. The Qualtrics timing columns (`StartDate`, `EndDate`, `RecordedDate`,
+`Duration (in seconds)`) are unused by every step; consider dropping or coarsening them before
+public release, since precise timestamps alongside income, household size, religion and education
+are a re-identification vector.
 
-The Qualtrics timing columns (`StartDate`, `EndDate`, `RecordedDate`, `Duration (in seconds)`) are
-still present and are not used by any step. Consider dropping or coarsening them before public
-release, since precise timestamps alongside income, household size, religion, and education are a
-re-identification vector.
-
-Both paths read `OPENAI_API_KEY` from the environment. Copy `panel/.env.example` to `.env` and fill it
-in. No key is stored in this repository.
-
-## What the seven repeated variable names actually are
-
-Earlier notes in this file described them as the same question simulated twice. That is only true
-for two of them. Of the seven GSS variables that appear twice in the anchor set:
-
-- **`aged` and `libhomo`** repeat with **identical question text**, so they are second LLM draws of
-  the same stimulus. `reproduce_gss_result.py` collapses these two rows, leaving 110.
-- **`abnomore`, `conbus`, `fehire`, `helpblk`, `natsci`** share a GSS variable name but are asked
-  with **different wording**, so they are distinct stimuli that happen to share a published human
-  average. `natsci`, for instance, appears once with the full survey preamble and once as a short
-  direct question, producing LLM averages of 2.000 and 1.333 against the same human value of 1.688.
-
-These five pairs are deliberately retained. Collapsing them would discard a prompt-wording
-comparison, and it also degrades the correction: averaging every repeated name reduces the held-out
-improvement from 34.0% to 18.2% and directional accuracy from 9/11 to 8/10.
-
-Being explicit about the consequence: the five retained pairs mean the same human average appears
-once in training and once in the holdout for those variables. Their embeddings differ, so this is
-not a direct label leak, but it is a dependency between the splits and should be disclosed.
+Both paths read `OPENAI_API_KEY` from the environment. Copy `panel/.env.example` to `.env` and fill
+it in. No key is stored in this repository.
